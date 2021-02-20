@@ -105,10 +105,13 @@ body {
     color: var(--white-color);
 }
 
-.menu-text a:hover, .user a:hover {
-    color: var(--pink-color);
+.menu-text a:hover{
+    border-bottom: 4px solid var(--pink-color);
 }
 
+.user a:hover {
+    color: var(--pink-color);
+}
 .user img {
     border-radius: 50%;
 }
@@ -117,6 +120,12 @@ body {
     margin: .75em;
     text-align: center;
     color: var(--white-color)
+}
+
+
+
+.menu-text a {
+    padding-bottom: 2rem;
 }
 
 .logo img{
