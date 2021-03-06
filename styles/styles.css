@@ -69,7 +69,8 @@ body {
     /* padding-top: var(--header-height); */
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    line-height: var(--body-line-height)
+    line-height: var(--body-line-height);
+    margin: 0;
 }
 
 .nav {
