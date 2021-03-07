@@ -1,0 +1,30 @@
+.user {
+    display: flex;
+    margin-right: 2rem;
+    align-items: center;
+    color: white;
+    font-family: var(--body-font);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+
+    @include from(l) {
+        margin-bottom: 0;
+    }
+    & img {
+        border-radius: 50%;
+        margin-right: 1rem;
+    }
+
+    & img:hover {
+        
+    }
+    
+    & a {
+        color: white;
+    }
+
+    & a:hover{
+        color: var(--pink-color);
+    }
+}

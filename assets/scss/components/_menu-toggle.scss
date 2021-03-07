@@ -1,0 +1,33 @@
+.hidden {
+    display: none;
+}
+
+.circle {
+    content: "";
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 2rem;
+    background-color: white;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hamburguer {
+    width: 2rem;
+    // margin-top: 1px;
+    margin: 4px auto 0 auto;
+    height: 4px;
+    // margin: auto;
+    background-color: black;
+}
+
+.toggle {
+    display: flex;
+    @include from(l) {
+        display: none;
+    }
+}

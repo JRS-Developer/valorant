@@ -1,0 +1,60 @@
+:root {
+    /*  Variables del proyecto  */
+
+    /*  Anchura máxima del contenido en desktop */
+    --max-width: 1200px;
+
+    /*  Colores  */
+    --primary-color: #1F2326;
+    --primary-color-alt: #C4C4C4;
+    --title-color: #121F26;
+    --text-color: #1F2326;
+    --body-bg-color: #FAFDFF;
+    --pink-color: #FF4656;
+    --white-color: #ffffff;
+    --color: var(--primary-color);
+    --color-alt: var(--primary-color-alt);
+
+    /*  Fuentes  */
+    --body-font: 'Montserrat', sans-serif;
+    --title-font: 'Druk Wide Bold', sans-serif;
+
+    /*  Tamaños  */
+    --header-height: 3rem;
+    --section-spacing: 4rem;
+    --block-spacing: 2rem;
+    --body-line-height: 1.6;
+    --title-line-height: 1.3;
+
+    /* Tamaños de fuentes */
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --h4-font-size: .75rem;
+    --big-font-size: .75rem;
+    --normal-font-size: 0.7rem;
+    --small-font-size: 0.6875rem;
+    --smaller-font-size: 0.575rem;
+    
+
+
+    /* Capas */
+    --z-back: -10;
+    --z-normal: 1;
+    --z-front: 10;
+    --z-tooltip: 20;
+    --z-overlay: 30;
+    --z-modal: 40;
+    --z-fixed: 50;
+    --z-off-canvas: 100;
+
+    /* Otros */
+    --border-radius: 0.5rem;
+    --box-shadow: 0 2px 2px rgba(36, 47, 66, 0.1);
+
+}
+
+$breakpoints: (
+    l: 960px,
+    lx:1190px,
+);

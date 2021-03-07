@@ -1,0 +1,200 @@
+.personaje {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(/assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    width: 100%;
+    background-color: white;
+    margin: 1.5rem 1.5rem 0rem 1.5rem;
+
+    @include from(l){
+        width: 55%;
+        margin: 1.5rem 0 0 3.5rem;
+    }
+}
+
+.info-title, .info-text {
+    margin: 2rem 1rem 0 2rem;
+}
+
+.info-title{
+    font-family: var(--title-font);
+    font-size: var(--h3-font-size);
+}
+
+.info-text{
+    font-size: var(--normal-font-size);
+    opacity: 90%;
+}
+
+.adornos {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 1rem;
+    top: 0;
+    background: url(/assets/images/elements.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.agent-information {
+    margin-top: 3rem;
+
+    @include from(l){
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+
+        .agent-video {
+            margin-left: -2rem;
+            width: 22rem;
+        }
+        .characteristics, .agent-title {
+            margin: 10px;
+            text-align: left;
+            margin-left: 20px;
+        }
+    }
+}
+
+.agent-video {
+    width: 100%;
+}
+
+.characteristics, .agent-title {
+    margin: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.agent-title {
+    font-size: var(--title-font-size);
+    font-family: var(--title-font);
+}
+
+.characteristics {
+    font-size: var(--small-font-size);
+    font-family: var(--title-font);
+    color: var(--primary-color-alt);
+
+    strong {
+        color: var(--primary-color);
+    }
+}
+
+.foto {
+    margin: auto;
+    position: relative;
+    margin-top: 1rem;
+
+    .foto-jett{
+        width: 100%;
+    }
+
+    .foto-jett-text {
+        position: absolute;
+            height: 100%;
+            margin: auto;
+            right: 2rem;
+            // top: 1rem;
+            z-index: -1;
+    }
+
+    @include from(l) {
+        margin-top: 0rem;
+        position: relative;
+        margin-left: 10rem;
+
+        .foto-jett {
+            width: auto;
+            height: 60rem;
+            position: absolute;
+            left: -20rem;
+            top: -1rem;
+        }
+        .foto-jett-text {
+            position: absolute;
+            height: 60rem;
+            margin: auto;
+            left: 8rem;
+            top: 1rem;
+        }
+    }
+}
+
+.agent-skills {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+
+    @include from(l) {
+        display: grid;
+        grid-template-columns: 1fr 1px 1fr 1px 1fr 1px 1fr;
+    }
+}
+
+.skills {
+    margin: 0 0 0 0;
+    z-index: 10;
+    background-color: var(--primary-color);
+    & img {
+        margin-top: 1rem;
+        width: 80px;
+        height: 80px;
+    }
+
+    transition: transform 0.5s;
+}
+
+.skills:hover {
+
+    @include from(l) {
+        background-color: var(--pink-color);
+        transform: scale(1.1, 1.1);
+        z-index: 100;
+        
+    
+        & img {
+            filter: brightness(500%);
+        }
+    }
+    
+}
+
+.skills-title {
+    font-family: var(--title-font);
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.skills-text {
+    margin: auto;
+    width: 70%;
+    padding-bottom: 1rem;
+    font-size: var(--normal-font-size);
+
+    @include from(l) {
+        width: 90%;
+    }
+}
+
+.barra {
+    background-color:#FF4656;
+    width: 100%;
+    height: 2px;
+    margin: auto;
+    @include from(l) {
+        width: 1px;
+        height: 80%;
+        margin: auto;
+    }
+}
+
+.skills-icon {
+    cursor: pointer;
+}

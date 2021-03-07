@@ -1,0 +1,14 @@
+.nav {
+
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 1rem 0 1rem 0;
+    font-family: var(--body-font);
+    font-weight: 700;
+
+    @include from(l) {
+        display: flex;
+    }
+}

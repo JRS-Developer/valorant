@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+    & li {
+        margin-left: 2rem;
+    }
+
+    & a {
+        color: white;
+    }
+
+    & a:hover{
+        color: var(--pink-color);
+    }
+    & img {
+        margin-left: 1rem;
+    }
+}

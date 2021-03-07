@@ -1,0 +1,138 @@
+.armas-section{
+
+
+    width: auto;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    
+    @include from(l) {
+        width: auto;
+        margin-top: 5rem;
+        margin-left: 3.5rem;
+    }
+    @include upto(lx){
+    width: auto;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    
+}
+
+.armas-container {
+
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
+
+    
+
+    @include from(l) {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
+        gap: 2%;
+        flex-wrap: wrap;
+    }
+
+    @include upto(lx){
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1rem;
+        }
+    
+
+}
+
+.armas {
+    background-color: white;
+    border: 1px solid black;
+    width: auto;
+    // margin: 0 1rem 0 1rem;
+    position: relative;
+    mask-clip: 50%;
+}
+
+.armas-img {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    right: 0;
+    bottom: -1rem;
+    // margin-bottom: -6rem;
+    z-index: 100;
+    transition: transform .3s;
+}
+
+.armas-img:hover {
+    transform: rotateZ(30deg);
+}
+
+.fix-img {
+    right: -2rem;
+    width: 250px;
+    width: 250px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.armas-title {
+    font-family: var(--title-font);
+    font-size: var(--h3-font-size);
+    padding-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -5.5rem;
+    color: var(--primary-color-alt);
+}
+
+.armas-text {
+    font-family: var(--title-font);
+    font-size: var(--normal-font-size);
+    padding-left: 1rem;
+    font-weight: 700;
+    padding-right: 1rem;
+    padding-bottom: 5px;    
+    // margin-bottom: 10px;
+}
+
+.icon {
+    background-color: var(--pink-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 2rem;
+    margin-top: 20px;
+    width: 8rem;
+    height: 6rem;
+    padding-bottom: 5px;
+
+    & div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+.armas-text-coin {
+    color: white;
+    // margin-bottom: 10px;
+    z-index: 1000;
+    font-family: var(--title-font);
+    font-size: var(--normal-font-size);
+    padding-left: 1rem;
+    font-weight: 700;
+    padding-right: 1rem;
+
+}
+
+.armas-icon {
+    width: 20px;
+    height: 20px;
+}
