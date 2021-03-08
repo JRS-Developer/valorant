@@ -5,8 +5,9 @@
     color: white;
     font-family: var(--body-font);
     font-weight: 700;
-    margin-bottom: 1rem;
     padding-left: 2rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
 
     @include from(l) {
         margin-bottom: 0;
