@@ -2,9 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-image: url(/assets/images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .foto-weapon {
@@ -37,14 +34,21 @@
         display: grid;
         grid-template-columns: 3fr 2fr;
         gap: 2rem;
+        margin: 1.5rem 3.5rem 0rem 1.5rem;
     }
 }
 
 .weapon-image {
     width: 110%;
     position: absolute;
-    left: -5rem;
-    top: 5rem;
+    left: -3rem;
+    top: 0;
+    max-width: 45rem;
+    @include from(l) {
+        top: 1rem;
+        width: 110%;
+        left: -5rem;
+    }
 }
 
 .weapon-tag {

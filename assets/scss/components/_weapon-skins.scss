@@ -2,8 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
-    position: absolute;
     bottom: -2rem;
+
+    @include from(l) {
+        position: relative;
+    }
 }
 
 .weapon-skin {
@@ -15,11 +18,16 @@
     align-items: center;
     align-content: center;
     border: 1px solid white;
-    margin-left: -3rem;
-    margin-right: 3rem;
     color: white;
+    margin-bottom: 2rem;
     font-family: var(--title-font);
     font-size: var(--small-font-size);
+
+    @include from(l) {
+        margin-left: -3rem;
+        margin-right: 3rem;
+        margin-bottom: 0;
+    }
 }
 
 .weapon-skin-img {
@@ -39,4 +47,13 @@
 
 .weapon-skin-points {
     color: var(--pink-color);
+    margin-right: 1rem;
+}
+
+.weapon-skin-txt {
+    align-items: center;
+}
+
+.weapon-skin-name {
+    margin-left: 1rem;
 }

@@ -1,3 +1,8 @@
+.damage-section {
+    @include from(l) {
+        margin-bottom: -3rem;
+    }
+}
 .damage-img {
     top: .5rem;
     right: 2rem;

@@ -30,6 +30,9 @@ body {
     line-height: var(--body-line-height);
     margin: 0;
     overflow-x: hidden;
+    background-image: url(/assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 

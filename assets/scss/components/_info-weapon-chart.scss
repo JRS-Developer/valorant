@@ -28,12 +28,28 @@
 }
 
 .space-txt {
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
     margin-top: 2rem;
     margin-left: 1rem;
 }
 
 .weapon-video {
-    position: absolute;
     bottom: -2rem;
+    @include from(l) {
+        position: absolute;
+        right: -2rem;
+    }
+
+}
+
+.spectre-text {
+    height: 80%;
+    @include from(l) {
+        margin-top: -2rem;
+    }
+    }
+    
+
+.clip {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }

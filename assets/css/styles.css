@@ -268,9 +268,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-image: url(/assets/images/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .info {
@@ -493,6 +490,7 @@
     width: auto;
     margin-top: 5rem;
     margin-left: 3.5rem;
+    margin-bottom: -2rem;
   }
 }
 
@@ -650,9 +648,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-image: url(/assets/images/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .foto-weapon {
@@ -691,14 +686,24 @@
     -ms-grid-columns: 3fr 2fr;
         grid-template-columns: 3fr 2fr;
     gap: 2rem;
+    margin: 1.5rem 3.5rem 0rem 1.5rem;
   }
 }
 
 .weapon-image {
   width: 110%;
   position: absolute;
-  left: -5rem;
-  top: 5rem;
+  left: -3rem;
+  top: 0;
+  max-width: 45rem;
+}
+
+@media screen and (min-width: 960px) {
+  .weapon-image {
+    top: 1rem;
+    width: 110%;
+    left: -5rem;
+  }
 }
 
 .weapon-tag {
@@ -783,23 +788,51 @@
 }
 
 .space-txt {
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
   margin-top: 2rem;
   margin-left: 1rem;
 }
 
 .weapon-video {
-  position: absolute;
   bottom: -2rem;
+}
+
+@media screen and (min-width: 960px) {
+  .weapon-video {
+    position: absolute;
+    right: -2rem;
+  }
+}
+
+.spectre-text {
+  height: 80%;
+}
+
+@media screen and (min-width: 960px) {
+  .spectre-text {
+    margin-top: -2rem;
+  }
+}
+
+.clip {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .info-weapon-grid-1 {
   display: -ms-grid;
   display: grid;
   gap: 20px;
-  -ms-grid-rows: 1fr 3fr;
-      grid-template-rows: 1fr 3fr;
+  -ms-grid-rows: 1fr 2fr;
+      grid-template-rows: 1fr 2fr;
   position: relative;
+}
+
+@media screen and (min-width: 960px) {
+  .info-weapon-grid-1 {
+    -ms-grid-rows: 1fr 3fr;
+        grid-template-rows: 1fr 3fr;
+  }
 }
 
 .info-weapon-top {
@@ -823,7 +856,7 @@
 }
 
 .info-weapon-medium-txt {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   margin-left: 1rem;
 }
 
@@ -833,8 +866,13 @@
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   gap: 3rem;
-  position: absolute;
   bottom: -2rem;
+}
+
+@media screen and (min-width: 960px) {
+  .weapon-skins-container {
+    position: relative;
+  }
 }
 
 .weapon-skin {
@@ -856,11 +894,18 @@
   -ms-flex-line-pack: center;
       align-content: center;
   border: 1px solid white;
-  margin-left: -3rem;
-  margin-right: 3rem;
   color: white;
+  margin-bottom: 2rem;
   font-family: var(--title-font);
   font-size: var(--small-font-size);
+}
+
+@media screen and (min-width: 960px) {
+  .weapon-skin {
+    margin-left: -3rem;
+    margin-right: 3rem;
+    margin-bottom: 0;
+  }
 }
 
 .weapon-skin-img {
@@ -879,6 +924,23 @@
 
 .weapon-skin-points {
   color: var(--pink-color);
+  margin-right: 1rem;
+}
+
+.weapon-skin-txt {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weapon-skin-name {
+  margin-left: 1rem;
+}
+
+@media screen and (min-width: 960px) {
+  .damage-section {
+    margin-bottom: -3rem;
+  }
 }
 
 .damage-img {
@@ -900,6 +962,11 @@
 .damage-background {
   width: 6rem;
   margin-right: 3rem;
+}
+
+.footer {
+  background-color: white;
+  height: 3rem;
 }
 
 a,
@@ -933,6 +1000,9 @@ body {
   line-height: var(--body-line-height);
   margin: 0;
   overflow-x: hidden;
+  background-image: url(/assets/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1,
