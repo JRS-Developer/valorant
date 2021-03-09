@@ -1,0 +1,42 @@
+.weapon-skins-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    position: absolute;
+    bottom: -2rem;
+}
+
+.weapon-skin {
+    position: relative;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid white;
+    margin-left: -3rem;
+    margin-right: 3rem;
+    color: white;
+    font-family: var(--title-font);
+    font-size: var(--small-font-size);
+}
+
+.weapon-skin-img {
+    width: 110%;
+    margin-left: -4rem;
+}
+
+
+.mt {
+    margin-top: 1rem;
+}
+
+.valorant-points {
+    margin-left: .4rem;
+    margin-right: .4rem;
+}
+
+.weapon-skin-points {
+    color: var(--pink-color);
+}

@@ -5,7 +5,7 @@
   --max-width: 1200px;
   /*  Colores  */
   --primary-color: #1F2326;
-  --primary-color-alt: #C4C4C4;
+  --primary-color-alt: #bebebe;
   --title-color: #121F26;
   --text-color: #1F2326;
   --body-bg-color: #FAFDFF;
@@ -162,8 +162,9 @@
   color: white;
   font-family: var(--body-font);
   font-weight: 700;
-  margin-bottom: 1rem;
-  padding-left: 2rem; }
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap; }
   @media screen and (min-width: 960px) {
     .user {
       margin-bottom: 0; } }
@@ -437,6 +438,181 @@
 .armas-icon {
   width: 20px;
   height: 20px; }
+
+.weapon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url(/assets/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.foto-weapon {
+  margin: auto;
+  position: relative;
+  margin-top: 1rem; }
+  @media screen and (min-width: 960px) {
+    .foto-weapon {
+      margin-top: 1.5rem;
+      position: relative;
+      height: 50rem; } }
+
+.foto-weapon-text {
+  position: absolute;
+  margin: auto;
+  right: -3rem;
+  height: 100%;
+  z-index: -1; }
+
+.info-weapon {
+  width: 100%;
+  background-color: white;
+  margin: 1.5rem 1.5rem 0rem 1.5rem; }
+  @media screen and (min-width: 960px) {
+    .info-weapon {
+      width: 75%;
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+      gap: 2rem; } }
+
+.weapon-image {
+  width: 110%;
+  position: absolute;
+  left: -5rem;
+  top: 5rem; }
+
+.weapon-tag {
+  background-color: var(--pink-color);
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5rem; }
+
+.weapon-tag-img {
+  width: 30%; }
+
+.weapon-coins {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-bottom: 2rem; }
+
+.black {
+  color: var(--primary-color);
+  padding-left: .5rem;
+  padding-right: .5rem; }
+
+.weapon-dark-icon {
+  width: 1rem; }
+
+.info-weapon-chart {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  min-height: 120px; }
+
+.info-weapon-chart:last-child {
+  grid-area: down; }
+
+.fire-title {
+  font-size: var(--h3-font-size);
+  font-family: var(--title-font);
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.fire-text {
+  font-size: var(--normal-font-size);
+  margin-bottom: 1rem;
+  font-family: var(--title-font);
+  color: var(--primary-color-alt); }
+  .fire-text strong {
+    color: var(--primary-color); }
+
+.space-txt {
+  margin-bottom: 8rem;
+  margin-top: 2rem;
+  margin-left: 1rem; }
+
+.weapon-video {
+  position: absolute;
+  bottom: -2rem; }
+
+.info-weapon-grid-1 {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: 1fr 3fr;
+  position: relative; }
+
+.info-weapon-top {
+  display: flex;
+  align-items: flex-end; }
+
+.info-weapon-grid-2 {
+  display: grid;
+  grid-template-rows: 3fr;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "top top" "down down";
+  gap: 20px; }
+
+.info-weapon-medium-txt {
+  margin-bottom: 3rem;
+  margin-left: 1rem; }
+
+.weapon-skins-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  position: absolute;
+  bottom: -2rem; }
+
+.weapon-skin {
+  position: relative;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 1px solid white;
+  margin-left: -3rem;
+  margin-right: 3rem;
+  color: white;
+  font-family: var(--title-font);
+  font-size: var(--small-font-size); }
+
+.weapon-skin-img {
+  width: 110%;
+  margin-left: -4rem; }
+
+.mt {
+  margin-top: 1rem; }
+
+.valorant-points {
+  margin-left: .4rem;
+  margin-right: .4rem; }
+
+.weapon-skin-points {
+  color: var(--pink-color); }
+
+.damage-img {
+  top: .5rem;
+  right: 2rem;
+  width: auto;
+  height: 80px; }
+
+.damage {
+  margin-bottom: 1rem; }
+
+.damage-img:hover {
+  transform: none; }
+
+.damage-background {
+  width: 6rem;
+  margin-right: 3rem; }
 
 a,
 a:link,

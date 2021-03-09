@@ -1,0 +1,80 @@
+.weapon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(/assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto-weapon {
+    margin: auto;
+    position: relative;
+    margin-top: 1rem;
+
+    @include from(l) {
+        margin-top: 1.5rem;
+        position: relative;
+        height: 50rem;
+}
+}
+
+.foto-weapon-text {
+    position: absolute;
+    margin: auto;
+    right: -3rem;
+    height: 100%;
+    z-index: -1;
+}
+
+.info-weapon {
+    width: 100%;
+    background-color: white;
+    margin: 1.5rem 1.5rem 0rem 1.5rem;
+
+    @include from(l){
+        width: 75%;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 2rem;
+    }
+}
+
+.weapon-image {
+    width: 110%;
+    position: absolute;
+    left: -5rem;
+    top: 5rem;
+}
+
+.weapon-tag {
+    background-color: var(--pink-color);
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5rem;
+}
+
+.weapon-tag-img {
+    width: 30%;
+}
+
+.weapon-coins {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.black {
+    color: var(--primary-color);
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.weapon-dark-icon {
+    width: 1rem;
+}

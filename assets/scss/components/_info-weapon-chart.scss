@@ -1,0 +1,39 @@
+.info-weapon-chart{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    min-height: 120px;
+}
+.info-weapon-chart:last-child{
+    grid-area: down;
+}
+
+.fire-title {
+    font-size: var(--h3-font-size);
+    font-family: var(--title-font);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fire-text {
+    font-size: var(--normal-font-size);
+    margin-bottom: 1rem;
+    font-family: var(--title-font);
+    color: var(--primary-color-alt);
+
+    & strong {
+        color: var(--primary-color);
+    }
+}
+
+.space-txt {
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.weapon-video {
+    position: absolute;
+    bottom: -2rem;
+}

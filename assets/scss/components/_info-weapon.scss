@@ -1,0 +1,24 @@
+.info-weapon-grid-1{
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 1fr 3fr;
+    position: relative;
+}
+
+.info-weapon-top {
+    display: flex;
+    align-items: flex-end;
+}
+
+.info-weapon-grid-2{
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "top top" "down down";
+    gap: 20px;
+}
+
+.info-weapon-medium-txt {
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}
