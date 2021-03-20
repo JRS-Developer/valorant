@@ -1,215 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Valorant - JSM-FrontEnd</title>
+        <!-- Normalize CSS -->
+        <link
+            rel="stylesheet"
+            href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+        />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valorant - JSM-FrontEnd</title>
-    <!-- Normalize CSS -->
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+        <!-- Fuentes -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold"
+            rel="stylesheet"
+            type="text/css"
+        />
 
-    <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@700&display=swap"
-        rel="stylesheet">
-    <link href="//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold" rel="stylesheet"
-        type="text/css" />
+        <link
+            rel="shortcut icon"
+            href="assets/images/valorant logo.svg"
+            type="image/x-icon"
+        />
+        <!-- Mis estilos -->
+        <link rel="stylesheet" href="/assets/css/styles.css" />
+    </head>
 
-    <link rel="shortcut icon" href="assets/images/valorant logo.svg" type="image/x-icon">
-    <!-- Mis estilos -->
-    <link rel="stylesheet" href="/assets/css/styles.css">
-</head>
+    <body>
+        <!--MENU PRINCIPAL  -->
 
-<body>
-    <!--MENU PRINCIPAL  -->
+        <header class="header">
+            <nav class="nav">
+                <ul class="menu">
+                    <a href="https://www.riotgames.com/" target="_blank"
+                        ><img
+                            class="logo"
+                            src="./assets/images/riot games.svg"
+                            alt="Riot Games"
+                    /></a>
+                    <a
+                        ><img
+                            draggable="false"
+                            src="./assets/images/separador.svg"
+                            alt=""
+                    /></a>
+                    <a href="https://playvalorant.com/" target="_blank"
+                        ><img
+                            class="logo"
+                            src="./assets/images/valorant logo.svg"
+                            alt="Valorant"
+                    /></a>
+                    <li><a href="">GAME</a></li>
+                    <li><a href="">CHAMPIONS</a></li>
+                    <li><a href="">NEWS</a></li>
+                    <li><a href="">PATCH NOTES</a></li>
+                    <li><a href="">DISCOVER</a></li>
+                    <li><a href="">ESPORTS</a></li>
+                    <li><a href="">UNIVERSE</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="">SUPPORT</a></li>
+                </ul>
+                <ul class="user">
+                    <img src="/assets/images/user-icon.png" alt="user icon" />
+                    <a href="">UNEPICKED</a>
+                </ul>
+            </nav>
 
-    <header class="header">
-        <nav class="nav">
-            <ul class="menu">
-                <a href="https://www.riotgames.com/" target="_blank"><img class="logo"
-                        src="./assets/images/riot games.svg" alt="Riot Games"></a>
-                <a><img draggable="false" src="./assets/images/separador.svg" alt=""></a>
-                <a href="https://playvalorant.com/" target="_blank"><img class="logo"
-                        src="./assets/images/valorant logo.svg" alt="Valorant"></a>
-                <li><a href="">GAME</a></li>
-                <li><a href="">CHAMPIONS</a></li>
-                <li><a href="">NEWS</a></li>
-                <li><a href="">PATCH NOTES</a></li>
-                <li><a href="">DISCOVER</a></li>
-                <li><a href="">ESPORTS</a></li>
-                <li><a href="">UNIVERSE</a></li>
-                <li><a href="">SHOP</a></li>
-                <li><a href="">SUPPORT</a></li>
+            <!-- Menu desplegable -->
+            <div class="toggle nav" id="toggle">
+                <ul class="menu">
+                    <a href="https://playvalorant.com/" target="_blank"
+                        ><img
+                            class="logo"
+                            src="./assets/images/valorant logo.svg"
+                            alt="Valorant"
+                    /></a>
+                </ul>
+                <ul class="icon-toggle" onclick="openSidenav()">
+                    <div class="circle">
+                        <div class="hamburguer"></div>
+                        <div class="hamburguer"></div>
+                        <div class="hamburguer"></div>
+                    </div>
+                </ul>
+            </div>
+        </header>
+
+        <!-- SIDENAV -->
+        <div class="sidenav" id="sidenav">
+            <ul class="sidenav-list">
+                <svg
+                    onclick="closeSidenav()"
+                    class="close-button"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    fill="currentColor"
+                    class="bi bi-x"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                    />
+                </svg>
+                <li class="sidenav-item">
+                    <a class="sidenav-a" href="">GAME</a>
+                </li>
+                <li class="sidenav-item">
+                    <a class="sidenav-a" href="">CHAMPIONS</a>
+                </li>
+                <li class="sidenav-item">
+                    <a class="sidenav-a" href="">NEWS</a>
+                </li>
+                <li class="sidenav-item">
+                    <a class="sidenav-a" href="">PATCH NOTES</a>
+                </li>
+                <li class="sidenav-item">
+                    <a class="sidenav-a" href="">DISCOVER</a>
+                </li>
+                <li class="sidenav-item">
+                    <a class="sidenav-a" href="">ESPORTS</a>
+                </li>
+                <li class="sidenav-item">
+                    <a class="sidenav-a" href="">UNIVERSE</a>
+                </li>
+                <li class="sidenav-item">
+                    <a class="sidenav-a" href="">SHOP</a>
+                </li>
+                <li class="sidenav-item">
+                    <a class="sidenav-a" href="">SUPPORT</a>
+                </li>
             </ul>
             <ul class="user">
-                <img src="/assets/images/user-icon.png" alt="user icon">
+                <img src="/assets/images/user-icon.png" alt="user icon" />
                 <a href="">UNEPICKED</a>
-            </ul>
-        </nav>
-
-        <!-- Menu desplegable -->
-        <div class="toggle nav" id="toggle">
-            <ul class="menu">
-                <a href="https://playvalorant.com/" target="_blank"><img class="logo"
-                        src="./assets/images/valorant logo.svg" alt="Valorant"></a>
-            </ul>
-            <ul class="icon-toggle" onclick="openSidenav()">
-                <div class="circle">
-                    <div class="hamburguer"></div>
-                    <div class="hamburguer"></div>
-                    <div class="hamburguer"></div>
-                </div>
             </ul>
         </div>
 
+        <!-- Contenido principal -->
+        <main class="main">
+            <section class="personaje">
+                <div class="info">
+                    <div class="adornos">1</div>
+                    <h2 class="info-title">Lore and Storyline</h2>
+                    <p class="info-text">
+                        Of Korean origin, Jett is an agile fighter who gives
+                        priority to movement. Her abilities focus on stealth
+                        with jumps that allow her to reach high ledges,
+                        teleportation, and smoke bombs. Her ultimate ability
+                        gives her kunaïs that inflict moderate to heavy damage,
+                        remaining very accurate even when she moves. <br />
+                        <br />
+                        There are a total of six groups of weapons that players
+                        will be able to purchase at the start of each round with
+                        each costing a different amount based on their power and
+                        weapon type. None of the weapons are tied exclusively to
+                        a specific character, so players will be able to use any
+                        of the weapons available in the FPS, no matter the
+                        character they are using for a particular match.
+                    </p>
 
-    </header>
-
-    <!-- SIDENAV -->
-    <div class="sidenav" id="sidenav">
-        <ul class="sidenav-list">
-            <svg onclick="closeSidenav()" class="close-button" xmlns="http://www.w3.org/2000/svg" width="48" height="48"
-                fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                <path
-                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-            </svg>
-            <li class="sidenav-item"><a class="sidenav-a" href="">GAME</a></li>
-            <li class="sidenav-item"><a class="sidenav-a" href="">CHAMPIONS</a></li>
-            <li class="sidenav-item"><a class="sidenav-a" href="">NEWS</a></li>
-            <li class="sidenav-item"><a class="sidenav-a" href="">PATCH NOTES</a></li>
-            <li class="sidenav-item"><a class="sidenav-a" href="">DISCOVER</a></li>
-            <li class="sidenav-item"><a class="sidenav-a" href="">ESPORTS</a></li>
-            <li class="sidenav-item"><a class="sidenav-a" href="">UNIVERSE</a></li>
-            <li class="sidenav-item"><a class="sidenav-a" href="">SHOP</a></li>
-            <li class="sidenav-item"><a class="sidenav-a" href="">SUPPORT</a></li>
-        </ul>
-        <ul class="user">
-            <img src="/assets/images/user-icon.png" alt="user icon">
-            <a href="">UNEPICKED</a>
-        </ul>
-    </div>
-
-    <!-- Contenido principal -->
-    <main class="main">
-        <section class="personaje">
-            <div class="info">
-                <div class="adornos">1</div>
-                <h2 class="info-title">Lore and Storyline</h2>
-                <p class="info-text">Of Korean origin, Jett is an agile fighter who gives priority to movement. Her
-                    abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke
-                    bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very
-                    accurate even when she moves. <br>
-                    <br>
-                    There are a total of six groups of weapons that players will be able to purchase at the start of
-                    each round with each costing a different amount based on their power and weapon type. None of the
-                    weapons are tied exclusively to a specific character, so players will be able to use any of the
-                    weapons available in the FPS, no matter the character they are using for a particular match. </p>
-
-                <div class="agent-information">
-                    <div><video id="video" class="agent-video" src="/assets/videos/Jett_Q_v001_web.mp4" loop
-                            autoplay></video></div>
-                    <div>
-                        <h3 class="agent-title">Agents information</h3>
-                        <p class="characteristics">Name : <strong>Jett</strong></p>
-                        <p class="characteristics">Country : <strong>South Korea</strong></p>
-                        <p class="characteristics">Signature Ability : <strong>Tailwind</strong></p>
-                        <p class="characteristics">Abilities : <strong>Cloudburst, Updraft</strong></p>
-                        <p class="characteristics">Ultimate : <strong>Blade Storm</strong></p>
+                    <div class="agent-information">
+                        <div>
+                            <video
+                                id="video"
+                                class="agent-video"
+                                src="/assets/videos/Jett_C_v001_web.mp4"
+                                loop
+                                autoplay
+                            ></video>
+                        </div>
+                        <div>
+                            <h3 class="agent-title">Agents information</h3>
+                            <p class="characteristics">
+                                Name : <strong>Jett</strong>
+                            </p>
+                            <p class="characteristics">
+                                Country : <strong>South Korea</strong>
+                            </p>
+                            <p class="characteristics">
+                                Signature Ability : <strong>Tailwind</strong>
+                            </p>
+                            <p class="characteristics">
+                                Abilities : <strong>Cloudburst, Updraft</strong>
+                            </p>
+                            <p class="characteristics">
+                                Ultimate : <strong>Blade Storm</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="agent-skills">
+                        <div id="cloudburst-container" class="skills">
+                            <img
+                                class="skills-icon"
+                                id="cloudburst"
+                                src="/assets/images/R-CLOUDBURST.svg"
+                                alt="CLOUDBURST"
+                            />
+                            <h4 class="skills-title">CLOUDBURST:</h4>
+                            <p class="skills-text">
+                                Deploys a cloud of smoke that obstructs the
+                                enemy's vision. Press the skill button a second
+                                time to lift the cloud.
+                            </p>
+                        </div>
+                        <div class="barra"></div>
+                        <div id="updraft-container" class="skills">
+                            <img
+                                class="skills-icon"
+                                id="updraft"
+                                src="/assets/images/R-UPDRAFT.svg"
+                                alt="UPDRAFT"
+                            />
+                            <h4 class="skills-title">UPDRAFT:</h4>
+                            <p class="skills-text">
+                                INSTANTLY propel Jett high into the air.
+                            </p>
+                        </div>
+                        <div class="barra"></div>
+                        <div id="tailwind-container" class="skills">
+                            <img
+                                class="skills-icon"
+                                id="tailwind"
+                                src="/assets/images/R-Tailwind.svg"
+                                alt="TAILWIND"
+                            />
+                            <h4 class="skills-title">TAILWIND:</h4>
+                            <p class="skills-text">
+                                INSTANTLY propel Jett in the direction she is
+                                moving. If Jett is standing still, she will
+                                propel forward.
+                            </p>
+                        </div>
+                        <div class="barra"></div>
+                        <div id="blade-storm-container" class="skills">
+                            <img
+                                class="skills-icon"
+                                id="blade-storm"
+                                src="assets/images/R-BLADE-STORM.svg"
+                                alt="BLADE STORM"
+                            />
+                            <h4 class="skills-title">BLADE STORM:</h4>
+                            <p class="skills-text">
+                                EQUIP a set of highly accurate knives that
+                                recharge on killing an opponent. FIRE to throw a
+                                single knife at your target. ALTERNATE FIRE to
+                                throw all remaining daggers at your target.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="agent-skills">
-                    <div class="skills">
-                        <img class="skills-icon" id="cloudburst" src="/assets/images/Vector-3.svg" alt="CLOUDBURST">
-                        <h4 class="skills-title">CLOUDBURST:</h4>
-                        <p class="skills-text">Deploys a cloud of smoke that obstructs the enemy's vision. Press the
-                            skill button a second time to lift the cloud.</p>
-                    </div>
-                    <div class="barra"></div>
-                    <div class="skills">
-                        <img class="skills-icon" id="updraft" src="/assets/images/Vector-2.svg" alt="UPDRAFT">
-                        <h4 class="skills-title">UPDRAFT:</h4>
-                        <p class="skills-text">INSTANTLY propel Jett high into the air.</p>
-                    </div>
-                    <div class="barra"></div>
-                    <div class="skills">
-                        <img class="skills-icon" id="tailwind" src="/assets/images/Vector-1.svg" alt="TAILWIND">
-                        <h4 class="skills-title">TAILWIND:</h4>
-                        <p class="skills-text">INSTANTLY propel Jett in the direction she is moving. If Jett is standing
-                            still, she will propel forward.</p>
-                    </div>
-                    <div class="barra"></div>
-                    <div class="skills">
-                        <img class="skills-icon" id="blade-storm" src="assets/images/Vector.svg" alt="BLADE STORM">
-                        <h4 class="skills-title">BLADE STORM:</h4>
-                        <p class="skills-text">EQUIP a set of highly accurate knives that recharge on killing an
-                            opponent. FIRE to throw a single knife at your target. ALTERNATE FIRE to throw all remaining
-                            daggers at your target.</p>
-                    </div>
+                <div class="foto">
+                    <img
+                        class="foto-jett-text"
+                        src="/assets/images/JETT (1).svg"
+                        alt="Jett"
+                    />
+                    <img
+                        draggable="false"
+                        class="foto-jett"
+                        src="./assets/images/Jett_artwork.webp"
+                        alt="Jett Name"
+                    />
                 </div>
-            </div>
-            <div class="foto">
-                <img class="foto-jett-text" src="/assets/images/JETT (1).svg" alt="Jett">
-                <img draggable="false" class="foto-jett" src="./assets/images/Jett_artwork.webp" alt="Jett Name">
-            </div>
-        </section>
+            </section>
 
-        <section class="armas-section">
-            <div class="armas-container">
-                <div class="armas">
-                    <div class="flex">
-                        <h3 class="armas-title">RIFLES</h3>
-                        <img class="armas-img fix-img" src="./assets/images/weapon_1.svg" alt="GUARDIAN">
+            <section class="armas-section">
+                <div class="armas-container">
+                    <div class="armas">
+                        <div class="flex">
+                            <h3 class="armas-title">RIFLES</h3>
+                            <img
+                                class="armas-img fix-img"
+                                src="./assets/images/weapon_1.svg"
+                                alt="GUARDIAN"
+                            />
+                        </div>
+                        <div class="flex">
+                            <p class="armas-text"><strong>GUARDIAN</strong></p>
+                            <div class="icon">
+                                <div>
+                                    <img
+                                        class="armas-icon"
+                                        src="/assets/images/coins.svg"
+                                        alt="points icon"
+                                    />
+                                    <p class="armas-text-coin">
+                                        <strong>2,700</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex">
-                        <p class="armas-text"><strong>GUARDIAN</strong></p>
-                        <div class="icon">
-                            <div>
-                                <img class="armas-icon" src="/assets/images/coins.svg" alt="points icon">
-                                <p class="armas-text-coin"><strong>2,700</strong></p>
+                    <div class="armas">
+                        <div class="flex">
+                            <h3 class="armas-title"><strong>SMGS</strong></h3>
+                            <img
+                                class="armas-img"
+                                src="./assets/images/weapon_2.svg"
+                                alt="SPECTRE"
+                            />
+                        </div>
+                        <div class="flex">
+                            <p class="armas-text"><strong>SPECTRE</strong></p>
+                            <div class="icon">
+                                <div>
+                                    <img
+                                        class="armas-icon"
+                                        src="/assets/images/coins.svg"
+                                        alt="points icon"
+                                    />
+                                    <p class="armas-text-coin">
+                                        <strong>1,600</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="armas">
+                        <div class="flex">
+                            <h3 class="armas-title">SIDEARM</h3>
+                            <img
+                                class="armas-img"
+                                src="/assets/images/weapon_3 1.svg"
+                                alt="SHERIFF"
+                            />
+                        </div>
+                        <div class="flex">
+                            <p class="armas-text"><strong>SHERIFF</strong></p>
+                            <div class="icon">
+                                <div>
+                                    <img
+                                        class="armas-icon"
+                                        src="/assets/images/coins.svg"
+                                        alt="points icon"
+                                    />
+                                    <p class="armas-text-coin">
+                                        <strong>900</strong>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="armas">
-                    <div class="flex">
-                        <h3 class="armas-title"><strong>SMGS</strong></h3>
-                        <img class="armas-img" src="./assets/images/weapon_2.svg" alt="SPECTRE">
-                    </div>
-                    <div class="flex">
-                        <p class="armas-text"><strong>SPECTRE</strong></p>
-                        <div class="icon">
-                            <div>
-                                <img class="armas-icon" src="/assets/images/coins.svg" alt="points icon">
-                                <p class="armas-text-coin"><strong>1,600</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="armas">
-                    <div class="flex">
-                        <h3 class="armas-title">SIDEARM</h3>
-                        <img class="armas-img" src="/assets/images/weapon_3 1.svg" alt="SHERIFF">
-                    </div>
-                    <div class="flex">
-                        <p class="armas-text"><strong>SHERIFF</strong></p>
-                        <div class="icon">
-                            <div>
-                                <img class="armas-icon" src="/assets/images/coins.svg" alt="points icon">
-                                <p class="armas-text-coin"><strong>900</strong></p>
-                            </div>
+            </section>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <div class="fade" id="fade"></div>
+        </main>
 
-        <div class="fade" id="fade"></div>
-    </main>
-
-    <footer class="footer"></footer>
-    <!-- JavaScript -->
-    <script src="assets/scripts/scripts.js"></script>
-</body>
-
+        <footer class="footer"></footer>
+        <!-- JavaScript -->
+        <script src="assets/scripts/scripts.js"></script>
+    </body>
 </html>
