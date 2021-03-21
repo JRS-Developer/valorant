@@ -5,7 +5,10 @@ const Sidenav = () => (
     <>
         <div className="sidenav" id="sidenav">
             <svg
-                onclick="closeSidenav()"
+                onClick={function closeSidenav() {
+                    document.getElementById("sidenav").style.width = "0%";
+                    document.getElementById("fade").style.width = "0";
+                }}
                 className="close-button bi bi-x"
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
@@ -26,11 +29,10 @@ const Sidenav = () => (
                 <SidenavItem to="Shop" name="SHOP" />
                 <SidenavItem to="Support" name="SUPPORT" />
             </ul>
+            <ul className="user">
+                <User />
+            </ul>
         </div>
-
-        <ul className="user">
-            <User />
-        </ul>
     </>
 );
 

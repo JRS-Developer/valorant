@@ -230,6 +230,6 @@ import Sidenav from "../organisms/Sidenav"
 
         <footer className="footer"></footer>
         {/* JavaScript */}
-        <script src="assets/scripts/scripts.js"></script>
+        {/* <script src="assets/scripts/scripts.js"></script> */}
     </body>
 

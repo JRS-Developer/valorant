@@ -112,13 +112,5 @@
 
 // Funcion para abrir y cerrar sidenav 
 
-function openSidenav() {
-    const grow = document.getElementById('sidenav');
-    grow.style.width = '40%';
-    document.getElementById('fade').style.width = "100%";
-}
 
-function closeSidenav() {
-    document.getElementById('sidenav').style.width = '0%';
-    document.getElementById('fade').style.width = "0";
-}
+
