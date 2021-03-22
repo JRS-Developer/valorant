@@ -1,17 +1,15 @@
 import Logo from "../atoms/Logo"
-import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const MenuDesplegable = () => (
-    <Router>
         <div className="toggle nav" id="toggle">
             <ul className="menu">
-                <Link
+                <a
                     href="https://playvalorant.com/"
                     rel="noreferrer"
                     target="_blank"
                 >
                     <Logo link="Valorant"/>
-                </Link>
+                </a>
             </ul>
             <ul
                 className="icon-toggle"
@@ -28,7 +26,6 @@ const MenuDesplegable = () => (
                 </div>
             </ul>
         </div>
-    </Router>
 );
 
 export default MenuDesplegable;
