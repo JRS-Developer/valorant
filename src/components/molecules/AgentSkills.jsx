@@ -1,17 +1,9 @@
 import ListCharacters from "../atoms/ListCharacters";
 import React from "react";
-import Script from "../../scripts/scripts"
+import ChangeColor from "../../scripts/OnclickChangeColor";
+import MouseEnter from "../../scripts/MouseEnter";
 
 class AgentSkills extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: "",
-        };
-    }
-    
-    
-
     render() {
         return (
             <div className="agent-skills">
@@ -19,22 +11,20 @@ class AgentSkills extends React.Component {
                     <React.Fragment key={index}>
                         <div id={skill.skillContainerId} className="skills">
                             <img
-                                    className="skills-icon"
-                                    id={skill.skillImageId}
-                                    src={skill.skillImageLink}
-                                    alt={skill.title}
-                                onClick={
-                                    function ChangeVideo () {
+                                className="skills-icon"
+                                id={skill.skillImageId}
+                                src={skill.skillImageLink}
+                                alt={skill.title}
+                                onClick={function ChangeVideo() {
                                     const video = document.getElementById(
                                         "video"
                                     );
-                                    const videoLink = skill.video
+                                    const videoLink = skill.video;
                                     if (
-                                        video.getAttribute("src") !==
-                                        videoLink
+                                        video.getAttribute("src") !== videoLink
                                     ) {
                                         video.setAttribute("src", videoLink);
-                                        Script(skill.skillImageId,skill.video)
+                                        ChangeColor(skill.skillImageId, skill.video,ListCharacters[0].skills);
                                     }
                                 }}
                             />

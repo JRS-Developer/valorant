@@ -152,7 +152,7 @@
 .skills:hover {
 
     @include from(l) {
-        background-color: var(--pink-color);
+        // background-color: var(--pink-color);
         transform: scale(1.1, 1.1);
         z-index: 100;
         
