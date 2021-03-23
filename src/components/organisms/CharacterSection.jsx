@@ -3,18 +3,19 @@ import ListCharacters from "../atoms/ListCharacters";
 import AgentSkills from "../molecules/AgentSkills";
 import AgentInformation from "../molecules/AgentInformation";
 // import script from "../../scripts/scripts"
+import DOMLoadedChangeColor from "../../scripts/DOMLoadedChangeColor";
 
 class CharacterSection extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: "",
+            name: 1,
         };
     }
 
-    // componentDidMount() {
-    //     script()
-    // }
+    componentDidMount() {
+        DOMLoadedChangeColor(ListCharacters[this.state.name].skills[0]);
+    }
 
     render() {
         return (
@@ -23,27 +24,27 @@ class CharacterSection extends Component {
                     <div className="adornos">1</div>
                     <h2 className="info-title">Lore and Storyline</h2>
                     <p className="info-text">
-                        {ListCharacters[0].info}
+                        {ListCharacters[this.state.name].info}
                         <br />
                         <br />
-                        {ListCharacters[0].restInfo}
+                        {ListCharacters[this.state.name].restInfo}
                     </p>
 
-                    <AgentInformation />
+                    <AgentInformation name={this.state.name} />
 
-                    <AgentSkills />
+                    <AgentSkills name={this.state.name} />
                 </div>
                 <div className="foto">
                     <img
                         className="foto-jett-text"
-                        src={ListCharacters[0].imgText}
-                        alt={ListCharacters[0].name}
+                        src={ListCharacters[this.state.name].imgText}
+                        alt={ListCharacters[this.state.name].name}
                     />
                     <img
                         draggable="false"
                         className="foto-jett"
-                        src={ListCharacters[0].image}
-                        alt={ListCharacters[0].name}
+                        src={ListCharacters[this.state.name].image}
+                        alt={ListCharacters[this.state.name].name}
                     />
                 </div>
             </section>

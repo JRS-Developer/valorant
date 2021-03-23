@@ -1,11 +1,10 @@
-import ListCharacters from "../components/atoms/ListCharacters";
 
 const DOMChangeColor = (Object) => {
-    let id = document.getElementById(Object);
+    let id = document.getElementById(Object.skillImageId);
 
     const video = document.getElementById("video");
 
-    if (video.getAttribute("src") === ListCharacters[0].skills[0].video) {
+    if (video.getAttribute("src") === Object.video) {
         id.style.filter = "brightness(500%)";
     }
 };

@@ -3,23 +3,30 @@ import "../src/styles/css/styles.css";
 import Sidenav from "./components/organisms/Sidenav";
 import CharacterInfo from "./components/pages/CharacterInfo";
 import Footer from "./components/organisms/Footer";
-import React from "react";
-import DOMLoadedChangeColor from "./scripts/DOMLoadedChangeColor";
-import ListCharacters from "./components/atoms/ListCharacters";
-class App extends React.Component {
-    componentDidMount() {
-        DOMLoadedChangeColor(ListCharacters[0].skills[0].skillImageId);
-    }
+import React, { Component } from "react";
+
+
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from "react-router-dom";
+class App extends Component {
+    
 
     render() {
         return (
-            <>
+            <Router>
                 <Header />
                 <Sidenav />
-                <CharacterInfo />
+                <Switch>
+                    <Route path="/Jett">
+                        <CharacterInfo />
+                    </Route>
+                </Switch>
                 <div className="fade" id="fade"></div>
                 <Footer />
-            </>
+            </Router>
         );
     }
 }

@@ -1,13 +1,17 @@
 import ListCharacters from "../atoms/ListCharacters";
 import React from "react";
 import ChangeColor from "../../scripts/OnclickChangeColor";
-import MouseEnter from "../../scripts/MouseEnter";
 
 class AgentSkills extends React.Component {
+
+    constructor(props) {
+        super(props)
+    }
+    
     render() {
         return (
             <div className="agent-skills">
-                {ListCharacters[0].skills.map((skill, index) => (
+                {ListCharacters[this.props.name].skills.map((skill, index) => (
                     <React.Fragment key={index}>
                         <div id={skill.skillContainerId} className="skills">
                             <img
@@ -24,7 +28,7 @@ class AgentSkills extends React.Component {
                                         video.getAttribute("src") !== videoLink
                                     ) {
                                         video.setAttribute("src", videoLink);
-                                        ChangeColor(skill.skillImageId, skill.video,ListCharacters[0].skills);
+                                        ChangeColor(skill.skillImageId, videoLink,ListCharacters[skill.key].skills);
                                     }
                                 }}
                             />
