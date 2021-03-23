@@ -20,9 +20,7 @@ class App extends Component {
                 <Header />
                 <Sidenav />
                 <Switch>
-                    <Route path="/Jett">
-                        <CharacterInfo />
-                    </Route>
+                    <Route path="/Agents/:name" component={CharacterInfo} />
                 </Switch>
                 <div className="fade" id="fade"></div>
                 <Footer />

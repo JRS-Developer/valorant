@@ -17,6 +17,7 @@ import SageImageText from "../../images/SAGE Name.svg";
 
 const ListCharacters = [
     {
+        key: 0,
         name: "Jett",
         id: "jett",
         country: "South Korea",
@@ -74,6 +75,7 @@ const ListCharacters = [
         ],
     },
     {
+        key: 1,
         name: "Sage",
         id: "sage",
         country: "China",
