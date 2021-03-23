@@ -20,15 +20,15 @@ const MenuPrincipal = () => (
             <a href="https://playvalorant.com/" target="_blank" rel='noreferrer'>
                 <Logo link="Valorant" name="Valorant" />
             </a>
-            <MenuItem name="GAME" to="Game" />
-            <MenuItem name="CHAMPIONS" to="Champions" />
-            <MenuItem name="NEWS" to="News" />
-            <MenuItem name="PATCH NOTES" to="Patch-Notes" />
-            <MenuItem name="DISCOVER" to="Discover" />
-            <MenuItem name="ESPORTS" to="Esports" />
-            <MenuItem name="UNIVERSE" to="Universe" />
-            <MenuItem name="SHOP" to="Shop" />
-            <MenuItem name="SUPPORT" to="Support" />
+            <MenuItem name="GAME" to="/Game" exact={true}/>
+            <MenuItem name="CHAMPIONS" to="/Champions" />
+            <MenuItem name="NEWS" to="/News" />
+            <MenuItem name="PATCH NOTES" to="/Patch-Notes" />
+            <MenuItem name="DISCOVER" to="/Discover" />
+            <MenuItem name="ESPORTS" to="/Esports" />
+            <MenuItem name="UNIVERSE" to="/Universe" />
+            <MenuItem name="SHOP" to="/Shop" />
+            <MenuItem name="SUPPORT" to="/Support" />
         </ul>
         <ul className="user">
             <User />

@@ -58,14 +58,17 @@
 }
 
 .armas-img {
-    width: 180px;
-    height: 180px;
+    width: 50%;
+    height: 80%;
     position: absolute;
     right: 0;
-    bottom: -1rem;
-    // margin-bottom: -6rem;
+    top: 0;
     z-index: 100;
     transition: transform .3s;
+
+    @include from(l) {
+        width: 80%;
+    }
 }
 
 .armas-img:hover {

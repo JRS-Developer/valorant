@@ -297,8 +297,7 @@
   .skills:hover {
     transform: scale(1.1, 1.1);
     z-index: 100; }
-    .skills:hover img {
-      filter: brightness(500%); } }
+  }
 
 .skills-title {
   font-family: var(--title-font);
@@ -371,13 +370,16 @@
   mask-clip: 50%; }
 
 .armas-img {
-  width: 180px;
-  height: 180px;
+  width: 50%;
+  height: 80%;
   position: absolute;
   right: 0;
-  bottom: -1rem;
+  top: 0;
   z-index: 100;
   transition: transform .3s; }
+  @media screen and (min-width: 960px) {
+    .armas-img {
+      width: 80%; } }
 
 .armas-img:hover {
   transform: rotateZ(30deg); }

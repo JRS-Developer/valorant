@@ -9,12 +9,17 @@ class CharacterSection extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: 1,
+            name: 0,
         };
     }
 
     componentDidMount() {
         DOMLoadedChangeColor(ListCharacters[this.state.name].skills[0]);
+        ListCharacters.forEach(element => {
+            if (element.name === this.props.name) {
+                this.setState({name: element.key})
+            }
+        })
     }
 
     render() {

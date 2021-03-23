@@ -1,9 +1,9 @@
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 
 const MenuItem = (props) => (
     <Router>
     <li>
-        <Link to={props.to}>{props.name}</Link>
+        <NavLink exact={props.exact} to={props.to} >{props.name}</NavLink>
     </li>
     </Router>
 );

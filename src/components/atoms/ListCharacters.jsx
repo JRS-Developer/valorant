@@ -5,15 +5,19 @@ import UpdraftImage from "../../images/R-UPDRAFT.svg";
 import JettImage from "../../images/Jett.webp";
 import JettImageText from "../../images/JETT Name.svg";
 import CloudBurstVideo from "../../videos/Jett_C_v001_web.mp4";
-import UpdraftVideo from "../../videos/Jett_E_v001_web.mp4";
-import TailWindVideo from "../../videos/Jett_Q_v001_web.mp4";
+import UpdraftVideo from "../../videos/Jett_Q_v001_web.mp4";
+import TailWindVideo from "../../videos/Jett_E_v001_web.mp4";
 import BladeStormVideo from "../../videos/Jett_X_v001_web.mp4";
 import BarrierOrbVideo from "../../videos/Sage_C_v001_web.mp4";
-import SlowOrbVideo from "../../videos/Sage_E_v001_web.mp4";
-import HealingOrbVideo from "../../videos/Sage_Q_v001_web.mp4";
+import SlowOrbVideo from "../../videos/Sage_Q_v001_web.mp4";
+import HealingOrbVideo from "../../videos/Sage_E_v001_web.mp4";
 import ResurrectionVideo from "../../videos/Sage_X_v001_web.mp4";
 import SageImage from "../../images/Sage.png";
 import SageImageText from "../../images/SAGE Name.svg";
+import SlowOrbImage from "../../images/Slow-Orb.svg";
+import HealingOrbImage from "../../images/Healing-Orb.svg";
+import BarrierOrbImage  from "../../images/Barrier-Orb.svg"
+import ResurrectionImage  from "../../images/Resurrection.svg"
 
 const ListCharacters = [
     {
@@ -95,7 +99,7 @@ const ListCharacters = [
                     'Equip a barrier orb. Fire places a solid wall. Alternate fire rotates the targeter. The wall "fortifies" after a 3-second delay, increasing its health. Shortly before expiring, the wall rapidly loses health.',
                 skillContainerId: "barrier-orb-container",
                 skillImageId: "barrier-orb",
-                skillImageLink: CloudburstImage,
+                skillImageLink: BarrierOrbImage,
                 video: BarrierOrbVideo,
             },
             {
@@ -106,7 +110,7 @@ const ListCharacters = [
                     "Equip a Slowing Orb. Fire to launch the Orb, which expands upon hitting the ground, creating a zone that slows players who walk on it.",
                 skillContainerId: "slow-orb-container",
                 skillImageId: "slow-orb",
-                skillImageLink: UpdraftImage,
+                skillImageLink: SlowOrbImage,
                 video: SlowOrbVideo,
             },
             {
@@ -117,7 +121,7 @@ const ListCharacters = [
                     "Equip a healing orb. Fire with your crosshairs over a damaged ally to activate a heal-over-time on them. Alternate fire while Sage is damaged to activate a self heal-over-time. The heal will stop upon taking damage.",
                 skillContainerId: "healing-orb-container",
                 skillImageId: "healing-orb-orb",
-                skillImageLink: TailwindImage,
+                skillImageLink: HealingOrbImage,
                 video: HealingOrbVideo,
             },
             {
@@ -128,7 +132,7 @@ const ListCharacters = [
                     "Equip a resurrection ability. Fire with your crosshairs placed over an ally's corpse to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health.",
                 skillContainerId: "resurrection-container",
                 skillImageId: "resurrection",
-                skillImageLink: BladestormImage,
+                skillImageLink: ResurrectionImage,
                 video: ResurrectionVideo,
             },
         ],
