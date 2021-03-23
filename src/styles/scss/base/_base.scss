@@ -52,3 +52,11 @@ li {
 ul {
     margin: 0;
 }
+
+
+.main {
+    margin-top: 5rem;
+    @include from(l) {
+        margin-top: 0;
+    }
+}

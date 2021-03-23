@@ -3,7 +3,14 @@
     display: flex;
     height: auto;
     flex-wrap: wrap;
-    position: sticky;
+    position: fixed;
+    width: 100%;
 
+    top: 0;
     align-items: center;
+    z-index: var(--z-off-canvas);
+
+    @include from(l) {
+        position: relative;
+    }
 }

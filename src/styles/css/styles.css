@@ -49,8 +49,14 @@
   display: flex;
   height: auto;
   flex-wrap: wrap;
-  position: sticky;
-  align-items: center; }
+  position: fixed;
+  width: 100%;
+  top: 0;
+  align-items: center;
+  z-index: var(--z-off-canvas); }
+  @media screen and (min-width: 960px) {
+    .header {
+      position: relative; } }
 
 .menu {
   display: flex;
@@ -297,7 +303,8 @@
   .skills:hover {
     transform: scale(1.1, 1.1);
     z-index: 100; }
-  }
+    .skills:hover img {
+      filter: brightness(500%); } }
 
 .skills-title {
   font-family: var(--title-font);
@@ -697,3 +704,9 @@ li {
 
 ul {
   margin: 0; }
+
+.main {
+  margin-top: 5rem; }
+  @media screen and (min-width: 960px) {
+    .main {
+      margin-top: 0; } }
