@@ -21,6 +21,7 @@ class App extends Component {
                 <Sidenav />
                 <Switch>
                     <Route path="/Agents/:name" component={CharacterInfo} />
+                    <Route path="/Weapons/:name" component={""}/>
                 </Switch>
                 <div className="fade" id="fade"></div>
                 <Footer />
