@@ -1,10 +1,10 @@
-import { Link} from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 const SidenavItem = (props) => (
         <li className="sidenav-item">
-            <Link className="sidenav-a" to={props.to}>
+            <NavLink className="sidenav-a" to={props.to}>
                 {props.name}
-            </Link>
+            </NavLink>
         </li>
 );
 

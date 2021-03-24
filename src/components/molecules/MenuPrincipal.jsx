@@ -18,8 +18,8 @@ const MenuPrincipal = () => (
             <a href="https://playvalorant.com/" target="_blank" rel='noreferrer'>
                 <Logo link="Valorant" name="Valorant" />
             </a>
-            <MenuItem name="GAME" to="/Agents/Jett" exact={true}/>
-            <MenuItem name="CHAMPIONS" to="/Agents/Sage" />
+            <MenuItem name="GAME" to="/Game"/>
+            <MenuItem name="CHAMPIONS" to="/Champions" />
             <MenuItem name="NEWS" to="/News" />
             <MenuItem name="PATCH NOTES" to="/Patch-Notes" />
             <MenuItem name="DISCOVER" to="/Discover" />
