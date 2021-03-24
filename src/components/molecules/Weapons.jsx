@@ -3,11 +3,10 @@ import Coins from "../../images/Icons/coins.svg"
 import React from "react"
 
 class Weapons extends React.Component {
-
     render() {
         return(
             <>
-        {ListWeapons[this.props.name].weapons.map((weapon, index) => (
+        {ListWeapons[Math.floor(Math.random() * ListWeapons.length)].weapons.map((weapon, index) => (
             <div className="armas" key={index}>
                 <div className="flex">
                     <h3 className="armas-title">{weapon.category}</h3>

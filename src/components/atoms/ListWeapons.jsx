@@ -79,6 +79,78 @@ const ListWeapons = [
             }
         ]
     },
+    {
+        key: 2,
+        character: 'Phoenix',
+        weapons: [
+            {
+                name: "BULLDOG",
+                id: "bulldog",
+                category: "SHOTGUNS",
+                image: BullDogImage,
+                imgText: "",
+                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                points: "2,700",
+                skins: [{}, {}, {}, {}],
+            },
+            {
+                name: "STINGER",
+                id: "stinger",
+                category: "SMGS",
+                image: StingerImage,
+                imgText: "",
+                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                points: "1,600",
+                skins: [{}, {}, {}, {}],
+            },
+            {
+                name: "SHORTY",
+                id: "shorty",
+                category: "SIDEARM",
+                image: ShortyImage,
+                imgText: "",
+                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                points: "900",
+                skins: [{}, {}, {}, {}],
+            }
+        ]
+    },
+    {
+        key: 3,
+        character: 'Sova',
+        weapons: [
+            {
+                name: "BULLDOG",
+                id: "bulldog",
+                category: "SHOTGUNS",
+                image: BullDogImage,
+                imgText: "",
+                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                points: "2,700",
+                skins: [{}, {}, {}, {}],
+            },
+            {
+                name: "STINGER",
+                id: "stinger",
+                category: "SMGS",
+                image: StingerImage,
+                imgText: "",
+                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                points: "1,600",
+                skins: [{}, {}, {}, {}],
+            },
+            {
+                name: "SHORTY",
+                id: "shorty",
+                category: "SIDEARM",
+                image: ShortyImage,
+                imgText: "",
+                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                points: "900",
+                skins: [{}, {}, {}, {}],
+            }
+        ]
+    },
 
     
 ];
