@@ -2,11 +2,6 @@ import ListCharacters from "../atoms/ListCharacters";
 import React from "react";
 
 class AgentInformation extends React.Component {
-
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         return (
             <div className="agent-information">

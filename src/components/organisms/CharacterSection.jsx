@@ -6,20 +6,8 @@ import AgentInformation from "../molecules/AgentInformation";
 import DOMLoadedChangeColor from "../../scripts/DOMLoadedChangeColor";
 
 class CharacterSection extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: 0,
-        };
-    }
-
     componentDidMount() {
-        DOMLoadedChangeColor(ListCharacters[this.state.name].skills[0]);
-        ListCharacters.forEach(element => {
-            if (element.name === this.props.name) {
-                this.setState({name: element.key})
-            }
-        })
+        DOMLoadedChangeColor(ListCharacters[this.props.name].skills[0]);
     }
 
     render() {
@@ -29,27 +17,27 @@ class CharacterSection extends Component {
                     <div className="adornos">1</div>
                     <h2 className="info-title">Lore and Storyline</h2>
                     <p className="info-text">
-                        {ListCharacters[this.state.name].info}
+                        {ListCharacters[this.props.name].info}
                         <br />
                         <br />
-                        {ListCharacters[this.state.name].restInfo}
+                        {ListCharacters[this.props.name].restInfo}
                     </p>
 
-                    <AgentInformation name={this.state.name} />
+                    <AgentInformation name={this.props.name} />
 
-                    <AgentSkills name={this.state.name} />
+                    <AgentSkills name={this.props.name} />
                 </div>
                 <div className="foto">
                     <img
                         className="foto-jett-text"
-                        src={ListCharacters[this.state.name].imgText}
-                        alt={ListCharacters[this.state.name].name}
+                        src={ListCharacters[this.props.name].imgText}
+                        alt={ListCharacters[this.props.name].name}
                     />
                     <img
                         draggable="false"
                         className="foto-jett"
-                        src={ListCharacters[this.state.name].image}
-                        alt={ListCharacters[this.state.name].name}
+                        src={ListCharacters[this.props.name].image}
+                        alt={ListCharacters[this.props.name].name}
                     />
                 </div>
             </section>

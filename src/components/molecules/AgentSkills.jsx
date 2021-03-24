@@ -3,11 +3,6 @@ import React from "react";
 import ChangeColor from "../../scripts/OnclickChangeColor";
 
 class AgentSkills extends React.Component {
-
-    constructor(props) {
-        super(props)
-    }
-    
     render() {
         return (
             <div className="agent-skills">
@@ -28,7 +23,11 @@ class AgentSkills extends React.Component {
                                         video.getAttribute("src") !== videoLink
                                     ) {
                                         video.setAttribute("src", videoLink);
-                                        ChangeColor(skill.skillImageId, videoLink,ListCharacters[skill.key].skills);
+                                        ChangeColor(
+                                            skill.skillImageId,
+                                            videoLink,
+                                            ListCharacters[skill.key].skills
+                                        );
                                     }
                                 }}
                             />
