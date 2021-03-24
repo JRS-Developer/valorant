@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import user from "../../images/user-icon.png";
+import user from "../../images/Icons/user-icon.png";
 
 const User = () => (
     <>

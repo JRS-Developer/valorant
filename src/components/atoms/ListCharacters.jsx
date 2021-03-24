@@ -1,9 +1,9 @@
-import CloudburstImage from "../../images/R-CLOUDBURST.svg";
-import BladestormImage from "../../images/R-BLADE-STORM.svg";
-import TailwindImage from "../../images/R-Tailwind.svg";
-import UpdraftImage from "../../images/R-UPDRAFT.svg";
-import JettImage from "../../images/Jett.webp";
-import JettImageText from "../../images/JETT Name.svg";
+import CloudburstImage from "../../images/Skills/R-CLOUDBURST.svg";
+import BladestormImage from "../../images/Skills/R-BLADE-STORM.svg";
+import TailwindImage from "../../images/Skills/R-Tailwind.svg";
+import UpdraftImage from "../../images/Skills/R-UPDRAFT.svg";
+import JettImage from "../../images/Characters/Jett.webp";
+import JettImageText from "../../images/Characters/JETT Name.svg";
 import CloudBurstVideo from "../../videos/Jett_C_v001_web.mp4";
 import UpdraftVideo from "../../videos/Jett_Q_v001_web.mp4";
 import TailWindVideo from "../../videos/Jett_E_v001_web.mp4";
@@ -12,12 +12,12 @@ import BarrierOrbVideo from "../../videos/Sage_C_v001_web.mp4";
 import SlowOrbVideo from "../../videos/Sage_Q_v001_web.mp4";
 import HealingOrbVideo from "../../videos/Sage_E_v001_web.mp4";
 import ResurrectionVideo from "../../videos/Sage_X_v001_web.mp4";
-import SageImage from "../../images/Sage.png";
-import SageImageText from "../../images/SAGE Name.svg";
-import SlowOrbImage from "../../images/Slow-Orb.svg";
-import HealingOrbImage from "../../images/Healing-Orb.svg";
-import BarrierOrbImage  from "../../images/Barrier-Orb.svg"
-import ResurrectionImage  from "../../images/Resurrection.svg"
+import SageImage from "../../images/Characters/Sage.png";
+import SageImageText from "../../images/Characters/SAGE Name.svg";
+import SlowOrbImage from "../../images/Skills/Slow-Orb.svg";
+import HealingOrbImage from "../../images/Skills/Healing-Orb.svg";
+import BarrierOrbImage  from "../../images/Skills/Barrier-Orb.svg"
+import ResurrectionImage  from "../../images/Skills/Resurrection.svg"
 
 const ListCharacters = [
     {

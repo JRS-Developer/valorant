@@ -213,7 +213,7 @@
   z-index: -1;
   left: 1rem;
   top: 0;
-  background: url(/src/images/elements.svg);
+  background: url(/src/images/Background/elements.svg);
   background-repeat: no-repeat;
   background-size: contain; }
 
@@ -687,7 +687,7 @@ body {
   line-height: var(--body-line-height);
   margin: 0;
   overflow-x: hidden;
-  background-image: url(/src/images/background.png);
+  background-image: url(/src/images/Background/background.png);
   background-repeat: no-repeat;
   background-size: cover; }
 

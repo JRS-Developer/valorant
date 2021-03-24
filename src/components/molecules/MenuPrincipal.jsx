@@ -1,7 +1,7 @@
 import MenuItem from "../atoms/MenuItem";
 import User from "../atoms/User";
 import Logo from "../atoms/Logo";
-import Separador from "../../images/separador.svg"
+import Separador from "../../images/Icons/separador.svg"
 
 
 const MenuPrincipal = () => (

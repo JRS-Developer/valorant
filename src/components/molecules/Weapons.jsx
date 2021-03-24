@@ -1,5 +1,5 @@
 import ListWeapons from "../atoms/ListWeapons";
-import Coins from "../../images/coins.svg"
+import Coins from "../../images/Icons/coins.svg"
 
 const Weapons = () => (
     <>

@@ -1,5 +1,5 @@
-import Valorant from "../../images/valorant-logo.svg"
-import RiotGames from "../../images/riot-games.svg"
+import Valorant from "../../images/Logos/valorant-logo.svg"
+import RiotGames from "../../images/Logos/riot-games.svg"
 
 const Logo = (props) => {
     const link = props.link

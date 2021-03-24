@@ -1,7 +1,7 @@
-import GuardianImaage from "../../images/weapon-guardian.svg";
-import SpectreImage from "../../images/weapon_spec.svg";
-import SheriffImage from "../../images/weapon_sheriff.svg";
-
+import GuardianImaage from "../../images/Weapons/w-guardian.png";
+import SpectreImage from "../../images/Weapons/w-spectre.png";
+import SheriffImage from "../../images/Weapons/w-sheriff.png";
+import ShortyImage from "../../images/Weapons/w-shorty.png";
 
 const ListWeapons = [
     {
