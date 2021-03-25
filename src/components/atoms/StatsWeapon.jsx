@@ -1,11 +1,13 @@
-const StatsWeapon = () => (
+const StatsWeapon = (props) => (
     <div class="space-txt">
-        <h2 class="fire-title">Primary Fire</h2>
+        <h2 class="fire-title">{props.stats.title}</h2>
         <p class="fire-text">
-            Fire Mode : <strong>Full-Automatic</strong>
+            {props.stats.firstGrayText}
+            <strong>{props.stats.firstDarkText}</strong>
         </p>
         <p class="fire-text">
-            Rate of Fire : <strong>13.33 rounds/sec</strong>
+            {props.stats.secondGrayText}
+            <strong>{props.stats.secondDarkText}</strong>
         </p>
     </div>
 );

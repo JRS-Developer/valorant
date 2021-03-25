@@ -1,24 +1,30 @@
-const InfoWeaponTop = () => (
+import ListWeapons from "../atoms/ListWeapons";
+import DarkCoins from "../../images/Icons/coins-dark.svg"
+import Valorant from "../atoms/Logo"
+
+const InfoWeaponTop = (props) => (
     <div class="info-weapon-top">
         <img
             class="weapon-image"
-            src="/assets/images/Weapon_Spectre.svg"
-            alt="Spectre"
+            src={ListWeapons[props.first].weapons[
+                props.second
+            ].image}
+            alt={ListWeapons[props.first].weapons[
+                props.second
+            ].imgLink}
         />
         <div class="weapon-coins">
             <img
                 class="weapon-dark-icon"
-                src="/assets/images/coins-dark.svg"
+                src={DarkCoins}
                 alt=""
             />
-            <p class="black armas-text-coin">1,600</p>
+            <p class="black armas-text-coin">{ListWeapons[props.first].weapons[
+                props.second
+            ].points}</p>
         </div>
         <div class="weapon-tag">
-            <img
-                class="weapon-tag-img"
-                src="/assets/images/valorant logo.svg"
-                alt=""
-            />
+            <Valorant link="Valorant" Class="weapon-tag-img"/>
         </div>
     </div>
 );

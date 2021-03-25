@@ -10,6 +10,7 @@ import OperatorImage from "../../images/Weapons/w-operator.png";
 import GhostImage from "../../images/Weapons/w-ghost.png"
 import TacnicalKnifeImage from "../../images/Weapons/w-tactical-knife.png"
 import AresImage from "../../images/Weapons/w-ares.png"
+import SMGSImage from "../../images/Weapons/SMGS-Text.svg"
 
 const ListWeapons = [
     {
@@ -25,6 +26,27 @@ const ListWeapons = [
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "2,400",
                 skins: [{}, {}, {}, {}],
+                weaponStats: [
+                    {
+                        title: "Primary Fire",
+                        firstGrayText: "Fire Mode : ",
+                        firstDarkText: "Full-Automatic",
+                        secondGrayText: "Rate of Fire : ",
+                        secondDarkText: "7 rounds/sec"
+                    },{
+                        title: "Alternative Fire",
+                        firstGrayText: "Fire Mode : ",
+                        firstDarkText: "Zoom mode (1.15x)",
+                        secondGrayText: "Rate of Fire : ",
+                        secondDarkText: "126 rounds/sec"
+                    },{
+                        title: "",
+                        firstGrayText: "Magazine Capacity : ",
+                        firstDarkText: "30",
+                        secondGrayText: "Wall Penetration : ",
+                        secondDarkText: "Medium"
+                    }
+                ]
             },
             {
                 name: "SPECTRE",
@@ -33,9 +55,31 @@ const ListWeapons = [
                 image: SpectreImage,
                 imgText: "",
                 imgLink: `Spectre`,
+                imgCategory: SMGSImage,
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "1,600",
                 skins: [{}, {}, {}, {}],
+                weaponStats: [
+                    {
+                        title: "Primary Fire",
+                        firstGrayText: "Fire Mode : ",
+                        firstDarkText: "Full-Automatic",
+                        secondGrayText: "Rate of Fire : ",
+                        secondDarkText: "13.33 rounds/sec"
+                    },{
+                        title: "Alternative Fire",
+                        firstGrayText: "Fire Mode : ",
+                        firstDarkText: "Zoom mode (1.15x)",
+                        secondGrayText: "Rate of Fire : ",
+                        secondDarkText: "12 rounds/sec"
+                    },{
+                        title: "",
+                        firstGrayText: "Magazine Capacity : ",
+                        firstDarkText: "30",
+                        secondGrayText: "Wall Penetration : ",
+                        secondDarkText: "Medium"
+                    }
+                ]
             },
             {
                 name: "SHERIFF",
