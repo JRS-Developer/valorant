@@ -1,7 +1,8 @@
 import Header from "./components/organisms/Header";
 import "../src/styles/css/styles.css";
 import Sidenav from "./components/organisms/Sidenav";
-import CharacterInfo from "./components/pages/CharacterInfo";
+import CharacterInfoPage from "./components/pages/CharacterInfoPage";
+import WeaponInfoPage from "./components/pages/WeaponInfoPage";
 import Footer from "./components/organisms/Footer";
 import React, { Component } from "react";
 
@@ -20,10 +21,8 @@ class App extends Component {
                 <Header />
                 <Sidenav />
                 <Switch>
-                    <Route path="/Agents/:name" component={CharacterInfo} />
-                    <Route path="/Weapons/:name">
-                        <div>Hola</div>
-                    </Route>
+                    <Route path="/Agents/:name" component={CharacterInfoPage} />
+                    <Route path="/Weapons/:name" component={WeaponInfoPage}/>
                 </Switch>
                 <div className="fade" id="fade"></div>
                 <Footer />

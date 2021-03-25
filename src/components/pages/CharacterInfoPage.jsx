@@ -3,7 +3,7 @@ import WeaponSection from "../organisms/WeaponSection";
 import React from "react"
 import ListCharacters from "../atoms/ListCharacters";
 
-class CharacterInfo extends React.Component {
+class CharacterInfoPage extends React.Component {
     constructor(props) {
         super(props)
         this.state ={
@@ -33,4 +33,4 @@ class CharacterInfo extends React.Component {
 
 
 
-export default CharacterInfo;
+export default CharacterInfoPage;
