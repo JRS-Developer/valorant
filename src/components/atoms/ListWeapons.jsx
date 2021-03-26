@@ -58,20 +58,20 @@ const ListWeapons = [
                     {
                         zone: "Head",
                         zoneImg: HeadIcon,
-                        quantity: "78 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "195 DMG",
+                        distance: "0 - 50 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
-                        quantity: "26 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "65 DMG",
+                        distance: "0 - 50 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
-                        quantity: "22 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "49 DMG",
+                        distance: "0 - 50 m"
                     },
                 ],
                 skins: [{}, {}],
@@ -175,20 +175,20 @@ const ListWeapons = [
                     {
                         zone: "Head",
                         zoneImg: HeadIcon,
-                        quantity: "78 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "160 DMG",
+                        distance: "0 - 30 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
-                        quantity: "26 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "55 DMG",
+                        distance: "0 - 30 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
-                        quantity: "22 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "47 DMG",
+                        distance: "0 - 30 m"
                     },
                 ],
                 weaponStats: [
@@ -238,20 +238,20 @@ const ListWeapons = [
                     {
                         zone: "Head",
                         zoneImg: HeadIcon,
-                        quantity: "78 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "116 DMG",
+                        distance: "0 - 50 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
-                        quantity: "26 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "35 DMG",
+                        distance: "0 - 50 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
-                        quantity: "22 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "30 DMG",
+                        distance: "0 - 50 m"
                     },
                 ],
                 weaponStats: [
@@ -296,19 +296,19 @@ const ListWeapons = [
                     {
                         zone: "Head",
                         zoneImg: HeadIcon,
-                        quantity: "78 DMG",
+                        quantity: "67 DMG",
                         distance: "0 - 20 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
-                        quantity: "26 DMG",
+                        quantity: "27 DMG",
                         distance: "0 - 20 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
-                        quantity: "22 DMG",
+                        quantity: "23 DMG",
                         distance: "0 - 20 m"
                     },
                 ],
@@ -354,20 +354,20 @@ const ListWeapons = [
                     {
                         zone: "Head",
                         zoneImg: HeadIcon,
-                        quantity: "78 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "36 DMG",
+                        distance: "0 - 9 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
-                        quantity: "26 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "12 DMG",
+                        distance: "0 - 9 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
-                        quantity: "22 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "10 DMG",
+                        distance: "0 - 9 m"
                     },
                 ],
                 weaponStats: [
@@ -417,20 +417,20 @@ const ListWeapons = [
                     {
                         zone: "Head",
                         zoneImg: HeadIcon,
-                        quantity: "78 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "255 DMG",
+                        distance: "0 - 50 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
-                        quantity: "26 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "150 DMG",
+                        distance: "0 - 50 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
-                        quantity: "22 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "127 DMG",
+                        distance: "0 - 50 m"
                     },
                 ],
                 weaponStats: [
@@ -475,20 +475,20 @@ const ListWeapons = [
                     {
                         zone: "Head",
                         zoneImg: HeadIcon,
-                        quantity: "78 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "34 DMG",
+                        distance: "0 - 10 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
-                        quantity: "26 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "17 DMG",
+                        distance: "0 - 10 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
-                        quantity: "22 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "14 DMG",
+                        distance: "0 - 10 m"
                     },
                 ],
                 weaponStats: [
@@ -533,19 +533,19 @@ const ListWeapons = [
                         zone: "Head",
                         zoneImg: HeadIcon,
                         quantity: "78 DMG",
-                        distance: "0 - 20 m"
+                        distance: "0 - 30 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
                         quantity: "26 DMG",
-                        distance: "0 - 20 m"
+                        distance: "0 - 30 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
                         quantity: "22 DMG",
-                        distance: "0 - 20 m"
+                        distance: "0 - 30 m"
                     },
                 ],
                 skins: [{}, {}],
@@ -595,20 +595,20 @@ const ListWeapons = [
                     {
                         zone: "Head",
                         zoneImg: HeadIcon,
-                        quantity: "78 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "72 DMG",
+                        distance: "0 - 30 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
-                        quantity: "26 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "30 DMG",
+                        distance: "0 - 30 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
-                        quantity: "22 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "25 DMG",
+                        distance: "0 - 30 m"
                     },
                 ],
                 skins: [{}, {}],
@@ -653,20 +653,20 @@ const ListWeapons = [
                     {
                         zone: "Head",
                         zoneImg: HeadIcon,
-                        quantity: "78 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "105 DMG",
+                        distance: "0 - 30 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
-                        quantity: "26 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "30 DMG",
+                        distance: "0 - 30 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
-                        quantity: "22 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "26 DMG",
+                        distance: "0 - 30 m"
                     },
                 ],
                 skins: [{}, {}],
@@ -711,20 +711,20 @@ const ListWeapons = [
                     {
                         zone: "Head",
                         zoneImg: HeadIcon,
-                        quantity: "78 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "50 DMG",
+                        distance: "0 - 8 m"
                     },
                     {
                         zone: "Body",
                         zoneImg: BodyIcon,
-                        quantity: "26 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "50 DMG",
+                        distance: "0 - 8 m"
                     },
                     {
                         zone: "Leg",
                         zoneImg: LegIcon,
-                        quantity: "22 DMG",
-                        distance: "0 - 20 m"
+                        quantity: "50 DMG",
+                        distance: "0 - 8 m"
                     },
                 ],
                 skins: [{}, {}],
