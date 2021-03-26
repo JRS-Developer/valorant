@@ -282,7 +282,6 @@ const ListCharacters = [
             },
         ],
     },
-    {},
 ];
 
 export default ListCharacters;
