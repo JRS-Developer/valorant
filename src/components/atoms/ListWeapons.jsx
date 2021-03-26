@@ -1,3 +1,4 @@
+// Imagenes de las armas
 import GuardianImaage from "../../images/Weapons/w-guardian.png";
 import SpectreImage from "../../images/Weapons/w-spectre.png";
 import SheriffImage from "../../images/Weapons/w-sheriff.png";
@@ -10,6 +11,8 @@ import OperatorImage from "../../images/Weapons/w-operator.png";
 import GhostImage from "../../images/Weapons/w-ghost.png"
 import TacticalKnifeImage from "../../images/Weapons/w-tactical-knife.png"
 import AresImage from "../../images/Weapons/w-ares.png";
+
+// Imagenes segun categoria
 import SMGSImage from "../../images/Weapons/Categories/SMGS-Text.svg";
 import SnipersImage from "../../images/Weapons/Categories/SNIPERS-Text.svg";
 import RiflesImage from "../../images/Weapons/Categories/RIFLES-Text.svg";
@@ -17,6 +20,8 @@ import SideArmImage from "../../images/Weapons/Categories/SIDEARM-Text.svg";
 import MelleImage from "../../images/Weapons/Categories/MELLE-Text.svg";
 import MachineGunImage from "../../images/Weapons/Categories/MACHINE-GUN-Text.svg";
 import ShotGunImage from "../../images/Weapons/Categories/SHOTGUNS-Text.svg";
+
+// Imagenes del nombre de las armas
 import SpectreText from "../../images/Weapons/TextNames/SPECTRE-Text.svg"
 import AresText from "../../images/Weapons/TextNames/ARES-Text.svg"
 import GuardianText from "../../images/Weapons/TextNames/GUARDIAN-Text.svg"

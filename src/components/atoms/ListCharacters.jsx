@@ -1,27 +1,24 @@
+// Imagenes de los personajes
+import JettImage from "../../images/Characters/Jett.webp";
+import SageImage from "../../images/Characters/Sage.png";
+import PhoenixImage from "../../images/Characters/Phoenix.png";
+import SovaImage from "../../images/Characters/Sova.png";
+
+// Imagenes de los nombre de los personajes
+import PhoenixImageText from "../../images/Characters/PHOENIX Name.svg";
+import SovaImageText from "../../images/Characters/SOVA Name.svg";
+import SageImageText from "../../images/Characters/SAGE Name.svg";
+import JettImageText from "../../images/Characters/JETT Name.svg";
+
+// Imagenes de las habilidades
 import CloudburstImage from "../../images/Skills/R-CLOUDBURST.svg";
 import BladestormImage from "../../images/Skills/R-BLADE-STORM.svg";
 import TailwindImage from "../../images/Skills/R-Tailwind.svg";
 import UpdraftImage from "../../images/Skills/R-UPDRAFT.svg";
-import JettImage from "../../images/Characters/Jett.webp";
-import JettImageText from "../../images/Characters/JETT Name.svg";
-import CloudBurstVideo from "../../videos/Jett_C_v001_web.mp4";
-import UpdraftVideo from "../../videos/Jett_Q_v001_web.mp4";
-import TailWindVideo from "../../videos/Jett_E_v001_web.mp4";
-import BladeStormVideo from "../../videos/Jett_X_v001_web.mp4";
-import BarrierOrbVideo from "../../videos/Sage_C_v001_web.mp4";
-import SlowOrbVideo from "../../videos/Sage_Q_v001_web.mp4";
-import HealingOrbVideo from "../../videos/Sage_E_v001_web.mp4";
-import ResurrectionVideo from "../../videos/Sage_X_v001_web.mp4";
-import SageImage from "../../images/Characters/Sage.png";
-import SageImageText from "../../images/Characters/SAGE Name.svg";
 import SlowOrbImage from "../../images/Skills/Slow-Orb.svg";
 import HealingOrbImage from "../../images/Skills/Healing-Orb.svg";
 import BarrierOrbImage  from "../../images/Skills/Barrier-Orb.svg"
 import ResurrectionImage  from "../../images/Skills/Resurrection.svg"
-import PhoenixImage from "../../images/Characters/Phoenix.png";
-import PhoenixImageText from "../../images/Characters/PHOENIX Name.svg";
-import SovaImage from "../../images/Characters/Sova.png";
-import SovaImageText from "../../images/Characters/SOVA Name.svg";
 import ShockBoltImage from "../../images/Skills/Shock-Bolt.svg";
 import HuntersFuryImage from "../../images/Skills/Hunters-Fury.svg";
 import ReconBoltImage from "../../images/Skills/Recon-Bolt.svg";
@@ -30,6 +27,8 @@ import BlazeImage from "../../images/Skills/Blaze.svg";
 import CurveBallImage from "../../images/Skills/CurveBall.svg";
 import HotHandsImage from "../../images/Skills/HOT-HANDS.svg";
 import RunItBackImage from "../../images/Skills/RUN-IT-BACK.svg";
+
+// Videos de las habilidades
 import BlazeVideo from "../../videos/Phoenix_C_v001_web.mp4";
 import CurveBallVideo from "../../videos/Phoenix_Q_v001_web.mp4";
 import HotHandsVideo from "../../videos/Phoenix_E_v001_web.mp4";
@@ -38,6 +37,14 @@ import ShockBoltVideo from "../../videos/Sova_Q_v001_web.mp4"
 import OlwDroneVideo from "../../videos/Sova_C_v001_web.mp4"
 import ReconBoltVideo from "../../videos/Sova_E_v001_web.mp4"
 import HuntersFuryVideo from "../../videos/Sova_X_v001_web.mp4"
+import CloudBurstVideo from "../../videos/Jett_C_v001_web.mp4";
+import UpdraftVideo from "../../videos/Jett_Q_v001_web.mp4";
+import TailWindVideo from "../../videos/Jett_E_v001_web.mp4";
+import BladeStormVideo from "../../videos/Jett_X_v001_web.mp4";
+import BarrierOrbVideo from "../../videos/Sage_C_v001_web.mp4";
+import SlowOrbVideo from "../../videos/Sage_Q_v001_web.mp4";
+import HealingOrbVideo from "../../videos/Sage_E_v001_web.mp4";
+import ResurrectionVideo from "../../videos/Sage_X_v001_web.mp4";
 
 const ListCharacters = [
     {
