@@ -12,6 +12,7 @@ const InfoWeaponTop = (props) => (
             alt={ListWeapons[props.first].weapons[
                 props.second
             ].imgLink}
+            draggable="false"
         />
         <div className="weapon-coins">
             <img

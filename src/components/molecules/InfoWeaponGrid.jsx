@@ -13,10 +13,29 @@ class InfoWeaponGrid extends React.Component {
         this.state = {
             first: this.props.first,
             second: this.props.second,
+            class: "without-title"
         };
     }
 
-    componentDidMount() {}
+    changeClass() {
+        if (ListWeapons[this.props.first].weapons[
+            this.props.second
+        ].weaponStats[0].title === "") {
+            this.setState({
+                class: "without-title"
+            })
+        } else {
+            this.setState({
+                class: ""
+            })
+        }
+    }
+
+    componentDidMount() {
+        setTimeout( () => {
+            this.changeClass()
+        }, 10)
+    }
 
     render() {
         return (
@@ -30,12 +49,12 @@ class InfoWeaponGrid extends React.Component {
                         <InfoWeaponMedium />
                         <WeaponSkinsContainer />
                     </div>
-                    <div className="info-weapon-grid-2">
+                    <div className={`info-weapon-grid-2 ${this.state.class}`}>
                         <div className="info-weapon-chart">
                             {ListWeapons[this.props.first].weapons[
                                 this.props.second
                             ].weaponStats.map((e) => {
-                                return <StatsWeapon stats={e} key={e.title} />;
+                                return <StatsWeapon stats={e} key={e.key} />;
                             })}
                         </div>
                         <WeaponTextName

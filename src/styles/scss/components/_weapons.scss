@@ -45,7 +45,7 @@
     top: 0;
     max-width: 45rem;
     @include from(l) {
-        top: 1rem;
+        top: -2rem;
         width: 110%;
         left: -5rem;
     }
@@ -71,6 +71,7 @@
     align-items: center;
     margin-left: 1rem;
     margin-bottom: 2rem;
+    z-index: 100;
 }
 
 .black {

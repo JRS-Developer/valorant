@@ -486,7 +486,7 @@
   max-width: 45rem; }
   @media screen and (min-width: 960px) {
     .weapon-image {
-      top: 1rem;
+      top: -2rem;
       width: 110%;
       left: -5rem; } }
 
@@ -507,7 +507,8 @@
   display: flex;
   align-items: center;
   margin-left: 1rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  z-index: 100; }
 
 .black {
   color: var(--primary-color);
@@ -581,6 +582,9 @@
   grid-template-columns: 3fr 1fr;
   grid-template-areas: "top top" "down down";
   gap: 20px; }
+
+.without-title {
+  grid-template-columns: none; }
 
 .info-weapon-medium-txt {
   margin-bottom: 2rem;

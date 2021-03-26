@@ -19,7 +19,6 @@ class WeaponInfoPage extends React.Component {
                         firstPosition: index,
                         secondPosition: i
                     })
-                    console.log(index, i)
                 }
             });
         });
