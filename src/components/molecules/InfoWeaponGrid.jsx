@@ -21,8 +21,8 @@ class InfoWeaponGrid extends React.Component {
     render() {
         return (
             <>
-                <div class="info-weapon">
-                    <div class="info-weapon-grid-1">
+                <div className="info-weapon">
+                    <div className="info-weapon-grid-1">
                         <InfoWeaponTop
                             first={this.props.first}
                             second={this.props.second}
@@ -30,16 +30,19 @@ class InfoWeaponGrid extends React.Component {
                         <InfoWeaponMedium />
                         <WeaponSkinsContainer />
                     </div>
-                    <div class="info-weapon-grid-2">
-                        <div class="info-weapon-chart">
+                    <div className="info-weapon-grid-2">
+                        <div className="info-weapon-chart">
                             {ListWeapons[this.props.first].weapons[
                                 this.props.second
                             ].weaponStats.map((e) => {
                                 return <StatsWeapon stats={e} key={e.title} />;
                             })}
                         </div>
-                        <WeaponTextName />
-                        <div class="info-weapon-chart">
+                        <WeaponTextName
+                            first={this.props.first}
+                            second={this.props.second}
+                        />
+                        <div className="info-weapon-chart">
                             <video
                                 id="video"
                                 className="agent-video weapon-video"

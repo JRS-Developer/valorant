@@ -1,10 +1,15 @@
-import SpectreText from "../../images/Weapons/SPECTRE-Text.svg"
-const WeaponTextName = () => (
-    <div class="info-weapon-chart clip">
+import ListWeapons from "../atoms/ListWeapons";
+
+const WeaponTextName = (props) => (
+    <div className="info-weapon-chart clip">
         <img
-            class="spectre-text"
-            src={SpectreText}
-            alt="Spectre text"
+            className="spectre-text"
+            src={ListWeapons[props.first].weapons[
+                props.second
+            ].imgText}
+            alt={ListWeapons[props.first].weapons[
+                props.second
+            ].imgLink}
         />
     </div>
 );

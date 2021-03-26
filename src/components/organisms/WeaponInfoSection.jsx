@@ -5,10 +5,10 @@ import React from "react";
 class WeaponInfoSection extends React.Component {
     render() {
         return (
-            <section class="weapon">
-                <div class="foto-weapon">
+            <section className="weapon">
+                <div className="foto-weapon">
                     <img
-                        class="foto-weapon-text"
+                        className="foto-weapon-text"
                         src={
                             ListWeapons[this.props.first].weapons[
                                 this.props.second

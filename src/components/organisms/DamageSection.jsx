@@ -1,8 +1,8 @@
 import Damage from "../atoms/Damage"
 
 const DamageSection = () => (
-    <section class="armas-section damage-section">
-            <div class="armas-container">
+    <section className="armas-section damage-section">
+            <div className="armas-container">
                 <Damage />
                 <Damage />
                 <Damage />

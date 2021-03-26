@@ -1,7 +1,7 @@
 import WeaponSkin from "../atoms/WeaponSkin"
 
 const WeaponSkinsContainer = () => (
-    <div class="weapon-skins-container">
+    <div className="weapon-skins-container">
         <WeaponSkin />
         <WeaponSkin />
     </div>
