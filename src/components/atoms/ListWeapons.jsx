@@ -844,7 +844,7 @@ const ListWeapons = [
                 ],
             },
             {
-                name: "TACTICAL KNIFE",
+                name: "KNIFE",
                 id: "tactical-knife",
                 category: "MELLE",
                 image: TacticalKnifeImage,

@@ -37,6 +37,7 @@
         grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
         gap: 2%;
         flex-wrap: wrap;
+        margin-top: 4rem;
     }
 
     @include upto(lx){

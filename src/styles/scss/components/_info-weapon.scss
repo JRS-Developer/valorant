@@ -1,16 +1,20 @@
 .info-weapon-grid-1{
     display: grid;
     gap: 20px;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: auto;
     position: relative;
 
     @include from(l) {
+        grid-template-rows: 1fr 3fr;
+    }
+    @include from(lx) {
         grid-template-rows: 1fr 2fr;
     }
 }
 
 .info-weapon-top {
     display: flex;
+    min-height: 200px;
     align-items: flex-end;
 }
 
