@@ -68,7 +68,7 @@
     transition: transform .3s;
 
     @include from(l) {
-        width: 80%;
+        width: auto;
     }
 }
 

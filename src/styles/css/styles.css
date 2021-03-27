@@ -183,8 +183,11 @@
 
 .personaje {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-between; }
+  @media screen and (min-width: 960px) {
+    .personaje {
+      flex-wrap: wrap; } }
 
 .info {
   width: 100%;
@@ -287,6 +290,10 @@
   @media screen and (min-width: 960px) {
     .agent-skills {
       display: grid;
+      grid-template-columns: 1fr 1fr; } }
+  @media screen and (min-width: 1190px) {
+    .agent-skills {
+      display: grid;
       grid-template-columns: 1fr 1px 1fr 1px 1fr 1px 1fr; } }
 
 .skills {
@@ -302,7 +309,8 @@
 @media screen and (min-width: 960px) {
   .skills:hover {
     transform: scale(1.1, 1.1);
-    z-index: 100; }
+    z-index: 100;
+    border: 1px solid var(--pink-color); }
     .skills:hover img {
       filter: brightness(500%); } }
 
@@ -328,7 +336,11 @@
     .barra {
       width: 1px;
       height: 80%;
-      margin: auto; } }
+      margin: auto;
+      display: none; } }
+  @media screen and (min-width: 1190px) {
+    .barra {
+      display: block; } }
 
 .skills-icon {
   cursor: pointer; }
@@ -387,7 +399,7 @@
   transition: transform .3s; }
   @media screen and (min-width: 960px) {
     .armas-img {
-      width: 80%; } }
+      width: auto; } }
 
 .armas-img:hover {
   transform: rotateZ(30deg); }

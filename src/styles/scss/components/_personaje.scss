@@ -1,7 +1,10 @@
 .personaje{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
+    @include from(l){
+        flex-wrap: wrap;
+    }
 }
 
 .info {
@@ -132,6 +135,10 @@
 
     @include from(l) {
         display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    @include from(lx) {
+        display: grid;
         grid-template-columns: 1fr 1px 1fr 1px 1fr 1px 1fr;
     }
 }
@@ -155,7 +162,7 @@
         // background-color: var(--pink-color);
         transform: scale(1.1, 1.1);
         z-index: 100;
-        
+        border: 1px solid var(--pink-color);
     
         & img {
             filter: brightness(500%);
@@ -189,6 +196,11 @@
         width: 1px;
         height: 80%;
         margin: auto;
+        display: none;
+    }
+
+    @include from(lx) {
+        display: block;
     }
 }
 
