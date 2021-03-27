@@ -144,7 +144,8 @@ const ListWeapons = [
                 imgText: SpectreText,
                 imgLink: `Spectre`,
                 imgCategory: SMGSImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Spectre is a moderately-priced submachine gun that occupies its wielder's primary weapon slot. It is outfitted with a silencer that reduces the range of the weapon's audio profile. In comparison to the Stinger, it is substantially more accurate, kicks considerably less, possesses slightly more cover piercing capability, and has a higher magazine capacity (30 as opposed to 20). However, its slightly lower per-shot damage and lessened fire rate render its total output statistically lower.`,
+                infoSecond: `The weapon is a useful force buy if your team is strapped for cash, and is markedly effective at close ranges, especially on unarmoured targets. Its quietened firing sound can also come in handy for ambushing enemies, as less alert players may not have their attention drawn by your shots. However, as players acquire higher-damage rifles, it loses its effectiveness later in the game, where its role is better filled by the Phantom assault rifle, which, like the Spectre, is suppressed, and, differently, has the potential to kill an enemy in a single headshot (granted that the target lacks sufficient armor points), and has a much greater effective range with better penetration capability.`,
                 points: "1,600",
                 damage: [
                     {

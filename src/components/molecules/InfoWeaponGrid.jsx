@@ -47,7 +47,8 @@ class InfoWeaponGrid extends React.Component {
                             first={this.props.first}
                             second={this.props.second}
                         />
-                        <InfoWeaponMedium />
+                        <InfoWeaponMedium first={this.props.first}
+                            second={this.props.second}/>
                         <WeaponSkinsContainer
                             first={this.props.first}
                             second={this.props.second}
