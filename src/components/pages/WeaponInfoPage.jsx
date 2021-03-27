@@ -17,8 +17,8 @@ class WeaponInfoPage extends React.Component {
                 if (e.imgLink === this.props.match.params.name) {
                     this.setState({
                         firstPosition: index,
-                        secondPosition: i
-                    })
+                        secondPosition: i,
+                    });
                 }
             });
         });
@@ -27,8 +27,14 @@ class WeaponInfoPage extends React.Component {
     render() {
         return (
             <>
-                <WeaponInfoSection first={this.state.firstPosition} second={this.state.secondPosition}/>
-                <DamageSection first={this.state.firstPosition} second={this.state.secondPosition}/>
+                <WeaponInfoSection
+                    first={this.state.firstPosition}
+                    second={this.state.secondPosition}
+                />
+                <DamageSection
+                    first={this.state.firstPosition}
+                    second={this.state.secondPosition}
+                />
             </>
         );
     }

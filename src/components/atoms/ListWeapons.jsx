@@ -40,6 +40,9 @@ import HeadIcon from "../../images/Weapons/DamageIcons/head.svg"
 import BodyIcon from "../../images/Weapons/DamageIcons/body.svg"
 import LegIcon from "../../images/Weapons/DamageIcons/leg.svg"
 
+// Skins de las armas
+
+
 const ListWeapons = [
     {
         key: 0,

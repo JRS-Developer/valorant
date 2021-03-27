@@ -71,7 +71,7 @@
     align-items: center;
     margin-left: 1rem;
     margin-bottom: 2rem;
-    z-index: 100;
+    z-index: var(--z-front);
 }
 
 .black {

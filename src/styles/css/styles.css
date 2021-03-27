@@ -433,7 +433,6 @@
 
 .armas-text-coin {
   color: white;
-  z-index: 1000;
   font-family: var(--title-font);
   font-size: var(--normal-font-size);
   padding-left: 1rem;
@@ -508,7 +507,7 @@
   align-items: center;
   margin-left: 1rem;
   margin-bottom: 2rem;
-  z-index: 100; }
+  z-index: var(--z-front); }
 
 .black {
   color: var(--primary-color);
@@ -589,6 +588,9 @@
 .info-weapon-medium-txt {
   margin-bottom: 2rem;
   margin-left: 1rem; }
+
+.info-weapon-medium {
+  z-index: var(--z-front); }
 
 .weapon-skins-container {
   display: grid;
