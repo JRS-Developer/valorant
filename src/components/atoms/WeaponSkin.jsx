@@ -1,22 +1,21 @@
-import Skin from "../../images/Weapons/Weapons-Skins/Luxe Spectre Level 1.svg"
 import ValorantPoints from "../../images/Icons/valorant point.svg"
 
-const WeaponSkin = () => (
+const WeaponSkin = ({object, key}) => (
     <div className="weapon-skin">
         <div className="flex mt weapon-skin-txt">
-            <p className="weapon-skin-name">Luxe Spectre Level 1</p>
+            <p className="weapon-skin-name">{object.name}</p>
             <img
                 className="valorant-points"
                 src={ValorantPoints}
                 alt=""
             />
-            <p className="weapon-skin-points">875</p>
+            <p className="weapon-skin-points">{object.points}</p>
         </div>
         <div>
             <img
                 className="weapon-skin-img"
-                src={Skin}
-                alt=""
+                src={object.image}
+                alt={object.name}
             />
         </div>
     </div>

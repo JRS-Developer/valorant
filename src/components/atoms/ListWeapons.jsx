@@ -41,7 +41,8 @@ import BodyIcon from "../../images/Weapons/DamageIcons/body.svg"
 import LegIcon from "../../images/Weapons/DamageIcons/leg.svg"
 
 // Skins de las armas
-
+import InfantrySpectreSkin from "../../images/Weapons/Weapons-Skins/infantry_spectre.png"
+import SplineSpectreSkin from "../../images/Weapons/Weapons-Skins/spline_spectre.png"
 
 const ListWeapons = [
     {
@@ -77,7 +78,15 @@ const ListWeapons = [
                         distance: "0 - 50 m"
                     },
                 ],
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 weaponStats: [
                     {
                         key: "Guardian-Stat-1",
@@ -135,7 +144,15 @@ const ListWeapons = [
                         distance: "0 - 20 m"
                     },
                 ],
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 weaponStats: [
                     {
                         key: "Spectre-Stat-1",
@@ -173,7 +190,15 @@ const ListWeapons = [
                 imgCategory: SideArmImage,
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "800",
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 damage: [
                     {
                         zone: "Head",
@@ -294,7 +319,15 @@ const ListWeapons = [
                 imgCategory: SMGSImage,
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "1,100",
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 damage: [
                     {
                         zone: "Head",
@@ -352,7 +385,15 @@ const ListWeapons = [
                 imgCategory: SideArmImage,
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "200",
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 damage: [
                     {
                         zone: "Head",
@@ -415,7 +456,15 @@ const ListWeapons = [
                 imgCategory: SnipersImage,
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "2,700",
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 damage: [
                     {
                         zone: "Head",
@@ -473,7 +522,15 @@ const ListWeapons = [
                 imgCategory: ShotGunImage,
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "1,600",
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 damage: [
                     {
                         zone: "Head",
@@ -551,7 +608,15 @@ const ListWeapons = [
                         distance: "0 - 30 m"
                     },
                 ],
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 weaponStats: [
                     {
                         key: "Classic-Stat-1",
@@ -614,7 +679,15 @@ const ListWeapons = [
                         distance: "0 - 30 m"
                     },
                 ],
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 weaponStats: [
                     {
                         key: "Ares-Stat-1",
@@ -672,7 +745,15 @@ const ListWeapons = [
                         distance: "0 - 30 m"
                     },
                 ],
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 weaponStats: [
                     {
                         key: "Ghost-Stat-1",
@@ -730,7 +811,15 @@ const ListWeapons = [
                         distance: "0 - 8 m"
                     },
                 ],
-                skins: [{}, {}],
+                skins: [{
+                    name: "Infantry Spectre",
+                    image: InfantrySpectreSkin,
+                    points: "875",
+                }, {
+                    name: "Spline Spectre",
+                    image: SplineSpectreSkin,
+                    points: "1775",
+                }],
                 weaponStats: [
                     {
                         key: "Knife-Stat-1",
