@@ -587,7 +587,8 @@
 
 .info-weapon-medium-txt {
   margin-bottom: 2rem;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+  font-size: var(--normal-font-size); }
 
 .info-weapon-medium {
   z-index: var(--z-front); }
@@ -678,7 +679,7 @@ a:active {
     --h3-font-size: 1.25rem;
     --h4-font-size: 1rem;
     --big-font-size: 1rem;
-    --normal-font-size: 0.8rem;
+    --normal-font-size: 0.85rem;
     --small-font-size: 0.7rem;
     --smaller-font-size: 0.6875rem; } }
 

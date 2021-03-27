@@ -26,7 +26,7 @@ class WeaponInfoPage extends React.Component {
 
     render() {
         return (
-            <>
+            <main className="main">
                 <WeaponInfoSection
                     first={this.state.firstPosition}
                     second={this.state.secondPosition}
@@ -35,7 +35,7 @@ class WeaponInfoPage extends React.Component {
                     first={this.state.firstPosition}
                     second={this.state.secondPosition}
                 />
-            </>
+            </main>
         );
     }
 }

@@ -78,7 +78,10 @@ const ListWeapons = [
                 imgText: GuardianText,
                 imgLink: `Guardian`,
                 imgCategory: RiflesImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Guardian is a semi automatic rifle that sits at a moderate price of 2,400 compared to other rifles. The Guardian is unique for being the only semi automatic rifle, having a 1.5x zoom as well as the highest damage per bullet compared to any other rifles. It is also the lowest first shot spread weapon in the game.`,
+                infoSecond: `The Guardian, though being semi-automatic, can still fire decently fast at 5.25 rounds per second. The Guardian shines at one aspect, its damage per bullet. It is a 4 to the legs, 3 to the body and 1 to the head at any range.
+
+                The Rifle shines on the defensive side, as with its extreme damage per bullet and 1.5x zoom makes it a dangerous rifle to peek, especially since it's a guaranteed one tap to the head.`,
                 points: "2,400",
                 damage: [
                     {
@@ -211,7 +214,10 @@ const ListWeapons = [
                 imgText: SheriffText,
                 imgLink: `Sheriff`,
                 imgCategory: SideArmImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Sheriff is the most expensive sidearm in the game, costing 800 Credits. It is a semi-automatic revolver with a six-shot magazine and high damage output.`,
+                infoSecond: `The sidearm is extremely useful for economy and pistol rounds, due to its relatively cheap price and high damage output, rivalling that of most rifles. It typically takes 4 shots to the legs, 3 to the body, and 1 to the head to kill.
+
+                The main disadvantage of the Sheriff is in its long pullout time and severe recoil. It has the most recoil of any pistol and takes quite a bit of time to recover.`,
                 points: "800",
                 skins: [{
                     name: "Wasteland Sheriff",
@@ -282,7 +288,11 @@ const ListWeapons = [
                 imgText: BullDogText,
                 imgLink: `Bulldog`,
                 imgCategory: RiflesImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Bulldog is a fully-automatic rifle, and is the cheapest of the three fully automatic rifles in the game. Its magazine holds 24 bullets. It has a good fire rate, and a alternate fire of 3 round bursts. It is a 2 tap to the head and 5 to the body or legs. The Bulldog also has ADS, like other rifles.
+                
+                The Bulldog is unique for having a relatively low cost compared to the other fully automatic rifles at 2100. This makes it a useful force buy for eco rounds if your team lacks money. However, it costs significantly more than SMGs`,
+                infoSecond: `It also has a 3 round burst, unlike other rifles, which can be good for close quarters. However, the spread significantly increases at medium to long ranges, so you'll want to use its primary fire otherwise.
+                The ADS is good for supporting an assault on a site or holding a site down, as it increases aim and reduces recoil and spread (Overall makes the weapon more accurate).`,
                 points: "2,100",
                 skins: [{
                     name: "Horizon Bulldog",
@@ -348,7 +358,10 @@ const ListWeapons = [
                 imgText: StingerText,
                 imgLink: `Stinger`,
                 imgCategory: SMGSImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Stinger sits at 1100 credits and is unique for its high fire rate and short range.
+
+                It has an alternate fire mode when aiming down sights, consisting of a four round burst with tighter spread and less recoil. This can be effective at close range to instantly head-burst someone, or at medium range to rapidly finish off a wounded target, however sustained DPS is very low in this fire mode and accuracy is still poor.`,
+                infoSecond: `The Stinger is useful for buys when your team does not have sufficient credits for rifles, and cannot afford the Spectre, but still wants to compete at close range with enemies that purchased higher credit guns. The Stinger can only be used effectively at very close ranges, where it's high DPS can be put into use while minimizing the loss of damage caused by the high spread. Considering the low capacity size of 20 shots per magazine, it is still important to make every shot count, especially when facing more than one enemy, as burning through all of its bullets in a few milliseconds is a crippling disadvantage using the Stinger brings. It is also important to learn when to pull down during its intense recoil pattern.`,
                 points: "1,100",
                 skins: [{
                     name: "Ego Stinger",
@@ -414,7 +427,12 @@ const ListWeapons = [
                 imgText: ShortyText,
                 imgLink: `Shorty`,
                 imgCategory: SideArmImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Shorty is the cheapest purchasable weapon in the game. It costs 200 credits and is a semi-automatic, sawed-off double-barreled shotgun.
+
+                This weapon is particularly useful for players who want to save credits. It excels in short-range combat and ambush maneuvers, especially in tight corridors and chokepoints.`,
+                infoSecond: `The Shorty, unlike the Judge, is largely ineffective at medium to long ranges due to the significant damage falloff and pellet spread the weapon experiences.
+
+                Due to the Shorty's small clip size, it excels at quick, one-on-one exchanges, but struggles in more sustained firefights against multiple enemies due to the frequent need to reload.`,
                 points: "200",
                 skins: [{
                     name: "Oni Shorty",
@@ -485,7 +503,10 @@ const ListWeapons = [
                 imgText: OperatorText,
                 imgLink: `Operator`,
                 imgCategory: SnipersImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Operator has the highest damage per bullet out of all the weapons in the game, making it a force to be reckoned with due to its one-hit-kill nature. It is also the most expensive weapon in the game at 5,000 credits.
+
+                The scope has a dual zoom mode: the 5x can focus on holding tight angles, while 2.5x handles better in more open areas.`,
+                infoSecond: `The weapon has a notably low fire-rate, creating a large window of vulnerability that allow enemies to easily retaliate. It is also the longest equip time weapon in the game at 1.5 seconds. Auto scope-in after firing a shot can be enabled from the settings menu.`,
                 points: "2,700",
                 skins: [{
                     name: "Elderflame Operator",
@@ -551,7 +572,8 @@ const ListWeapons = [
                 imgText: JudgeText,
                 imgLink: `Judge`,
                 imgCategory: ShotGunImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Judge is the most expensive shotgun in the game at 1600 credits. It shoots 12 bullets with high falloff like other shotguns. At 10 or fewer meters, 9 bullets are needed to oneshot an armored agent, while all 12 are needed at 10-15 meters if they strike the body. Any bullets that hit the head deal double damage.`,
+                infoSecond: `While it does less damage per bullet than the Bucky, it makes up for it with its significantly reduced spread and higher fire rate making the gun much more forgiving. Crouching reduces the spread much more with the Judge than it does with the Bucky.`,
                 points: "1,600",
                 skins: [{
                     name: "Celestial Judge",
@@ -617,7 +639,12 @@ const ListWeapons = [
                 imgText: ClassicText,
                 imgLink: `Classic`,
                 imgCategory: SideArmImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Classic is the pistol that all players receive upon spawning.
+
+                Compared to most other weapons, the Classic does a meager amount of damage. However, its nonexistent price tag makes it effective for rounds in which the player or team wishes to save credits for later rounds.
+                
+                Due to its low damage output, the Classic requires more shots than most in order to score a kill. Typically, a player with the Classic must hit two or three shots to the head, 7 to the body, or 8 to the legs.`,
+                infoSecond: `The Classic has an alternate fire (right-click default). It fires a three-shot burst with moderate spread. Due to this unique mechanic, the Classic is fairly versatile and is viable at both short and medium ranges. This flexibility gives it an edge over other secondary weapons, which typically are only suited for a particular firing range. For example, the Shorty and Frenzy are viable almost exclusively at short ranges, while the Ghost and Sheriff are typically used for mid-range combat.`,
                 points: "Free",
                 damage: [
                     {
@@ -688,7 +715,10 @@ const ListWeapons = [
                 imgText: AresText,
                 imgLink: `Ares`,
                 imgCategory: MachineGunImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Ares can be bought for 1600 credits and is a heavy weapon that, like the Odin, is best used for wallbanging due to its high wall penetration and high magazine size, which is the second highest in the game at 50.
+
+                It costs the same as the Spectre, but while the Spectre specializes at short to medium range fights, the Ares is better at a distance due to its low damage falloff.`,
+                infoSecond: `It has an extremely high rate of fire, coupled with a large magazine, Feel free to spray through smokes and walls. Simple spray pattern ⁠— just pull down ⁠— Effective at both short and long range. A nice deal over the Bulldog and Spectre choice for half-buys, anti-ecos, and even eco rounds rounds after v0.50 update.`,
                 points: "1,600",
                 damage: [
                     {
@@ -754,7 +784,8 @@ const ListWeapons = [
                 imgText: GhostText,
                 imgLink: `Ghost`,
                 imgCategory: SideArmImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Ghost is semi-automatic sidearm pistol. It deals a fairly high amount of damage upon hit, usually taking 2 shots to the head and 5 to 6 shots to the body to kill. The Ghost comes equipped with a silencer, which helps to increase its overall accuracy, and also reduces noise while firing, making it effective as a stealth weapon.`,
+                infoSecond: `The Ghost is a reliable backup weapon. Its above-average accuracy, good damage and overall consistency allows you to rely on the pistol during most situations.`,
                 points: "500",
                 damage: [
                     {
@@ -820,7 +851,10 @@ const ListWeapons = [
                 imgText: TacticalKnifeText,
                 imgLink: `Tactical_knife`,
                 imgCategory: MelleImage,
-                info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
+                infoFirst: `The Tactical knife is a base melee weapon is provided to every player, and cannot be dropped. It has a two modes of fire: one being a fast slashing motion, and the other being a sharp jab. The primary fire has a three swing combo that loops, while the secondary fire deals more damage in a single strike with a longer recovery. The weapon also deals double damage against the target's back.`,
+                infoSecond: `Scoring a kill with this weapon rewards the same number of creds as a regular kill.
+
+                The player runs at 6.6m/s (Might be slightly inaccurate!) with the knife, being second in terms of running speed and is outmatched by the speed of the Golden Gun`,
                 points: "Free",
                 damage: [
                     {
