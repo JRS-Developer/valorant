@@ -43,6 +43,28 @@ import LegIcon from "../../images/Weapons/DamageIcons/leg.svg"
 // Skins de las armas
 import InfantrySpectreSkin from "../../images/Weapons/Weapons-Skins/infantry_spectre.png"
 import SplineSpectreSkin from "../../images/Weapons/Weapons-Skins/spline_spectre.png"
+import OniGuardianSkin from "../../images/Weapons/Weapons-Skins/oni_guardian.png"
+import ReaverGuardianSkin from "../../images/Weapons/Weapons-Skins/reaver_guardian.png"
+import WastelandSheriffSkin from "../../images/Weapons/Weapons-Skins/wasteland_sheriff.png"
+import SakuraSheriffSkin from "../../images/Weapons/Weapons-Skins/sakura_sheriff.png"
+import AristocratBulldogSkin from "../../images/Weapons/Weapons-Skins/aristocrat_bulldog.png"
+import HorizonBulldogSkin from "../../images/Weapons/Weapons-Skins/horizon_bulldog.png"
+import EgoStingerSkin from "../../images/Weapons/Weapons-Skins/ego_stinger.png"
+import SovereignStingerSkin from "../../images/Weapons/Weapons-Skins/sovereign_stinger.png"
+import OniShortySkin from "../../images/Weapons/Weapons-Skins/oni_shorty.png"
+import PrismIIShortySkin from "../../images/Weapons/Weapons-Skins/prism-2_shorty.png"
+import ElderfralmeOperatorSkin from "../../images/Weapons/Weapons-Skins/elderflame_operator.png"
+import ReaverOperatorSkin from "../../images/Weapons/Weapons-Skins/reaver_operator.png"
+import CelestialJudgeSkin from "../../images/Weapons/Weapons-Skins/celestial_judge.png"
+import GlitchpopJudgeSkin from "../../images/Weapons/Weapons-Skins/glitchpop_judge.png"
+import ImperiumClassicSkin from "../../images/Weapons/Weapons-Skins/imperium_classic.png"
+import AvalancheClassicSkin from "../../images/Weapons/Weapons-Skins/avalanche_classic.png"
+import InfantryAresSkin from "../../images/Weapons/Weapons-Skins/infantry_ares.png"
+import SingularityAresSkin from "../../images/Weapons/Weapons-Skins/singularity_ares.png"
+import WinterWonderlandGhostSkin from "../../images/Weapons/Weapons-Skins/winter_wonderland_ghost.png"
+import PrismGhostSkin from "../../images/Weapons/Weapons-Skins/prism_ghost.png"
+import LuxeKnifeSkin from "../../images/Weapons/Weapons-Skins/luxe_knife.png"
+import GlitchpopKnifeSkin from "../../images/Weapons/Weapons-Skins/glitchpop_knife.png"
 
 const ListWeapons = [
     {
@@ -79,12 +101,12 @@ const ListWeapons = [
                     },
                 ],
                 skins: [{
-                    name: "Infantry Spectre",
-                    image: InfantrySpectreSkin,
-                    points: "875",
+                    name: "Reaver Guardian",
+                    image: ReaverGuardianSkin,
+                    points: "1775",
                 }, {
-                    name: "Spline Spectre",
-                    image: SplineSpectreSkin,
+                    name: "Oni Guardian",
+                    image: OniGuardianSkin,
                     points: "1775",
                 }],
                 weaponStats: [
@@ -191,13 +213,13 @@ const ListWeapons = [
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "800",
                 skins: [{
-                    name: "Infantry Spectre",
-                    image: InfantrySpectreSkin,
-                    points: "875",
+                    name: "Wasteland Sheriff",
+                    image: WastelandSheriffSkin,
+                    points: "1275",
                 }, {
-                    name: "Spline Spectre",
-                    image: SplineSpectreSkin,
-                    points: "1775",
+                    name: "Sakura Sheriff",
+                    image: SakuraSheriffSkin,
+                    points: "1275",
                 }],
                 damage: [
                     {
@@ -261,7 +283,15 @@ const ListWeapons = [
                 imgCategory: RiflesImage,
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "2,100",
-                skins: [{}, {}],
+                skins: [{
+                    name: "Horizon Bulldog",
+                    image: HorizonBulldogSkin,
+                    points: "1275",
+                }, {
+                    name: "Aristocrat Bulldog",
+                    image: AristocratBulldogSkin,
+                    points: "1275",
+                }],
                 damage: [
                     {
                         zone: "Head",
@@ -320,12 +350,12 @@ const ListWeapons = [
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "1,100",
                 skins: [{
-                    name: "Infantry Spectre",
-                    image: InfantrySpectreSkin,
-                    points: "875",
+                    name: "Ego Stinger",
+                    image: EgoStingerSkin,
+                    points: "1775",
                 }, {
-                    name: "Spline Spectre",
-                    image: SplineSpectreSkin,
+                    name: "Sovereign Stinger",
+                    image: SovereignStingerSkin,
                     points: "1775",
                 }],
                 damage: [
@@ -386,12 +416,12 @@ const ListWeapons = [
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "200",
                 skins: [{
-                    name: "Infantry Spectre",
-                    image: InfantrySpectreSkin,
-                    points: "875",
+                    name: "Oni Shorty",
+                    image: OniShortySkin,
+                    points: "1775",
                 }, {
-                    name: "Spline Spectre",
-                    image: SplineSpectreSkin,
+                    name: "Prism II Shorty",
+                    image: PrismIIShortySkin,
                     points: "1775",
                 }],
                 damage: [
@@ -457,12 +487,12 @@ const ListWeapons = [
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "2,700",
                 skins: [{
-                    name: "Infantry Spectre",
-                    image: InfantrySpectreSkin,
-                    points: "875",
+                    name: "Elderflame Operator",
+                    image: ElderfralmeOperatorSkin,
+                    points: "2475",
                 }, {
-                    name: "Spline Spectre",
-                    image: SplineSpectreSkin,
+                    name: "Reaver Operator",
+                    image: ReaverOperatorSkin,
                     points: "1775",
                 }],
                 damage: [
@@ -500,7 +530,7 @@ const ListWeapons = [
                         firstGrayText: "Fire Mode : ",
                         firstDarkText: "Dual zoom (2.5x, 5x)",
                         secondGrayText: "Rate of Fire : ",
-                        secondDarkText: "1.10.75 rounds/sec",
+                        secondDarkText: "0.75 rounds/sec",
                     },
                     {
                         key: "Operator-Stat-3",
@@ -523,13 +553,13 @@ const ListWeapons = [
                 info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
                 points: "1,600",
                 skins: [{
-                    name: "Infantry Spectre",
-                    image: InfantrySpectreSkin,
-                    points: "875",
-                }, {
-                    name: "Spline Spectre",
-                    image: SplineSpectreSkin,
+                    name: "Celestial Judge",
+                    image: CelestialJudgeSkin,
                     points: "1775",
+                }, {
+                    name: "Glitchpop Judge",
+                    image: GlitchpopJudgeSkin,
+                    points: "2175",
                 }],
                 damage: [
                     {
@@ -609,13 +639,13 @@ const ListWeapons = [
                     },
                 ],
                 skins: [{
-                    name: "Infantry Spectre",
-                    image: InfantrySpectreSkin,
-                    points: "875",
-                }, {
-                    name: "Spline Spectre",
-                    image: SplineSpectreSkin,
+                    name: "Imperium Classic",
+                    image: ImperiumClassicSkin,
                     points: "1775",
+                }, {
+                    name: "Avalanche Classic",
+                    image: AvalancheClassicSkin,
+                    points: "1275",
                 }],
                 weaponStats: [
                     {
@@ -680,13 +710,13 @@ const ListWeapons = [
                     },
                 ],
                 skins: [{
-                    name: "Infantry Spectre",
-                    image: InfantrySpectreSkin,
+                    name: "Infantry Ares",
+                    image: InfantryAresSkin,
                     points: "875",
                 }, {
-                    name: "Spline Spectre",
-                    image: SplineSpectreSkin,
-                    points: "1775",
+                    name: "Singularity Ares",
+                    image: SingularityAresSkin,
+                    points: "2175",
                 }],
                 weaponStats: [
                     {
@@ -746,13 +776,13 @@ const ListWeapons = [
                     },
                 ],
                 skins: [{
-                    name: "Infantry Spectre",
-                    image: InfantrySpectreSkin,
-                    points: "875",
+                    name: "Winter Wonderland Ghost",
+                    image: WinterWonderlandGhostSkin,
+                    points: "1275",
                 }, {
-                    name: "Spline Spectre",
-                    image: SplineSpectreSkin,
-                    points: "1775",
+                    name: "Prism Ghost",
+                    image: PrismGhostSkin,
+                    points: "1275",
                 }],
                 weaponStats: [
                     {
@@ -812,13 +842,13 @@ const ListWeapons = [
                     },
                 ],
                 skins: [{
-                    name: "Infantry Spectre",
-                    image: InfantrySpectreSkin,
-                    points: "875",
+                    name: "Luxe Knife",
+                    image: LuxeKnifeSkin,
+                    points: "1750",
                 }, {
-                    name: "Spline Spectre",
-                    image: SplineSpectreSkin,
-                    points: "1775",
+                    name: "Glitchpop Knife",
+                    image: GlitchpopKnifeSkin,
+                    points: "4350",
                 }],
                 weaponStats: [
                     {
