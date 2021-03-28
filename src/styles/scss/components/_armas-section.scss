@@ -58,13 +58,19 @@
     mask-clip: 50%;
 }
 
+.armas-stroke {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
 .armas-img {
     width: 50%;
     height: 80%;
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 100;
+    z-index: var(--z-front);
     transition: transform .3s;
 
     @include from(l) {
@@ -91,6 +97,7 @@
 .armas-title {
     font-family: var(--title-font);
     font-size: var(--h3-font-size);
+    letter-spacing: 1.25px;
     padding-left: 1rem;
     margin-top: 2rem;
     margin-bottom: -5.5rem;
@@ -100,6 +107,7 @@
 .armas-text {
     font-family: var(--title-font);
     font-size: var(--normal-font-size);
+    letter-spacing: 1.25px;
     padding-left: 1rem;
     font-weight: 700;
     padding-right: 1rem;
@@ -130,6 +138,7 @@
     font-family: var(--title-font);
     font-size: var(--normal-font-size);
     padding-left: 1rem;
+    letter-spacing: 1.25px;
     font-weight: 700;
     padding-right: 1rem;
 

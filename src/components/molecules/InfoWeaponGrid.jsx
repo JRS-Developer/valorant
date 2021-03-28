@@ -52,6 +52,7 @@ class InfoWeaponGrid extends React.Component {
                         <WeaponSkinsContainer
                             first={this.props.first}
                             second={this.props.second}
+                            xClass="weapon-hidden"
                         />
                     </div>
                     <div className={`info-weapon-grid-2 ${this.state.class}`}>
@@ -66,7 +67,7 @@ class InfoWeaponGrid extends React.Component {
                             first={this.props.first}
                             second={this.props.second}
                         />
-                        <div className="info-weapon-chart">
+                        <div className="info-weapon-chart down">
                             <video
                                 id="video"
                                 className="agent-video weapon-video"
@@ -75,6 +76,11 @@ class InfoWeaponGrid extends React.Component {
                                 autoPlay
                             ></video>
                         </div>
+                        <WeaponSkinsContainer
+                            first={this.props.first}
+                            second={this.props.second}
+                            xClass="weapon-shown"
+                        />
                     </div>
                 </div>
             </>

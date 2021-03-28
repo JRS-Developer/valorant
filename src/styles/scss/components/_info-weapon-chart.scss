@@ -5,7 +5,8 @@
     position: relative;
     min-height: 120px;
 }
-.info-weapon-chart:last-child{
+
+.down {
     grid-area: down;
 }
 
@@ -14,12 +15,14 @@
     font-family: var(--title-font);
     margin-top: 2rem;
     margin-bottom: 2rem;
+    letter-spacing: 1.25px;
 }
 
 .fire-text {
     font-size: var(--normal-font-size);
     margin-bottom: 1rem;
     font-family: var(--title-font);
+    letter-spacing: 1.25px;
     color: var(--primary-color-alt);
 
     & strong {
@@ -46,9 +49,10 @@
 }
 
 .spectre-text {
-    height: 90%;
+    height: 100%;
     @include from(l) {
         margin-top: -2rem;
+        height: 90%;
     }
     }
     

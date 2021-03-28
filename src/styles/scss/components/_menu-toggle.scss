@@ -27,6 +27,8 @@
 
 .toggle {
     display: flex;
+    align-content: center;
+    height: 2.5rem;
     @include from(l) {
         display: none;
     }

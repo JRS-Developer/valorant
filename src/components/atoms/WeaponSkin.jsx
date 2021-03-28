@@ -1,6 +1,6 @@
 import ValorantPoints from "../../images/Icons/valorant point.svg"
 
-const WeaponSkin = ({object, key}) => (
+const WeaponSkin = ({object}) => (
     <div className="weapon-skin">
         <div className="flex mt weapon-skin-txt">
             <p className="weapon-skin-name">{object.name}</p>

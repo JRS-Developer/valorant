@@ -20,10 +20,15 @@
 
 .info-weapon-grid-2{
     display: grid;
-    grid-template-rows: 3fr;
+    grid-template-rows: .75fr;
     grid-template-columns: 3fr 1fr;
-    grid-template-areas: "top top" "down down";
+    grid-template-areas: "top top" "down down" "superdown superdown";
     gap: 20px;
+
+    @include from(l) {
+        grid-template-rows: 3fr;
+        grid-template-areas: "top top" "down down";
+    }
 }
 
 .without-title {

@@ -107,7 +107,9 @@
   background-color: black; }
 
 .toggle {
-  display: flex; }
+  display: flex;
+  align-content: center;
+  height: 2.5rem; }
   @media screen and (min-width: 960px) {
     .toggle {
       display: none; } }
@@ -203,6 +205,7 @@
 
 .info-title {
   font-family: var(--title-font);
+  letter-spacing: 1.25px;
   font-size: var(--h3-font-size); }
 
 .info-text {
@@ -244,12 +247,14 @@
 
 .agent-title {
   font-size: var(--title-font-size);
-  font-family: var(--title-font); }
+  font-family: var(--title-font);
+  letter-spacing: 1.25px; }
 
 .characteristics {
   font-size: var(--small-font-size);
   font-family: var(--title-font);
-  color: var(--primary-color-alt); }
+  color: var(--primary-color-alt);
+  letter-spacing: 1.25px; }
   .characteristics strong {
     color: var(--primary-color); }
 
@@ -316,7 +321,8 @@
 
 .skills-title {
   font-family: var(--title-font);
-  margin: 1rem 1rem 1rem 1rem; }
+  margin: 1rem 1rem 1rem 1rem;
+  letter-spacing: 1.25px; }
 
 .skills-text {
   margin: auto;
@@ -389,13 +395,18 @@
   position: relative;
   mask-clip: 50%; }
 
+.armas-stroke {
+  width: 100%;
+  position: absolute;
+  top: 0; }
+
 .armas-img {
   width: 50%;
   height: 80%;
   position: absolute;
   right: 0;
   top: 0;
-  z-index: 100;
+  z-index: var(--z-front);
   transition: transform .3s; }
   @media screen and (min-width: 960px) {
     .armas-img {
@@ -417,6 +428,7 @@
 .armas-title {
   font-family: var(--title-font);
   font-size: var(--h3-font-size);
+  letter-spacing: 1.25px;
   padding-left: 1rem;
   margin-top: 2rem;
   margin-bottom: -5.5rem;
@@ -425,6 +437,7 @@
 .armas-text {
   font-family: var(--title-font);
   font-size: var(--normal-font-size);
+  letter-spacing: 1.25px;
   padding-left: 1rem;
   font-weight: 700;
   padding-right: 1rem;
@@ -449,6 +462,7 @@
   font-family: var(--title-font);
   font-size: var(--normal-font-size);
   padding-left: 1rem;
+  letter-spacing: 1.25px;
   font-weight: 700;
   padding-right: 1rem; }
 
@@ -464,12 +478,14 @@
 .foto-weapon {
   margin: auto;
   position: relative;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  display: none; }
   @media screen and (min-width: 960px) {
     .foto-weapon {
       margin-top: 1.5rem;
       position: relative;
-      height: 50rem; } }
+      height: 50rem;
+      display: block; } }
 
 .foto-weapon-text {
   position: absolute;
@@ -542,19 +558,21 @@
   position: relative;
   min-height: 120px; }
 
-.info-weapon-chart:last-child {
+.down {
   grid-area: down; }
 
 .fire-title {
   font-size: var(--h3-font-size);
   font-family: var(--title-font);
   margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  letter-spacing: 1.25px; }
 
 .fire-text {
   font-size: var(--normal-font-size);
   margin-bottom: 1rem;
   font-family: var(--title-font);
+  letter-spacing: 1.25px;
   color: var(--primary-color-alt); }
   .fire-text strong {
     color: var(--primary-color); }
@@ -575,10 +593,11 @@
       width: 102%; } }
 
 .spectre-text {
-  height: 90%; }
+  height: 100%; }
   @media screen and (min-width: 960px) {
     .spectre-text {
-      margin-top: -2rem; } }
+      margin-top: -2rem;
+      height: 90%; } }
 
 .clip {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
@@ -602,10 +621,14 @@
 
 .info-weapon-grid-2 {
   display: grid;
-  grid-template-rows: 3fr;
+  grid-template-rows: .75fr;
   grid-template-columns: 3fr 1fr;
-  grid-template-areas: "top top" "down down";
+  grid-template-areas: "top top" "down down" "superdown superdown";
   gap: 20px; }
+  @media screen and (min-width: 960px) {
+    .info-weapon-grid-2 {
+      grid-template-rows: 3fr;
+      grid-template-areas: "top top" "down down"; } }
 
 .without-title {
   grid-template-columns: none; }
@@ -620,12 +643,26 @@
 
 .weapon-skins-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: none;
+  gap: .5rem;
   bottom: -2rem; }
   @media screen and (min-width: 960px) {
     .weapon-skins-container {
-      position: relative; } }
+      position: relative;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem; } }
+
+.weapon-hidden {
+  display: none; }
+  @media screen and (min-width: 960px) {
+    .weapon-hidden {
+      display: grid; } }
+
+.weapon-shown {
+  grid-area: superdown; }
+  @media screen and (min-width: 960px) {
+    .weapon-shown {
+      display: none; } }
 
 .weapon-skin {
   position: relative;
@@ -637,9 +674,9 @@
   align-content: center;
   border: 1px solid white;
   color: white;
-  margin-bottom: 2rem;
   font-family: var(--title-font);
-  font-size: var(--small-font-size); }
+  font-size: var(--small-font-size);
+  letter-spacing: 1.25px; }
   @media screen and (min-width: 960px) {
     .weapon-skin {
       margin-left: -3rem;
@@ -647,9 +684,12 @@
       margin-bottom: 0; } }
 
 .weapon-skin-img {
-  width: 110%;
+  width: 100%;
   margin-top: .5rem;
   margin-bottom: .5rem; }
+  @media screen and (min-width: 960px) {
+    .weapon-skin-img {
+      width: 110%; } }
 
 .mt {
   margin-top: 1rem; }
