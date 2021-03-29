@@ -3,6 +3,7 @@ import "../src/styles/css/styles.css";
 import Sidenav from "./components/organisms/Sidenav";
 import CharacterInfoPage from "./components/pages/CharacterInfoPage";
 import WeaponInfoPage from "./components/pages/WeaponInfoPage";
+import CharacterListPage from "./components/pages/CharacterListPage";
 import Footer from "./components/organisms/Footer";
 import React, { Component } from "react";
 
@@ -23,6 +24,7 @@ class App extends Component {
                 <Switch>
                     <Route path="/Agents/:name" component={CharacterInfoPage} />
                     <Route path="/Weapons/:name" component={WeaponInfoPage}/>
+                    <Route path="/" exact component={CharacterListPage}/>
                 </Switch>
                 <div className="fade" id="fade"></div>
                 <Footer />
