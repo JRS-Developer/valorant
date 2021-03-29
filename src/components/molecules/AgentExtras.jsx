@@ -1,12 +1,12 @@
 import ListCharacters from "../atoms/ListCharacters";
 
-const AgentExtras = () => (
+const AgentExtras = ({index}) => (
     <div className="agent-extras">
         <div className="rotate-90deg absolute">
-            <span>{ListCharacters[0].country}</span>
+            <span>{ListCharacters[index].country}</span>
         </div>
 
-        <img className="name-img" src={ListCharacters[0].imgText} alt="" />
+        <img className="name-img" src={ListCharacters[index].imgText} alt="" />
     </div>
 );
 

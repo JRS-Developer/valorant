@@ -1,8 +1,8 @@
 .listcharacter-section {
     display: grid;
+    max-height: 550px;
     @include from(l) {
-        grid-template-columns: 1fr 4fr;
-        max-height: 600px;
+        grid-template-columns: 1fr 5fr;
         margin-top: 3rem;
     }
     grid-template-columns: none;
@@ -11,6 +11,11 @@
 .agents-foto{
     margin-left: 4rem;
     height: 50%;
+    display: none;
+
+    @include from(l) {
+        display: block;
+    }
 }
 
 .agents-foto img {

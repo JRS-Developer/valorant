@@ -1,26 +1,16 @@
 import ListCharacters from "../atoms/ListCharacters";
-const SkillsBox = () => (
+const SkillsBox = ({ index }) => (
     <div className="skills-box">
-        <img
-            className="skills-white"
-            src={ListCharacters[0].skills[0].skillImageLink}
-            alt=""
-        />
-        <img
-            className="skills-white"
-            src={ListCharacters[0].skills[1].skillImageLink}
-            alt=""
-        />
-        <img
-            className="skills-white"
-            src={ListCharacters[0].skills[2].skillImageLink}
-            alt=""
-        />
-        <img
-            className="skills-white"
-            src={ListCharacters[0].skills[3].skillImageLink}
-            alt=""
-        />
+        {ListCharacters[index].skills.map((e) => {
+            return (
+                <img
+                    key={e.skillImageId}
+                    className="skills-white"
+                    src={e.skillImageLink}
+                    alt={e.skillImageId}
+                />
+            );
+        })}
     </div>
 );
 

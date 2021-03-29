@@ -1,10 +1,10 @@
 import ListCharacters from "../atoms/ListCharacters";
 
-const AgentImageContainer = () => (
+const AgentImageContainer = ({index}) => (
     <div className="agent-image-container">
         <img
             draggable="false"
-            src={ListCharacters[0].agentImage}
+            src={ListCharacters[index].agentImage}
             alt=""
             className="agent-image"
         />

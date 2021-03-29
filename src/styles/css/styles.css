@@ -730,31 +730,53 @@
 
 .listcharacter-section {
   display: grid;
+  max-height: 550px;
   grid-template-columns: none; }
   @media screen and (min-width: 960px) {
     .listcharacter-section {
-      grid-template-columns: 1fr 4fr;
-      max-height: 600px;
+      grid-template-columns: 1fr 5fr;
       margin-top: 3rem; } }
 
 .agents-foto {
   margin-left: 4rem;
-  height: 50%; }
+  height: 50%;
+  display: none; }
+  @media screen and (min-width: 960px) {
+    .agents-foto {
+      display: block; } }
 
 .agents-foto img {
   height: 100%; }
 
 .agents-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  height: 50%;
-  gap: 2rem;
-  margin-right: 2rem; }
+  height: 45%;
+  margin: 0 auto;
+  width: 80%;
+  gap: 3rem;
+  margin-top: 2rem;
+  max-height: 1000px;
+  min-height: 450px; }
+  @media screen and (min-width: 960px) {
+    .agents-grid {
+      grid-template-columns: repeat(4, 1fr);
+      margin-right: 2rem;
+      margin-top: 0;
+      width: auto;
+      height: 50%;
+      max-height: none; } }
 
 .agent-container {
   background-color: var(--color);
   min-height: 100px;
-  position: relative; }
+  position: relative;
+  display: none; }
+  @media screen and (min-width: 960px) {
+    .agent-container {
+      display: block; } }
+
+.agent-container:first-of-type {
+  display: block; }
 
 .skills-box {
   background-color: var(--color);
@@ -763,11 +785,13 @@
   width: 100%;
   position: absolute;
   grid-template-columns: repeat(4, 1fr);
-  bottom: -1rem;
-  right: -1rem;
   min-height: 50px;
   align-content: center;
   justify-items: center; }
+  @media screen and (min-width: 960px) {
+    .skills-box {
+      bottom: -1rem;
+      right: -1rem; } }
 
 .skills-white {
   filter: brightness(500%);
@@ -775,8 +799,13 @@
   height: 35px; }
 
 .agent-image {
-  width: 180%;
-  margin-left: -3rem; }
+  width: 120%;
+  margin-left: -3rem;
+  max-width: 700px; }
+  @media screen and (min-width: 960px) {
+    .agent-image {
+      width: 180%;
+      max-width: none; } }
 
 .agent-image-container {
   width: 100%;
@@ -795,7 +824,10 @@
   transform: rotate(90deg); }
 
 .absolute {
-  position: absolute; }
+  position: absolute;
+  top: 2.5rem;
+  left: -2rem;
+  min-width: 200px; }
 
 .name-img {
   width: 20%;
