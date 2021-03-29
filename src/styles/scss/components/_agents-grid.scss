@@ -1,0 +1,70 @@
+.agents-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 50%;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.agent-container {
+    background-color: var(--color);
+    min-height: 100px;
+    position: relative;
+}
+
+.skills-box {
+    background-color: var(--color);
+    border: 1px solid white;
+    display: grid;
+    width: 100%;
+    position: absolute;
+    grid-template-columns: repeat(4,1fr);
+    bottom: -1rem;
+    right: -1rem;
+    min-height: 50px;
+    align-content: center;
+    justify-items: center;
+}
+
+.skills-white {
+    filter: brightness(500%);
+    width: 35px;
+    height: 35px;
+}
+
+.agent-image {
+    width: 180%;
+    margin-left: -3rem;
+}
+
+.agent-image-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.agent-extras {
+    position: absolute;
+    color: var(--pink-color);
+    top: 5rem;
+    font-family: var(--title-font);
+    left: -1.5rem;
+}
+
+.rotate-90deg {
+    transform: rotate(90deg);
+}
+
+.absolute {
+    position: absolute;
+}
+
+.name-img {
+    width: 20%;
+    margin-left: 0.3rem;
+    margin-top: -3.2rem;
+    min-width: 48px;
+    max-height: 350px;
+}

@@ -1,6 +1,8 @@
 // Imagenes de los personajes
 import JettImage from "../../images/Characters/Jett.webp";
+import FlipedJettImage from "../../images/Characters/Jett - Flipped.webp";
 import SageImage from "../../images/Characters/Sage.png";
+import FlipedSageImage from "../../images/Characters/Sage - Flipped.png";
 import PhoenixImage from "../../images/Characters/Phoenix.png";
 import SovaImage from "../../images/Characters/Sova.png";
 
@@ -56,6 +58,7 @@ const ListCharacters = [
         abilities: "Cloudburst, Updraft",
         ultimate: "Blade Storm",
         image: JettImage,
+        agentImage: FlipedJettImage,
         imgText: JettImageText,
         info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
         restInfo: `There are a total of six groups of weapons that players will be able to purchase at the start of each round with each costing a different amount based on their power and weapon type. None of the weapons are tied exclusively to a specific character, so players will be able to use any of the weapons available in the FPS, no matter the character they are using for a particular match.`,
@@ -113,6 +116,7 @@ const ListCharacters = [
         signature: "Healing Orb",
         abilities: "Barrier Orb, Slow Orb",
         ultimate: "Resurrection",
+        agentImage: FlipedSageImage,
         image: SageImage,
         imgText: SageImageText,
         info: `Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield.`,
@@ -172,6 +176,7 @@ const ListCharacters = [
         signature: "Hot Hands",
         abilities: "Blaze, Curveball",
         ultimate: "Run It Back",
+        agentImage: PhoenixImage,
         image: PhoenixImage,
         imgText: PhoenixImageText,
         info: `Phoenix’s star power shines through in his fighting style, igniting the battlefield with his flash and flare. Whether he’s got backup or not, he’s rushing in to fight on his own terms.`,
@@ -231,6 +236,7 @@ const ListCharacters = [
         signature: "Recon Bolt",
         abilities: "Owl Drone, Shock Bolt",
         ultimate: "Hunter's Fury",
+        agentImage: SovaImage,
         image: SovaImage,
         imgText: SovaImageText,
         info: `Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.`,

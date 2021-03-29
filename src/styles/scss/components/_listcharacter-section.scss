@@ -1,0 +1,19 @@
+.listcharacter-section {
+    display: grid;
+    @include from(l) {
+        grid-template-columns: 1fr 4fr;
+        max-height: 600px;
+        margin-top: 3rem;
+    }
+    grid-template-columns: none;
+}
+
+.agents-foto{
+    margin-left: 4rem;
+    height: 50%;
+}
+
+.agents-foto img {
+    height: 100%
+}
+
