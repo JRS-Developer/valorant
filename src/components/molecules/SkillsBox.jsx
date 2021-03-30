@@ -16,7 +16,7 @@ const SkillsBox = ({ index, character }) => (
             const ImgText = document.getElementById(character.imgTextId);
 
             // Añade a la variable skills todos los skills del personaje.
-            ListCharacters[index].skills.forEach((e) => {
+            character.skills.forEach((e) => {
                 Skills.push(e.skillImageId);
             });
 
@@ -35,7 +35,7 @@ const SkillsBox = ({ index, character }) => (
 
             // Cambiar el color de los otros personajes
 
-            ListCharacters.forEach((e,indexOther) => {
+            ListCharacters.forEach((e) => {
                 if (e.name !== character.name) {
                     const ContainerOthers = document.getElementById(
                         e.agentContainerId

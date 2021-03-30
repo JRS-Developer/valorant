@@ -7,7 +7,7 @@ import DOMLoadedChangeColor from "../../scripts/DOMLoadedChangeColor";
 
 class CharacterSection extends Component {
     componentDidMount() {
-        DOMLoadedChangeColor(ListCharacters[this.props.name].skills[0]);
+        DOMLoadedChangeColor(ListCharacters[this.props.name].skills[0], "video");
     }
 
     render() {
