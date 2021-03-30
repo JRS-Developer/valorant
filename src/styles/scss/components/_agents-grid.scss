@@ -53,6 +53,10 @@
     }
 }
 
+.skills-box:hover {
+    transform: scale(1.05);
+}
+
 .skills-white {
     filter: brightness(500%);
     width: 35px;
@@ -76,6 +80,10 @@
     position: relative;
     overflow: hidden;
 
+}
+
+.agent-container:hover {
+    transform: scale(1.01);
 }
 
 .agent-extras {
