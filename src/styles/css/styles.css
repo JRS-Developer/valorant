@@ -775,7 +775,7 @@
     .agent-container {
       display: block; } }
 
-.agent-container:first-of-type {
+.agent-container:nth-of-type(1) {
   display: block; }
 
 .skills-box {

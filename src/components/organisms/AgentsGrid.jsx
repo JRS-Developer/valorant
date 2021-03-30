@@ -6,8 +6,8 @@ const AgentsGrid = () => (
     <div className="agents-grid">
         {ListCharacters.map((e,index) => {
             return (<div className="agent-container" key={e.name}>
-                <AgentImageContainer index={index}/>
                 <AgentExtras index={index}/>
+                <AgentImageContainer index={index}/>
                 <SkillsBox index={index}/>
             </div>
             )
