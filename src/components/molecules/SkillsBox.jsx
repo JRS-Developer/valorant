@@ -4,7 +4,7 @@ const SkillsBox = ({ index, character }) => (
         className="skills-box"
         id={character.skillsBoxId}
         onClick={function ChangeColor() {
-            
+
             // Variables y constantes para conseguir los elementos por IDS.
             const Container = document.getElementById(
                 character.agentContainerId
@@ -32,6 +32,39 @@ const SkillsBox = ({ index, character }) => (
 
             Container.style.backgroundColor = "white";
             Container.style.border = "1px solid black";
+
+            // Cambiar el color de los otros personajes
+
+            ListCharacters.forEach((e,indexOther) => {
+                if (e.name !== character.name) {
+                    const ContainerOthers = document.getElementById(
+                        e.agentContainerId
+                    );
+                    let SkillsOthers = [];
+                    const SkillsBoxContainerOthers = document.getElementById(
+                        e.skillsBoxId
+                    );
+                    const ImgTextOthers = document.getElementById(e.imgTextId);
+        
+                    // Añade a la variable skills todos los skills del personaje.
+                    e.skills.forEach((skill) => {
+                        SkillsOthers.push(skill.skillImageId);
+                    });
+        
+                    // Despues cambiar el color de las skills y demas cosas.
+                    SkillsOthers.forEach((change) => {
+                        document.getElementById(change).style.filter = "brightness(500%)";
+                    });
+        
+                    SkillsBoxContainerOthers.style.backgroundColor = "var(--color)";
+                    SkillsBoxContainerOthers.style.border = "1px solid white";
+        
+                    ImgTextOthers.style.filter = "brightness(100%)";
+        
+                    ContainerOthers.style.backgroundColor = "var(--color)";
+                    ContainerOthers.style.border = "1px solid var(--color)";
+                }
+            })
         }}
     >
         {ListCharacters[index].skills.map((img) => {
