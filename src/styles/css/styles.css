@@ -770,13 +770,15 @@
   background-color: var(--color);
   min-height: 100px;
   position: relative;
-  display: none; }
+  display: none;
+  border: 1px solid var(--color); }
   @media screen and (min-width: 960px) {
     .agent-container {
       display: block; } }
 
 .agent-container:nth-of-type(1) {
-  display: block; }
+  display: block;
+  color: #0000; }
 
 .skills-box {
   background-color: var(--color);

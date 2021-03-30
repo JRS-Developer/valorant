@@ -23,6 +23,7 @@
     min-height: 100px;
     position: relative;
     display: none;
+    border: 1px solid var(--color);
 
     @include from(l) {
         display: block;
@@ -31,6 +32,7 @@
 
 .agent-container:nth-of-type(1) {
     display: block;
+    color: #0000
 }
 
 .skills-box {
