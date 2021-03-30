@@ -45,6 +45,7 @@
     min-height: 50px;
     align-content: center;
     justify-items: center;
+    cursor: pointer;
 
     @include from(l) {
         bottom: -1rem;

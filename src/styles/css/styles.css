@@ -789,7 +789,8 @@
   grid-template-columns: repeat(4, 1fr);
   min-height: 50px;
   align-content: center;
-  justify-items: center; }
+  justify-items: center;
+  cursor: pointer; }
   @media screen and (min-width: 960px) {
     .skills-box {
       bottom: -1rem;

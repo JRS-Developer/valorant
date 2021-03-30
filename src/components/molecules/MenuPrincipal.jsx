@@ -19,7 +19,7 @@ const MenuPrincipal = () => (
                 <Logo link="Valorant" name="Valorant" />
             </a>
             <MenuItem name="GAME" to="/Game"/>
-            <MenuItem name="CHAMPIONS" to="/Champions" />
+            <MenuItem name="AGENTS" to="/Agents/" />
             <MenuItem name="NEWS" to="/News" />
             <MenuItem name="PATCH NOTES" to="/Patch-Notes" />
             <MenuItem name="DISCOVER" to="/Discover" />

@@ -20,7 +20,7 @@ const Sidenav = () => (
             </svg>
             <ul className="sidenav-list">
                 <SidenavItem to="/Game" name="GAME" />
-                <SidenavItem to="/Champions" name="CHAMPIONS" />
+                <SidenavItem to="/Agents" name="AGENTS" />
                 <SidenavItem to="/News" name="NEWS" />
                 <SidenavItem to="/Patch-Notes" name="PATCH NOTES" />
                 <SidenavItem to="/Discover" name="DISCOVER" />

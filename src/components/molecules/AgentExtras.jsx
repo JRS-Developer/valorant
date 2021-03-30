@@ -6,7 +6,7 @@ const AgentExtras = ({index}) => (
             <span>{ListCharacters[index].country}</span>
         </div>
 
-        <img className="name-img" src={ListCharacters[index].imgText} alt="" />
+        <img className="name-img" src={ListCharacters[index].imgText} id={ListCharacters[index].imgTextId} alt={ListCharacters[index].name} />
     </div>
 );
 

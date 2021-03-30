@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 const AgentImageContainer = ({index}) => (
     <div className="agent-image-container">
-        <Link to={`/Agents/${ListCharacters[index].name}`}><img
+        <Link to={`/Agents/${ListCharacters[index].name}/`}><img
             draggable="false"
             src={ListCharacters[index].agentImage}
             alt=""

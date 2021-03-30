@@ -60,8 +60,11 @@ const ListCharacters = [
         image: JettImage,
         agentImage: FlipedJettImage,
         imgText: JettImageText,
+        imgTextId: "jett-it",
         info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
         restInfo: `There are a total of six groups of weapons that players will be able to purchase at the start of each round with each costing a different amount based on their power and weapon type. None of the weapons are tied exclusively to a specific character, so players will be able to use any of the weapons available in the FPS, no matter the character they are using for a particular match.`,
+        skillsBoxId: "jett-sb",
+        agentContainerId: "jett-ac",
         skills: [
             {
                 key: 0,
@@ -119,8 +122,11 @@ const ListCharacters = [
         agentImage: FlipedSageImage,
         image: SageImage,
         imgText: SageImageText,
+        imgTextId: "sage-it",
         info: `Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield.`,
         restInfo: `The most prominent support character to date hails from China and brings orbs that heal allies, slow enemies, and create barriers out of the ground to impede the flow of a match. Her ultimate ability allows her to resurrect a fallen ally,which is significant in a game with no respawns.`,
+        agentContainerId: "sage-ac",
+        skillsBoxId: "sage-sb",
         skills: [
             {
                 key: 1,
@@ -179,8 +185,11 @@ const ListCharacters = [
         agentImage: PhoenixImage,
         image: PhoenixImage,
         imgText: PhoenixImageText,
+        imgTextId: "phoenix-it",
         info: `Phoenix’s star power shines through in his fighting style, igniting the battlefield with his flash and flare. Whether he’s got backup or not, he’s rushing in to fight on his own terms.`,
         restInfo: `The fiery Brit can wield the power of flame to essentially reshape the battlefield into how he sees fit. With exploding fireballs that damage enemies and heal him, a vision-blocking wall of fire, and a blinding fire burst, Phoenix is great at manipulating the flow of the match. His ultimate grants him the ability to be reborn if he's killed during its duration, galvanizing him to make bold moves he wouldn't otherwise make.`,
+        agentContainerId: "phoenix-ac",
+        skillsBoxId: "phoenix-sb",
         skills: [
             {
                 key: 2,
@@ -239,8 +248,11 @@ const ListCharacters = [
         agentImage: SovaImage,
         image: SovaImage,
         imgText: SovaImageText,
+        imgTextId: "sova-it",
         info: `Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.`,
         restInfo: `An archery expert, he can equip his bow with different bolts that reveal enemy locations or shock nearby adversaries. He can also deploy a recon drone to survey the battlefield, while his ultimate lets him fire three deadly arrow shots through walls.`,
+        skillsBoxId: "sova-sb",
+        agentContainerId: "sova-ac",
         skills: [
             {
                 key: 3,
