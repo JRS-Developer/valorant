@@ -103,7 +103,7 @@ const ListCharacters = [
                 id: "bladestorm-skill",
                 title: "BLADE STORM",
                 text:
-                    "Arm yourself with several deadly throwing knives that deal moderate damage and kill on headshots. Scoring a kill restores all daggers. Left click throws a single dagger. Right click throws all remaining daggers in a short-ranged burst.",
+                    "Arm yourself with several deadly throwing knives that deal moderate damage and kill on headshots.",
                 skillContainerId: "blade-storm-container",
                 skillImageId: "blade-storm",
                 skillImageLink: BladestormImage,
@@ -144,7 +144,7 @@ const ListCharacters = [
                 id: "slow-orb-skill",
                 title: "SLOW ORB",
                 text:
-                    "Equip a Slowing Orb. Fire to launch the Orb, which expands upon hitting the ground, creating a zone that slows players who walk on it.",
+                    "Fire to launch the Orb, which expands upon hitting the ground, creating a zone that slows players who walk on it.",
                 skillContainerId: "slow-orb-container",
                 skillImageId: "slow-orb",
                 skillImageLink: SlowOrbImage,
@@ -166,7 +166,7 @@ const ListCharacters = [
                 id: "resurrection-skill",
                 title: "RESURRECTION",
                 text:
-                    "Equip a resurrection ability. Fire with your crosshairs placed over an ally's corpse to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health.",
+                    "After a brief channel, the ally will be brought back to life with full health.",
                 skillContainerId: "resurrection-container",
                 skillImageId: "resurrection",
                 skillImageLink: ResurrectionImage,
@@ -196,7 +196,7 @@ const ListCharacters = [
                 id: "blaze-skill",
                 title: "BLAZE",
                 text:
-                    'Cast out a flame wall that blocks vision and damages anyone passing through it. You can bend the wall when casting by turning while holding left click.',
+                    'Cast out a flame wall that blocks vision and damages anyone passing through it.',
                 skillContainerId: "blaze-container",
                 skillImageId: "blaze",
                 skillImageLink: BlazeImage,
@@ -229,7 +229,7 @@ const ListCharacters = [
                 id: "run-it-back-skill",
                 title: "RUN IT BACK",
                 text:
-                    "Mark your current location. If you die during this ability’s duration, or when this ability’s duration expires, you’ll be reborn at the marked location with full health.",
+                    "If you die during this ability’s duration, or when this ability’s duration expires, you’ll be reborn at the marked location with full health.",
                 skillContainerId: "run-it-back-container",
                 skillImageId: "run-it-back",
                 skillImageLink: RunItBackImage,
