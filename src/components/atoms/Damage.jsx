@@ -1,7 +1,7 @@
 const Damage = ({damage}) => (
     <div className="armas damage">
         <div className="flex">
-            <h3 className="armas-title">{damage.quantity}</h3>
+            <h4 className="armas-title">{damage.quantity}</h4>
             <img
                 className="armas-img fix-img damage-img"
                 src={damage.zoneImg}
