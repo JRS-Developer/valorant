@@ -1,12 +1,11 @@
-const SkillDescription = () => (
+const SkillDescription = ({category, skill, descrip}) => (
     <div className="skill-description">
-        <h4 className="skill-title">Basic</h4>
+        <h4 className="skill-title">{category}</h4>
         <span className="skill-text">
-            <strong>Slow Orb</strong>
+            <strong>{skill}</strong>
         </span>
         <p className="skill-p">
-            Slow Orb is a Basic ability for Sage. Equip an orb. Throw to fire
-            the orb and create a radius slowing enemies.
+            {descrip}
         </p>
     </div>
 );

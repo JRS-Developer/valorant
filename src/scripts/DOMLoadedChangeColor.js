@@ -30,6 +30,7 @@ const DOMChangeColor = (Object, Use) => {
 
         Container.style.backgroundColor = "white";
         Container.style.border = "1px solid black";
+        Container.classList.add("agent-container--show")
     }
 };
 export default DOMChangeColor;

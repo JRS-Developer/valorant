@@ -70,8 +70,9 @@ const ListCharacters = [
                 key: 0,
                 id: "cloudburst-skill",
                 title: "CLOUDBURST",
+                category: "Basic",
                 text:
-                    "Throw out a cloud of fog that obscures vision on impact. Hold down the ability button to bend the cloud’s in-flight trajectory.",
+                    "Throw out a cloud of fog that obscures vision on impact.",
                 skillContainerId: "cloudburst-container",
                 skillImageId: "cloudburst",
                 skillImageLink: CloudburstImage,
@@ -81,6 +82,7 @@ const ListCharacters = [
                 key: 0,
                 id: "updraft-skill",
                 title: "UPDRAFT",
+                category: "Basic",
                 text: "After a brief wind up, propel yourself upwards.",
                 skillContainerId: "updraft-container",
                 skillImageId: "updraft",
@@ -91,6 +93,7 @@ const ListCharacters = [
                 key: 0,
                 id: "tailwind-skill",
                 title: "TAILWIND",
+                category: "Signature",
                 text:
                     "Immediately dash a short distance in the direction you’re moving.",
                 skillContainerId: "tailwind-container",
@@ -102,6 +105,7 @@ const ListCharacters = [
                 key: 0,
                 id: "bladestorm-skill",
                 title: "BLADE STORM",
+                category: "Ultimate",
                 text:
                     "Arm yourself with several deadly throwing knives that deal moderate damage and kill on headshots.",
                 skillContainerId: "blade-storm-container",
@@ -132,6 +136,7 @@ const ListCharacters = [
                 key: 1,
                 id: "barrier-orb-skill",
                 title: "BARRIER ORB",
+                category: "Basic",
                 text:
                     'Equip a barrier orb. Fire places a solid wall. Alternate fire rotates the targeter.',
                 skillContainerId: "barrier-orb-container",
@@ -143,6 +148,7 @@ const ListCharacters = [
                 key: 1,
                 id: "slow-orb-skill",
                 title: "SLOW ORB",
+                category: "Basic",
                 text:
                     "Fire to launch the Orb, which expands upon hitting the ground, creating a zone that slows players who walk on it.",
                 skillContainerId: "slow-orb-container",
@@ -154,6 +160,7 @@ const ListCharacters = [
                 key: 1,
                 id: "healing-orb-skill",
                 title: "HEALING ORB",
+                category: "Signature",
                 text:
                     "Equip an orb to heal Sage or an ally, slowly recovering health lost.",
                 skillContainerId: "healing-orb-container",
@@ -165,6 +172,7 @@ const ListCharacters = [
                 key: 1,
                 id: "resurrection-skill",
                 title: "RESURRECTION",
+                category: "Ultimate",
                 text:
                     "After a brief channel, the ally will be brought back to life with full health.",
                 skillContainerId: "resurrection-container",
@@ -195,6 +203,7 @@ const ListCharacters = [
                 key: 2,
                 id: "blaze-skill",
                 title: "BLAZE",
+                category: "Basic",
                 text:
                     'Cast out a flame wall that blocks vision and damages anyone passing through it.',
                 skillContainerId: "blaze-container",
@@ -206,6 +215,7 @@ const ListCharacters = [
                 key: 2,
                 id: "curveball-skill",
                 title: "CURVEBALL",
+                category: "Basic",
                 text:
                     "A flare orb that takes a curving path and detonates shortly after throwing.",
                 skillContainerId: "curveball-container",
@@ -217,6 +227,7 @@ const ListCharacters = [
                 key: 2,
                 id: "hot-hands-skill",
                 title: "HOT HANDS",
+                category: "Signature",
                 text:
                     "Throw a fireball that explodes after a delay or upon impact with the ground. The fire zone damages enemies, and heals you.",
                 skillContainerId: "hot-hands-container",
@@ -228,6 +239,7 @@ const ListCharacters = [
                 key: 2,
                 id: "run-it-back-skill",
                 title: "RUN IT BACK",
+                category: "Ultimate",
                 text:
                     "If you die during this ability’s duration, or when this ability’s duration expires, you’ll be reborn at the marked location with full health.",
                 skillContainerId: "run-it-back-container",
@@ -258,6 +270,7 @@ const ListCharacters = [
                 key: 3,
                 id: "shock-bolt-skill",
                 title: "SHOCK BOLT",
+                category: "Basic",
                 text:
                     'Fire an explosive bolt that emits a damaging pulse of static energy upon impact.',
                 skillContainerId: "shock-bolt-container",
@@ -269,6 +282,7 @@ const ListCharacters = [
                 key: 3,
                 id: "owl-drone-skill",
                 title: "OWL DRONE",
+                category: "Basic",
                 text:
                     "Deploy a pilotable drone that can fire a dart that will reveal enemies who are hit.",
                 skillContainerId: "owl-drone-container",
@@ -280,6 +294,7 @@ const ListCharacters = [
                 key: 3,
                 id: "recon-bolt-skill",
                 title: "RECON BOLT",
+                category: "Signature",
                 text:
                     "Fire a bolt that deploys a sonar emitter. The sonar pings tag nearby enemies, causing them to be revealed. Can be destroyed.",
                 skillContainerId: "recon-bolt-container",
@@ -291,6 +306,7 @@ const ListCharacters = [
                 key: 3,
                 id: "hunters-fury-skill",
                 title: "HUNTER'S FURY",
+                category: "Ultimate",
                 text:
                     "Fire up to three deadly energy blasts that spear across the entire map. Each hit enemy takes heavy damage and is marked.",
                 skillContainerId: "hunters-fury-container",

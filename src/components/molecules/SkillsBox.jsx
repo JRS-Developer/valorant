@@ -1,11 +1,13 @@
 import ListCharacters from "../atoms/ListCharacters";
-const SkillsBox = ({ index, character }) => (
+const SkillsBox = ({ index, character, changeIndex }) => (
     <div
         className="skills-box"
         id={character.skillsBoxId}
         onClick={function ChangeColor() {
+            // Cambiar los skills segun el personaje
+            changeIndex(index)
 
-            // Variables y constantes para conseguir los elementos por IDS.
+            // Variables para la funcion de cambiar color
             const Container = document.getElementById(
                 character.agentContainerId
             );
@@ -32,6 +34,7 @@ const SkillsBox = ({ index, character }) => (
 
             Container.style.backgroundColor = "white";
             Container.style.border = "1px solid black";
+            Container.classList.add("agent-container--show")
 
             // Cambiar el color de los otros personajes
 
@@ -63,6 +66,7 @@ const SkillsBox = ({ index, character }) => (
         
                     ContainerOthers.style.backgroundColor = "var(--color)";
                     ContainerOthers.style.border = "1px solid var(--color)";
+                    ContainerOthers.classList.remove("agent-container--show")
                 }
             })
         }}

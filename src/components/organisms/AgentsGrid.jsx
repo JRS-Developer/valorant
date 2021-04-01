@@ -21,7 +21,7 @@ class AgentsGrid extends React.Component {
                         >
                             <AgentExtras index={index} />
                             <AgentImageContainer index={index} />
-                            <SkillsBox index={index} character={character} />
+                            <SkillsBox changeIndex={this.props.changeIndex} index={index} character={character} />
                         </div>
                     );
                 })}

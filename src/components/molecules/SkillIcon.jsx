@@ -1,7 +1,6 @@
-import SlowOrb from "../../images/Skills/Slow-Orb.svg";
-const SkillIcon = () => (
+const SkillIcon = ({src, alt}) => (
     <div className="skill-icon">
-        <img className="skill-img" src={SlowOrb} alt="" />
+        <img className="skill-img" src={src} alt={alt} />
     </div>
 );
 export default SkillIcon;
