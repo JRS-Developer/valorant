@@ -209,8 +209,7 @@
   font-size: var(--h3-font-size); }
 
 .info-text {
-  font-size: var(--normal-font-size);
-  opacity: 90%; }
+  font-size: var(--normal-font-size); }
 
 .adornos {
   width: 80%;
