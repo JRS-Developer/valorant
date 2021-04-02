@@ -4,6 +4,7 @@ import SkillIcon from "../molecules/SkillIcon";
 import SkillDescription from "../molecules/SkillDescription";
 import ListCharacters from "../atoms/ListCharacters";
 import React from "react";
+import changeColor from "../../scripts/AgentsChangeColor.jsx"
 
 class CharacterListPage extends React.Component {
     constructor(props) {
@@ -18,12 +19,13 @@ class CharacterListPage extends React.Component {
             index: index
         })
     }
+
     render() {
         return (
             <main className="main">
                 <section className="listcharacter-section">
                     <AgentsImage />
-                    <AgentsGrid changeIndex={this.changeIndex}/>
+                    <AgentsGrid changeIndex={this.changeIndex} changeColor={changeColor}/>
                 </section>
                 <section className="skills-section" id="skill-section">
                     {ListCharacters[this.state.index].skills.map((e) => {

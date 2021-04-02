@@ -2,13 +2,17 @@ import AgentImageContainer from "../molecules/AgentImageContainer";
 import AgentExtras from "../molecules/AgentExtras";
 import SkillsBox from "../molecules/SkillsBox";
 import ListCharacters from "../atoms/ListCharacters";
+import Arrow from "../atoms/Arrow"
 import React from "react";
 import DOMLoadedChangeColor from "../../scripts/DOMLoadedChangeColor";
-import LArrow from "../../images/Icons/L-Arrow.svg"
-import RArrow from "../../images/Icons/R-Arrow.svg"
+// import changeColor from "../../scripts/AgentsChangeColor.jsx"
 
 
 class AgentsGrid extends React.Component {
+    constructor(props) {
+        super(props)
+        this.changeIndex = this.props.changeIndex
+    }
     componentDidMount() {
         DOMLoadedChangeColor(ListCharacters[0], "character")
     }
@@ -22,11 +26,10 @@ class AgentsGrid extends React.Component {
                             id={character.agentContainerId}
                             key={character.name}
                         >
-                            <img className="arrow absolute l-arrow" id="l-arrow" src={LArrow} alt=""/>
-                            <img className="arrow absolute r-arrow" id="r-arrow" src={RArrow} alt=""/>
+                            <Arrow changeIndex={this.props.changeIndex} index={index} character={character}/>
                             <AgentExtras index={index} />
                             <AgentImageContainer index={index} />
-                            <SkillsBox changeIndex={this.props.changeIndex} index={index} character={character} />
+                            <SkillsBox changeIndex={this.props.changeIndex} index={index} character={character} changeColor={this.props.changeColor}/>
                         </div>
                     );
                 })}

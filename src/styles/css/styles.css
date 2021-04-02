@@ -872,7 +872,12 @@
   height: 50px;
   top: 50%;
   bottom: 50%;
-  cursor: pointer; }
+  cursor: pointer;
+  display: block;
+  padding: 20px; }
+  @media screen and (min-width: 960px) {
+    .arrow {
+      display: none; } }
 
 .l-arrow {
   left: .5rem;
