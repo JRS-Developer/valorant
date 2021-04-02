@@ -635,6 +635,7 @@
 .info-weapon-medium-txt {
   margin-bottom: 2rem;
   margin-left: 1rem;
+  margin-right: 1rem;
   font-size: var(--normal-font-size); }
 
 .info-weapon-medium {
@@ -770,6 +771,7 @@
   min-height: 100px;
   position: relative;
   display: none;
+  min-width: 200px;
   border: 1px solid var(--color); }
   @media screen and (min-width: 960px) {
     .agent-container {
@@ -845,10 +847,18 @@
   transform: rotate(90deg); }
 
 .absolute {
-  position: absolute;
+  position: absolute; }
+
+.country {
   top: 2.5rem;
   left: -2rem;
   min-width: 200px; }
+  @media screen and (min-width: 960px) {
+    .country {
+      display: none; } }
+  @media screen and (min-width: 1190px) {
+    .country {
+      display: block; } }
 
 .name-img {
   width: 20%;
@@ -857,12 +867,38 @@
   min-width: 48px;
   max-height: 350px; }
 
+.arrow {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  bottom: 50%;
+  cursor: pointer; }
+
+.l-arrow {
+  left: .5rem;
+  z-index: var(--z-normal); }
+
+.r-arrow {
+  right: .5rem;
+  z-index: var(--z-normal); }
+
+.arrow:active {
+  transform: scale(1.1); }
+
 .skills-section {
   gap: 1rem;
   margin: 0 auto;
   margin-top: 1rem;
   display: grid; }
   @media screen and (min-width: 960px) {
+    .skills-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      margin-right: 2rem;
+      margin-left: 2rem; } }
+  @media screen and (min-width: 1190px) {
     .skills-section {
       display: flex;
       margin-bottom: 1rem;
@@ -981,3 +1017,24 @@ ul {
   @media screen and (min-width: 960px) {
     .main {
       margin-top: 0; } }
+
+@font-face {
+  font-family: "Druk Wide Medium";
+  src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot");
+  src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.svg#Druk Wide Medium") format("svg"); }
+
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--pink-color);
+  border-radius: 20px; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color); }

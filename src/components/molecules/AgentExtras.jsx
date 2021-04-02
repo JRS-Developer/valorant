@@ -2,7 +2,7 @@ import ListCharacters from "../atoms/ListCharacters";
 
 const AgentExtras = ({index}) => (
     <div className="agent-extras">
-        <div className="rotate-90deg absolute">
+        <div className="rotate-90deg absolute country">
             <span>{ListCharacters[index].country}</span>
         </div>
 

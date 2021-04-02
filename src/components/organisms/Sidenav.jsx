@@ -24,10 +24,6 @@ const Sidenav = () => (
                 <SidenavItem to="/News" name="NEWS" />
                 <SidenavItem to="/Patch-Notes" name="PATCH NOTES" />
                 <SidenavItem to="/Discover" name="DISCOVER" />
-                <SidenavItem to="/Esports" name="ESPORTS" />
-                <SidenavItem to="/Universe" name="UNIVERSE" />
-                <SidenavItem to="/Shop" name="SHOP" />
-                <SidenavItem to="/Support" name="SUPPORT" />
             </ul>
             <ul className="user">
                 <User />

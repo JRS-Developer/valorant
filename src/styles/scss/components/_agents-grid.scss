@@ -23,6 +23,7 @@
     min-height: 100px;
     position: relative;
     display: none;
+    min-width: 200px;
     border: 1px solid var(--color);
 
     @include from(l) {
@@ -115,9 +116,20 @@
 
 .absolute {
     position: absolute;
+}
+
+.country {
     top: 2.5rem;
     left: -2rem;
     min-width: 200px;
+    
+    @include from(l) {
+        display: none;
+    }
+
+    @include from(lx) {
+        display: block;
+    }
 }
 
 .name-img {
@@ -126,4 +138,26 @@
     margin-top: -3.2rem;
     min-width: 48px;
     max-height: 350px;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    bottom: 50%;
+    cursor: pointer;
+}
+
+.l-arrow {
+    left: .5rem;
+    z-index: var(--z-normal);
+}
+
+.r-arrow {
+    right: .5rem;
+    z-index: var(--z-normal);
+}
+
+.arrow:active {
+    transform: scale(1.1);
 }

@@ -23,10 +23,6 @@ const MenuPrincipal = () => (
             <MenuItem name="NEWS" to="/News" />
             <MenuItem name="PATCH NOTES" to="/Patch-Notes" />
             <MenuItem name="DISCOVER" to="/Discover" />
-            <MenuItem name="ESPORTS" to="/Esports" />
-            <MenuItem name="UNIVERSE" to="/Universe" />
-            <MenuItem name="SHOP" to="/Shop" />
-            <MenuItem name="SUPPORT" to="/Support" />
         </ul>
         <ul className="user">
             <User />

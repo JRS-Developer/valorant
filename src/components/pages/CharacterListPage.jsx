@@ -18,10 +18,6 @@ class CharacterListPage extends React.Component {
             index: index
         })
     }
-
-    componentDidMount() {
-        console.log(window)
-    }
     render() {
         return (
             <main className="main">

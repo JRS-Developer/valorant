@@ -25,6 +25,7 @@ class App extends Component {
                     <Route path="/Agents/:name" component={CharacterInfoPage} />
                     <Route path="/Weapons/:name" component={WeaponInfoPage}/>
                     <Route path="/Agents/" exact component={CharacterListPage}/>
+                    <Route component={CharacterListPage}/>
                 </Switch>
                 <div className="fade" id="fade"></div>
                 <Footer />
