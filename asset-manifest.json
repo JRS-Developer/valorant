@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/valorant/static/css/main.49402cb9.chunk.css",
-    "main.js": "/valorant/static/js/main.63e94ebd.chunk.js",
-    "main.js.map": "/valorant/static/js/main.63e94ebd.chunk.js.map",
+    "main.css": "/valorant/static/css/main.068b0eed.chunk.css",
+    "main.js": "/valorant/static/js/main.f7b0cd27.chunk.js",
+    "main.js.map": "/valorant/static/js/main.f7b0cd27.chunk.js.map",
     "runtime-main.js": "/valorant/static/js/runtime-main.5faec1f8.js",
     "runtime-main.js.map": "/valorant/static/js/runtime-main.5faec1f8.js.map",
     "static/js/2.9dfd1845.chunk.js": "/valorant/static/js/2.9dfd1845.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.07fc6217.chunk.js": "/valorant/static/js/3.07fc6217.chunk.js",
     "static/js/3.07fc6217.chunk.js.map": "/valorant/static/js/3.07fc6217.chunk.js.map",
     "index.html": "/valorant/index.html",
-    "static/css/main.49402cb9.chunk.css.map": "/valorant/static/css/main.49402cb9.chunk.css.map",
+    "static/css/main.068b0eed.chunk.css.map": "/valorant/static/css/main.068b0eed.chunk.css.map",
     "static/js/2.9dfd1845.chunk.js.LICENSE.txt": "/valorant/static/js/2.9dfd1845.chunk.js.LICENSE.txt",
     "static/media/AGENTS.a5e69832.svg": "/valorant/static/media/AGENTS.a5e69832.svg",
     "static/media/ARES-Text.705ab95b.svg": "/valorant/static/media/ARES-Text.705ab95b.svg",
@@ -32,6 +32,7 @@
     "static/media/Jett_E_v001_web.016c5fab.mp4": "/valorant/static/media/Jett_E_v001_web.016c5fab.mp4",
     "static/media/Jett_Q_v001_web.78c0a08e.mp4": "/valorant/static/media/Jett_Q_v001_web.78c0a08e.mp4",
     "static/media/Jett_X_v001_web.506163e8.mp4": "/valorant/static/media/Jett_X_v001_web.506163e8.mp4",
+    "static/media/L-Arrow.8158c4a9.svg": "/valorant/static/media/L-Arrow.8158c4a9.svg",
     "static/media/MACHINE-GUN-Text.4cd72e61.svg": "/valorant/static/media/MACHINE-GUN-Text.4cd72e61.svg",
     "static/media/MELLE-Text.c5f4ea25.svg": "/valorant/static/media/MELLE-Text.c5f4ea25.svg",
     "static/media/OPERATOR-Text.22c401e2.svg": "/valorant/static/media/OPERATOR-Text.22c401e2.svg",
@@ -42,6 +43,7 @@
     "static/media/Phoenix_E_v001_web.5a7378e7.mp4": "/valorant/static/media/Phoenix_E_v001_web.5a7378e7.mp4",
     "static/media/Phoenix_Q_v001_web.6cd9d317.mp4": "/valorant/static/media/Phoenix_Q_v001_web.6cd9d317.mp4",
     "static/media/Phoenix_X_v001_web.fe9d1cf4.mp4": "/valorant/static/media/Phoenix_X_v001_web.fe9d1cf4.mp4",
+    "static/media/R-Arrow.f9d9f8e6.svg": "/valorant/static/media/R-Arrow.f9d9f8e6.svg",
     "static/media/R-BLADE-STORM.b99af60f.svg": "/valorant/static/media/R-BLADE-STORM.b99af60f.svg",
     "static/media/R-CLOUDBURST.5e0f9f3e.svg": "/valorant/static/media/R-CLOUDBURST.5e0f9f3e.svg",
     "static/media/R-Tailwind.0a558661.svg": "/valorant/static/media/R-Tailwind.0a558661.svg",
@@ -124,7 +126,7 @@
   "entrypoints": [
     "static/js/runtime-main.5faec1f8.js",
     "static/js/2.9dfd1845.chunk.js",
-    "static/css/main.49402cb9.chunk.css",
-    "static/js/main.63e94ebd.chunk.js"
+    "static/css/main.068b0eed.chunk.css",
+    "static/js/main.f7b0cd27.chunk.js"
   ]
 }
