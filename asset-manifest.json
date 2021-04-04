@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/valorant/static/css/main.ff166332.chunk.css",
-    "main.js": "/valorant/static/js/main.31b01ce4.chunk.js",
-    "main.js.map": "/valorant/static/js/main.31b01ce4.chunk.js.map",
+    "main.js": "/valorant/static/js/main.eec5f11a.chunk.js",
+    "main.js.map": "/valorant/static/js/main.eec5f11a.chunk.js.map",
     "runtime-main.js": "/valorant/static/js/runtime-main.5faec1f8.js",
     "runtime-main.js.map": "/valorant/static/js/runtime-main.5faec1f8.js.map",
     "static/js/2.a6df6262.chunk.js": "/valorant/static/js/2.a6df6262.chunk.js",
@@ -130,6 +130,6 @@
     "static/js/runtime-main.5faec1f8.js",
     "static/js/2.a6df6262.chunk.js",
     "static/css/main.ff166332.chunk.css",
-    "static/js/main.31b01ce4.chunk.js"
+    "static/js/main.eec5f11a.chunk.js"
   ]
 }
