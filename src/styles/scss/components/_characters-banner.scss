@@ -3,9 +3,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     opacity: 45%;
+    width: auto;
 
     @include from(l) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
     }
 }
 

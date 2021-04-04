@@ -1032,10 +1032,12 @@
   flex-direction: column;
   gap: 50px;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-top: -1rem; }
   @media screen and (min-width: 960px) {
     .banner-section {
-      gap: 30px; } }
+      gap: 30px;
+      margin-top: 0; } }
 
 .banner-section--h1 {
   color: white;
@@ -1057,10 +1059,12 @@
   position: absolute;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  opacity: 45%; }
+  opacity: 45%;
+  width: auto; }
   @media screen and (min-width: 960px) {
     .characters-banner {
-      grid-template-columns: 1fr 1fr 1fr 1fr; } }
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      width: 100%; } }
 
 .characters-banner--img {
   width: 25%;
