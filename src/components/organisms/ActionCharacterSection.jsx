@@ -1,5 +1,6 @@
 import ActionButton from "../atoms/ActionButton";
 import ListCharacters from "../atoms/ListCharacters";
+import {Link} from "react-router-dom"
 
 const ActionCharacterSection = () => (
     <section className="action-character-section">
@@ -9,7 +10,8 @@ const ActionCharacterSection = () => (
                 Find a big set of Agents with unique and differents skills,
                 where every agent have a unique combat style for every player.
             </p>
-            <ActionButton color="white" text="VIEW ALL AGENTS" />
+            <Link to="/Agents/"><ActionButton color="white" text="VIEW ALL AGENTS" /></Link>
+            
         </div>
         <div className="action-character-section--img">
             <img
