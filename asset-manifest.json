@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/valorant/static/css/main.ff166332.chunk.css",
-    "main.js": "/valorant/static/js/main.eec5f11a.chunk.js",
-    "main.js.map": "/valorant/static/js/main.eec5f11a.chunk.js.map",
+    "main.js": "/valorant/static/js/main.2ad9b482.chunk.js",
+    "main.js.map": "/valorant/static/js/main.2ad9b482.chunk.js.map",
     "runtime-main.js": "/valorant/static/js/runtime-main.5faec1f8.js",
     "runtime-main.js.map": "/valorant/static/js/runtime-main.5faec1f8.js.map",
     "static/js/2.a6df6262.chunk.js": "/valorant/static/js/2.a6df6262.chunk.js",
@@ -55,6 +55,7 @@
     "static/media/RUN-IT-BACK.ae44a0a6.svg": "/valorant/static/media/RUN-IT-BACK.ae44a0a6.svg",
     "static/media/Recon-Bolt.aa650456.svg": "/valorant/static/media/Recon-Bolt.aa650456.svg",
     "static/media/Resurrection.40b20c3b.svg": "/valorant/static/media/Resurrection.40b20c3b.svg",
+    "static/media/SAGE Name - Flipped.aabc829e.svg": "/valorant/static/media/SAGE Name - Flipped.aabc829e.svg",
     "static/media/SAGE Name.5b981fc8.svg": "/valorant/static/media/SAGE Name.5b981fc8.svg",
     "static/media/SHERIFF-Text.0384f809.svg": "/valorant/static/media/SHERIFF-Text.0384f809.svg",
     "static/media/SHORTY-Text.fc892764.svg": "/valorant/static/media/SHORTY-Text.fc892764.svg",
@@ -62,6 +63,7 @@
     "static/media/SIDEARM-Text.16a0a2dc.svg": "/valorant/static/media/SIDEARM-Text.16a0a2dc.svg",
     "static/media/SMGS-Text.2a9f0621.svg": "/valorant/static/media/SMGS-Text.2a9f0621.svg",
     "static/media/SNIPERS-Text.045acd5c.svg": "/valorant/static/media/SNIPERS-Text.045acd5c.svg",
+    "static/media/SOVA Name - Flipped.b79f0167.svg": "/valorant/static/media/SOVA Name - Flipped.b79f0167.svg",
     "static/media/SOVA Name.4eff8f19.svg": "/valorant/static/media/SOVA Name.4eff8f19.svg",
     "static/media/SPECTRE-Text.46dc7d52.svg": "/valorant/static/media/SPECTRE-Text.46dc7d52.svg",
     "static/media/STINGER-Text.305b6f74.svg": "/valorant/static/media/STINGER-Text.305b6f74.svg",
@@ -130,6 +132,6 @@
     "static/js/runtime-main.5faec1f8.js",
     "static/js/2.a6df6262.chunk.js",
     "static/css/main.ff166332.chunk.css",
-    "static/js/main.eec5f11a.chunk.js"
+    "static/js/main.2ad9b482.chunk.js"
   ]
 }
