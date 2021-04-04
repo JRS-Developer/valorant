@@ -16,6 +16,8 @@ import JettImageText from "../../images/Characters/JETT Name.svg";
 
 import JettImageTextFlipped from "../../images/Characters/JETT Name - Flipped.svg"
 import PhoenixImageTextFlipped from "../../images/Characters/PHOENIX Name - Flipped.svg"
+import SageImageTextFlipped from "../../images/Characters/SAGE Name - Flipped.svg"
+import SovaImageTextFlipped from "../../images/Characters/SOVA Name - Flipped.svg"
 
 // Imagenes de las habilidades
 import CloudburstImage from "../../images/Skills/R-CLOUDBURST.svg";
@@ -132,6 +134,7 @@ const ListCharacters = [
         agentImage: FlipedSageImage,
         image: SageImage,
         imgText: SageImageText,
+        imgTextFlipped: SageImageTextFlipped,
         imgTextId: "sage-it",
         info: `Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield.`,
         restInfo: `The most prominent support character to date hails from China and brings orbs that heal allies, slow enemies, and create barriers out of the ground to impede the flow of a match. Her ultimate ability allows her to resurrect a fallen ally,which is significant in a game with no respawns.`,
@@ -267,6 +270,7 @@ const ListCharacters = [
         agentImage: SovaImage,
         image: SovaImage,
         imgText: SovaImageText,
+        imgTextFlipped: SovaImageTextFlipped,
         imgTextId: "sova-it",
         info: `Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.`,
         restInfo: `An archery expert, he can equip his bow with different bolts that reveal enemy locations or shock nearby adversaries. He can also deploy a recon drone to survey the battlefield, while his ultimate lets him fire three deadly arrow shots through walls.`,
