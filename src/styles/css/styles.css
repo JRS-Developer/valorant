@@ -1006,7 +1006,11 @@
 
 .action-button--black {
   background-color: var(--color);
-  color: white; }
+  color: white;
+  transition: border, .1s; }
+
+.action-button--black:hover {
+  border: 1px solid var(--color); }
 
 .action-button--pink {
   background-color: var(--pink-color);
@@ -1014,7 +1018,11 @@
 
 .action-button--white {
   background-color: #FFFF;
-  color: var(--color); }
+  color: var(--color);
+  transition: border, .1s; }
+
+.action-button--white:hover {
+  border: 1px solid white; }
 
 .banner-section {
   width: 100%;

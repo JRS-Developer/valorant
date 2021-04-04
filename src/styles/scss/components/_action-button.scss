@@ -40,6 +40,11 @@
 .action-button--black {
     background-color: var(--color);
     color: white;
+    transition: border, .1s;
+}
+
+.action-button--black:hover {
+    border: 1px solid var(--color);
 }
 
 .action-button--pink {
@@ -50,4 +55,9 @@
 .action-button--white {
     background-color: #FFFF;
     color: var(--color);
+    transition: border, .1s;
+}
+
+.action-button--white:hover {
+    border: 1px solid white;
 }
