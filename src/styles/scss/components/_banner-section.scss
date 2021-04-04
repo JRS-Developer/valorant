@@ -1,0 +1,35 @@
+.banner-section {
+    width: 100%;
+    height: 550px;
+    background-color: var(--pink-color);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+    @include from(l) {
+        gap: 30px;
+    }
+}
+
+.banner-section--h1 {
+    color: white;
+    font-size: 80px;
+    z-index: var(--z-normal);
+
+    @include from(l) {
+        font-size: 160px;
+    }
+}
+
+.banner-section--h2 {
+    z-index: var(--z-normal);
+    color: white;
+    font-size: 16px;
+
+    @include from(l) {
+        font-size: 32px;
+    }
+    
+}

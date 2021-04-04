@@ -12,6 +12,11 @@ import SovaImageText from "../../images/Characters/SOVA Name.svg";
 import SageImageText from "../../images/Characters/SAGE Name.svg";
 import JettImageText from "../../images/Characters/JETT Name.svg";
 
+// Imagenes de los nombre de los personajes pero volteados 
+
+import JettImageTextFlipped from "../../images/Characters/JETT Name - Flipped.svg"
+import PhoenixImageTextFlipped from "../../images/Characters/PHOENIX Name - Flipped.svg"
+
 // Imagenes de las habilidades
 import CloudburstImage from "../../images/Skills/R-CLOUDBURST.svg";
 import BladestormImage from "../../images/Skills/R-BLADE-STORM.svg";
@@ -60,6 +65,7 @@ const ListCharacters = [
         image: JettImage,
         agentImage: FlipedJettImage,
         imgText: JettImageText,
+        imgTextFlipped: JettImageTextFlipped,
         imgTextId: "jett-it",
         info: `Of Korean origin, Jett is an agile fighter who gives priority to movement. Her abilities focus on stealth with jumps that allow her to reach high ledges, teleportation, and smoke bombs. Her ultimate ability gives her kunaïs that inflict moderate to heavy damage, remaining very accurate even when she moves.`,
         restInfo: `There are a total of six groups of weapons that players will be able to purchase at the start of each round with each costing a different amount based on their power and weapon type. None of the weapons are tied exclusively to a specific character, so players will be able to use any of the weapons available in the FPS, no matter the character they are using for a particular match.`,
@@ -193,6 +199,7 @@ const ListCharacters = [
         agentImage: PhoenixImage,
         image: PhoenixImage,
         imgText: PhoenixImageText,
+        imgTextFlipped: PhoenixImageTextFlipped,
         imgTextId: "phoenix-it",
         info: `Phoenix’s star power shines through in his fighting style, igniting the battlefield with his flash and flare. Whether he’s got backup or not, he’s rushing in to fight on his own terms.`,
         restInfo: `The fiery Brit can wield the power of flame to essentially reshape the battlefield into how he sees fit. With exploding fireballs that damage enemies and heal him, a vision-blocking wall of fire, and a blinding fire burst, Phoenix is great at manipulating the flow of the match. His ultimate grants him the ability to be reborn if he's killed during its duration, galvanizing him to make bold moves he wouldn't otherwise make.`,

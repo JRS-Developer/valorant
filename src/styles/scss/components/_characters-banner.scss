@@ -1,0 +1,29 @@
+.characters-banner {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    opacity: 45%;
+
+    @include from(l) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.characters-banner--img {
+    width: 25%;
+    min-width: 300px;
+}
+
+.characters-banner--img:first-child {
+    display: none;
+
+    @include from(l) {
+        display: block;
+    }
+}
+.characters-banner--img:last-child {
+    display: none;
+    @include from(l) {
+        display: block;
+    }
+}

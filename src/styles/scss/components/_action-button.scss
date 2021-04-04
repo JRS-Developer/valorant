@@ -1,0 +1,53 @@
+.action-button {
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--title-font);
+    cursor: pointer;
+    z-index: var(--z-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.action-button::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    background-color: var(--pink-color);
+    transition: right, .4s;
+}
+
+.action-button:hover::before {
+    right: 0;
+}
+.action-button:hover{
+    span {
+        color: white;
+        transition: color, .3s;
+    }
+}
+
+.action-button--text {
+    position: relative;
+}
+
+.action-button--black {
+    background-color: var(--color);
+    color: white;
+}
+
+.action-button--pink {
+    background-color: var(--pink-color);
+    color: var(--color);
+}
+
+.action-button--white {
+    background-color: #FFFF;
+    color: var(--color);
+}

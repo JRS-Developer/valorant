@@ -1,0 +1,150 @@
+.action-character-section {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    position: relative;
+
+    @include from(l) {
+        max-height: 600px;
+        grid-template-columns: 1fr 2.2fr;
+    }
+}
+
+.action-character-section::before {
+    content: "";
+    width: 70%;
+    position: absolute;
+    right: 0;
+    height: 120%;
+    clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
+    background-color: var(--pink-color);
+    display: none;
+
+    @include from(l) {
+        display: block;
+    }
+}
+.action-character-section::after {
+    content: "";
+    background: url(/src/images/Background/elements.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.action-character-section--img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: var(--z-normal);
+    margin-top: 3rem;
+
+    @include from(l) {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 0;
+    }
+}
+
+.character--img {
+    width: 250px;
+
+    @include from(l) {
+        width: 350px;
+    }
+}
+
+
+.name--img {
+    height: 40px;
+    margin: 0 auto;
+    display: none;
+
+    @include from(l) {
+        display: block;
+    }
+}
+
+
+.action-character-section--text {
+    margin-left: 0;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    z-index: var(--z-normal);
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+    @include from(l) {
+        margin-left: 2.5rem;
+        width: auto;
+        align-items: baseline;
+        gap: 100px;
+    }
+}
+
+.acs-h3 {
+    font-size: var(--h1-font-size);
+    font-family: var(--title-font);
+}
+.acs-p {
+    font-size: var(--big-font-size);
+    text-align: center;
+
+    @include from(l) {
+        text-align: left;
+    }
+}
+
+.action-weapon-section {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    height: auto;
+    width: 100%;
+    background-color: var(--pink-color);
+    position: relative;
+
+    @include from(l) {
+        grid-template-columns: 2fr 1fr;
+        max-height: 600px;
+    }
+}
+
+.action-weapon-section--text {
+    margin-left: 0;
+    margin-right: 0;
+
+    @include from(l) {
+        margin-right: 2.5rem;
+    }
+}
+
+.action-weapon-section--img {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    margin-top: 2rem;
+
+    @include from(l) {
+        width: 90%;
+        margin-top: 1rem;
+    }
+}
+
+.aws-h3 {
+    color: white;
+}
+.aws-p {
+    color: white;
+}
+
+.weapon--img  {
+    // height: 550px;
+    width: 100%;
+}
