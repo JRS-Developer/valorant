@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/valorant/static/css/main.068b0eed.chunk.css",
-    "main.js": "/valorant/static/js/main.f7b0cd27.chunk.js",
-    "main.js.map": "/valorant/static/js/main.f7b0cd27.chunk.js.map",
+    "main.css": "/valorant/static/css/main.4a8b0a56.chunk.css",
+    "main.js": "/valorant/static/js/main.2f5b5a46.chunk.js",
+    "main.js.map": "/valorant/static/js/main.2f5b5a46.chunk.js.map",
     "runtime-main.js": "/valorant/static/js/runtime-main.5faec1f8.js",
     "runtime-main.js.map": "/valorant/static/js/runtime-main.5faec1f8.js.map",
     "static/js/2.9dfd1845.chunk.js": "/valorant/static/js/2.9dfd1845.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.07fc6217.chunk.js": "/valorant/static/js/3.07fc6217.chunk.js",
     "static/js/3.07fc6217.chunk.js.map": "/valorant/static/js/3.07fc6217.chunk.js.map",
     "index.html": "/valorant/index.html",
-    "static/css/main.068b0eed.chunk.css.map": "/valorant/static/css/main.068b0eed.chunk.css.map",
+    "static/css/main.4a8b0a56.chunk.css.map": "/valorant/static/css/main.4a8b0a56.chunk.css.map",
     "static/js/2.9dfd1845.chunk.js.LICENSE.txt": "/valorant/static/js/2.9dfd1845.chunk.js.LICENSE.txt",
     "static/media/AGENTS.a5e69832.svg": "/valorant/static/media/AGENTS.a5e69832.svg",
     "static/media/ARES-Text.705ab95b.svg": "/valorant/static/media/ARES-Text.705ab95b.svg",
@@ -23,7 +23,9 @@
     "static/media/GUARDIAN-Text.a8916cad.svg": "/valorant/static/media/GUARDIAN-Text.a8916cad.svg",
     "static/media/HOT-HANDS.35e44337.svg": "/valorant/static/media/HOT-HANDS.35e44337.svg",
     "static/media/Healing-Orb.7d15094e.svg": "/valorant/static/media/Healing-Orb.7d15094e.svg",
+    "static/media/HomeSet.bb4f27cb.svg": "/valorant/static/media/HomeSet.bb4f27cb.svg",
     "static/media/Hunters-Fury.ff8da373.svg": "/valorant/static/media/Hunters-Fury.ff8da373.svg",
+    "static/media/JETT Name - Flipped.f55a686e.svg": "/valorant/static/media/JETT Name - Flipped.f55a686e.svg",
     "static/media/JETT Name.199f2f00.svg": "/valorant/static/media/JETT Name.199f2f00.svg",
     "static/media/JUDGE-Text.c5e28f6d.svg": "/valorant/static/media/JUDGE-Text.c5e28f6d.svg",
     "static/media/Jett - Flipped.a53126fa.webp": "/valorant/static/media/Jett - Flipped.a53126fa.webp",
@@ -37,6 +39,7 @@
     "static/media/MELLE-Text.c5f4ea25.svg": "/valorant/static/media/MELLE-Text.c5f4ea25.svg",
     "static/media/OPERATOR-Text.22c401e2.svg": "/valorant/static/media/OPERATOR-Text.22c401e2.svg",
     "static/media/Owl-Drone.b5d9b2ba.svg": "/valorant/static/media/Owl-Drone.b5d9b2ba.svg",
+    "static/media/PHOENIX Name - Flipped.249c6df7.svg": "/valorant/static/media/PHOENIX Name - Flipped.249c6df7.svg",
     "static/media/PHOENIX Name.e77b1f94.svg": "/valorant/static/media/PHOENIX Name.e77b1f94.svg",
     "static/media/Phoenix.780c51b2.png": "/valorant/static/media/Phoenix.780c51b2.png",
     "static/media/Phoenix_C_v001_web.91132783.mp4": "/valorant/static/media/Phoenix_C_v001_web.91132783.mp4",
@@ -126,7 +129,7 @@
   "entrypoints": [
     "static/js/runtime-main.5faec1f8.js",
     "static/js/2.9dfd1845.chunk.js",
-    "static/css/main.068b0eed.chunk.css",
-    "static/js/main.f7b0cd27.chunk.js"
+    "static/css/main.4a8b0a56.chunk.css",
+    "static/js/main.2f5b5a46.chunk.js"
   ]
 }
