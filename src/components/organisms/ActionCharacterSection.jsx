@@ -21,8 +21,8 @@ const ActionCharacterSection = () => (
             />
             <img
                 className="character--img"
-                src={ListCharacters[2].image}
-                alt={ListCharacters[2].name}
+                src={ListCharacters[3].image}
+                alt={ListCharacters[3].name}
             />
             <img
                 className="name--img"
@@ -31,8 +31,8 @@ const ActionCharacterSection = () => (
             />
             <img
                 className="name--img"
-                src={ListCharacters[2].imgTextFlipped}
-                alt={ListCharacters[2].imgTextId}
+                src={ListCharacters[3].imgTextFlipped}
+                alt={ListCharacters[3].imgTextId}
             />
         </div>
     </section>
