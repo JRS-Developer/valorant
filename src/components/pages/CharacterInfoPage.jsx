@@ -2,7 +2,7 @@ import CharacterSection from "../organisms/CharacterSection";
 import WeaponSection from "../organisms/WeaponSection";
 import React from "react"
 import ListCharacters from "../atoms/ListCharacters";
-
+import Footer from "../organisms/Footer";
 class CharacterInfoPage extends React.Component {
     constructor(props) {
         super(props)
@@ -23,10 +23,13 @@ class CharacterInfoPage extends React.Component {
 
     render() {
         return(
+            <>
             <main className="main">
                 <CharacterSection name={this.state.name}/>
                 <WeaponSection name={this.state.name} />
             </main>
+            <Footer />
+            </>
         )
     }
 }

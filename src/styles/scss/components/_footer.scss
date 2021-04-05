@@ -2,3 +2,129 @@
     background-color: white;
     height: 3rem;
 }
+
+.principal-footer {
+    background-color: var(--color);
+    min-height: 10rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem 2rem 4rem 2rem;
+    gap: 5rem;
+
+    @include from(l) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.footer-title {
+    font-size: 12px;
+    letter-spacing: 1.25px;
+    font-family: var(--title-font);
+
+    @include from(l) {
+        font-size: 16px;
+    }
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.disclaimer--logos {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+
+.thank--social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-right: 1rem;
+
+    span {
+        flex: 2;
+
+        margin-left: .5rem;
+        margin-right: .5rem;
+
+        @include from(l) {
+            margin-left: 1rem;
+        }
+    }
+
+    a {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.thank--social--img {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    transition: border-radius, .3s;
+}
+
+.thank--social--img:hover {
+    border-radius: 30%;
+}
+
+.contact--social {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    img {
+        width: 50px;
+        height: 50px;
+        margin: 0 1rem 0 1rem;
+        transition: filter, .2s;
+
+        @include from(l) {
+            margin: 0;
+        }
+    }
+
+    img:hover {
+        filter: brightness(500%);
+    }
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+    margin-top: 0;
+
+    @include from(l) {
+        padding-right: 5.5rem;
+        margin-top: 3.2rem;
+    }
+
+}
+
+
+.contact {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include from(l) {
+        grid-column-start: auto;
+        grid-column-end: auto;
+        align-self: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: initial;
+
+    }
+}

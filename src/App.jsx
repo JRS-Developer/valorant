@@ -4,7 +4,6 @@ import Sidenav from "./components/organisms/Sidenav";
 import CharacterInfoPage from "./components/pages/CharacterInfoPage";
 import WeaponInfoPage from "./components/pages/WeaponInfoPage";
 import CharacterListPage from "./components/pages/CharacterListPage";
-import Footer from "./components/organisms/Footer";
 import HomePage from "./components/pages/HomePage"
 import React, { Component } from "react";
 
@@ -29,7 +28,6 @@ class App extends Component {
                     <Route component={HomePage}/>
                 </Switch>
                 <div className="fade" id="fade"></div>
-                <Footer />
             </Router>
         );
     }

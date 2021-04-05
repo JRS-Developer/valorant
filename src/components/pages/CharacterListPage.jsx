@@ -5,6 +5,7 @@ import SkillDescription from "../molecules/SkillDescription";
 import ListCharacters from "../atoms/ListCharacters";
 import React from "react";
 import changeColor from "../../scripts/AgentsChangeColor.jsx"
+import Footer from "../organisms/Footer";
 
 class CharacterListPage extends React.Component {
     constructor(props) {
@@ -22,6 +23,7 @@ class CharacterListPage extends React.Component {
 
     render() {
         return (
+            <>
             <main className="main">
                 <section className="listcharacter-section">
                     <AgentsImage />
@@ -45,6 +47,8 @@ class CharacterListPage extends React.Component {
                     })}
                 </section>
             </main>
+            <Footer />
+            </>
         );
     }
 }

@@ -2,6 +2,7 @@ import React from "react";
 import WeaponInfoSection from "../organisms/WeaponInfoSection";
 import DamageSection from "../organisms/DamageSection";
 import ListWeapons from "../atoms/ListWeapons";
+import Footer from "../organisms/Footer";
 class WeaponInfoPage extends React.Component {
     constructor(props) {
         super(props);
@@ -26,6 +27,7 @@ class WeaponInfoPage extends React.Component {
 
     render() {
         return (
+            <>
             <main className="main">
                 <WeaponInfoSection
                     first={this.state.firstPosition}
@@ -36,6 +38,8 @@ class WeaponInfoPage extends React.Component {
                     second={this.state.secondPosition}
                 />
             </main>
+            <Footer />
+            </>
         );
     }
 }

@@ -6,6 +6,10 @@
     width: auto;
 
     @include from(l) {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+    @include from(lx) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 100%;
     }
@@ -34,6 +38,9 @@
 .characters-banner--img:last-child {
     display: none;
     @include from(l) {
+        display: none;
+    }
+    @include from(lx) {
         display: block;
     }
 }
