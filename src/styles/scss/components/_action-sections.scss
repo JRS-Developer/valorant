@@ -109,6 +109,7 @@
     width: 100%;
     background-color: var(--pink-color);
     position: relative;
+    padding-bottom: 2rem;
 
     @include from(l) {
         grid-template-columns: 2fr 1fr;

@@ -1157,7 +1157,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   opacity: .45;
-  width: auto; }
+  width: auto;
+  animation-name: uptodown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
   @media screen and (min-width: 960px) {
     .characters-banner {
       grid-template-columns: 1fr 1fr 1fr;
@@ -1166,6 +1170,12 @@
     .characters-banner {
       grid-template-columns: 1fr 1fr 1fr 1fr;
       width: 100%; } }
+
+@keyframes uptodown {
+  from {
+    top: 20%; }
+  to {
+    top: 15%; } }
 
 .characters-banner::after {
   content: "";
@@ -1287,7 +1297,8 @@
   height: auto;
   width: 100%;
   background-color: var(--pink-color);
-  position: relative; }
+  position: relative;
+  padding-bottom: 2rem; }
   @media screen and (min-width: 960px) {
     .action-weapon-section {
       grid-template-columns: 2fr 1fr;

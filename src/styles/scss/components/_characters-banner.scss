@@ -13,6 +13,21 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 100%;
     }
+
+    animation-name: uptodown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    // animation-timing-function: 1s;
+    animation-direction: alternate;
+}
+
+@keyframes uptodown {
+    from {
+        top: 20%;
+    }
+    to {
+        top: 15%;
+    }
 }
 
 .characters-banner::after {
