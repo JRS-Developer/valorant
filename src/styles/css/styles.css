@@ -160,7 +160,7 @@
   content: "";
   z-index: 1000;
   background-color: black;
-  opacity: 70%; }
+  opacity: .7; }
 
 .user {
   display: flex;
@@ -1059,12 +1059,19 @@
   position: absolute;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  opacity: 45%;
+  opacity: .45;
   width: auto; }
   @media screen and (min-width: 960px) {
     .characters-banner {
       grid-template-columns: 1fr 1fr 1fr 1fr;
       width: 100%; } }
+
+.characters-banner::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute; }
 
 .characters-banner--img {
   width: 25%;
