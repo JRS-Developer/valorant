@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/valorant/static/css/main.24223d43.chunk.css",
-    "main.js": "/valorant/static/js/main.2ad9b482.chunk.js",
-    "main.js.map": "/valorant/static/js/main.2ad9b482.chunk.js.map",
+    "main.css": "/valorant/static/css/main.41e13c9d.chunk.css",
+    "main.js": "/valorant/static/js/main.492bd25c.chunk.js",
+    "main.js.map": "/valorant/static/js/main.492bd25c.chunk.js.map",
     "runtime-main.js": "/valorant/static/js/runtime-main.5faec1f8.js",
     "runtime-main.js.map": "/valorant/static/js/runtime-main.5faec1f8.js.map",
     "static/js/2.a6df6262.chunk.js": "/valorant/static/js/2.a6df6262.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.07fc6217.chunk.js": "/valorant/static/js/3.07fc6217.chunk.js",
     "static/js/3.07fc6217.chunk.js.map": "/valorant/static/js/3.07fc6217.chunk.js.map",
     "index.html": "/valorant/index.html",
-    "static/css/main.24223d43.chunk.css.map": "/valorant/static/css/main.24223d43.chunk.css.map",
+    "static/css/main.41e13c9d.chunk.css.map": "/valorant/static/css/main.41e13c9d.chunk.css.map",
     "static/js/2.a6df6262.chunk.js.LICENSE.txt": "/valorant/static/js/2.a6df6262.chunk.js.LICENSE.txt",
     "static/media/AGENTS.a5e69832.svg": "/valorant/static/media/AGENTS.a5e69832.svg",
     "static/media/ARES-Text.705ab95b.svg": "/valorant/static/media/ARES-Text.705ab95b.svg",
@@ -25,6 +25,7 @@
     "static/media/Healing-Orb.7d15094e.svg": "/valorant/static/media/Healing-Orb.7d15094e.svg",
     "static/media/HomeSet.bb4f27cb.svg": "/valorant/static/media/HomeSet.bb4f27cb.svg",
     "static/media/Hunters-Fury.ff8da373.svg": "/valorant/static/media/Hunters-Fury.ff8da373.svg",
+    "static/media/Instagram.8aedc901.svg": "/valorant/static/media/Instagram.8aedc901.svg",
     "static/media/JETT Name - Flipped.f55a686e.svg": "/valorant/static/media/JETT Name - Flipped.f55a686e.svg",
     "static/media/JETT Name.199f2f00.svg": "/valorant/static/media/JETT Name.199f2f00.svg",
     "static/media/JUDGE-Text.c5e28f6d.svg": "/valorant/static/media/JUDGE-Text.c5e28f6d.svg",
@@ -81,6 +82,7 @@
     "static/media/Sova_Q_v001_web.959a9c06.mp4": "/valorant/static/media/Sova_Q_v001_web.959a9c06.mp4",
     "static/media/Sova_X_v001_web.e2d7a2a5.mp4": "/valorant/static/media/Sova_X_v001_web.e2d7a2a5.mp4",
     "static/media/TACTICAL-KNIFE-Text.4428fe28.svg": "/valorant/static/media/TACTICAL-KNIFE-Text.4428fe28.svg",
+    "static/media/UnEpicKid.deccc5fc.webp": "/valorant/static/media/UnEpicKid.deccc5fc.webp",
     "static/media/aristocrat_bulldog.79521217.png": "/valorant/static/media/aristocrat_bulldog.79521217.png",
     "static/media/avalanche_classic.8b327ae6.png": "/valorant/static/media/avalanche_classic.8b327ae6.png",
     "static/media/styles.css": "/valorant/static/media/elements.b77c1701.svg",
@@ -88,8 +90,10 @@
     "static/media/celestial_judge.899dc3d4.png": "/valorant/static/media/celestial_judge.899dc3d4.png",
     "static/media/coins-dark.35a95c93.svg": "/valorant/static/media/coins-dark.35a95c93.svg",
     "static/media/coins.c091f1e3.svg": "/valorant/static/media/coins.c091f1e3.svg",
+    "static/media/dribble.af8daba6.svg": "/valorant/static/media/dribble.af8daba6.svg",
     "static/media/ego_stinger.a656c5ef.png": "/valorant/static/media/ego_stinger.a656c5ef.png",
     "static/media/elderflame_operator.cfe9b8c9.png": "/valorant/static/media/elderflame_operator.cfe9b8c9.png",
+    "static/media/facebook.a48af9d5.svg": "/valorant/static/media/facebook.a48af9d5.svg",
     "static/media/glitchpop_judge.1cc4f5c4.png": "/valorant/static/media/glitchpop_judge.1cc4f5c4.png",
     "static/media/glitchpop_knife.03af625e.png": "/valorant/static/media/glitchpop_knife.03af625e.png",
     "static/media/head.6e284c37.svg": "/valorant/static/media/head.6e284c37.svg",
@@ -131,7 +135,7 @@
   "entrypoints": [
     "static/js/runtime-main.5faec1f8.js",
     "static/js/2.a6df6262.chunk.js",
-    "static/css/main.24223d43.chunk.css",
-    "static/js/main.2ad9b482.chunk.js"
+    "static/css/main.41e13c9d.chunk.css",
+    "static/js/main.492bd25c.chunk.js"
   ]
 }
