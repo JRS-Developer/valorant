@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/valorant/static/css/main.5231c52c.chunk.css",
-    "main.js": "/valorant/static/js/main.8673f2b8.chunk.js",
-    "main.js.map": "/valorant/static/js/main.8673f2b8.chunk.js.map",
+    "main.css": "/valorant/static/css/main.02113f43.chunk.css",
+    "main.js": "/valorant/static/js/main.5487128f.chunk.js",
+    "main.js.map": "/valorant/static/js/main.5487128f.chunk.js.map",
     "runtime-main.js": "/valorant/static/js/runtime-main.5faec1f8.js",
     "runtime-main.js.map": "/valorant/static/js/runtime-main.5faec1f8.js.map",
     "static/js/2.a6df6262.chunk.js": "/valorant/static/js/2.a6df6262.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.07fc6217.chunk.js": "/valorant/static/js/3.07fc6217.chunk.js",
     "static/js/3.07fc6217.chunk.js.map": "/valorant/static/js/3.07fc6217.chunk.js.map",
     "index.html": "/valorant/index.html",
-    "static/css/main.5231c52c.chunk.css.map": "/valorant/static/css/main.5231c52c.chunk.css.map",
+    "static/css/main.02113f43.chunk.css.map": "/valorant/static/css/main.02113f43.chunk.css.map",
     "static/js/2.a6df6262.chunk.js.LICENSE.txt": "/valorant/static/js/2.a6df6262.chunk.js.LICENSE.txt",
     "static/media/AGENTS.a5e69832.svg": "/valorant/static/media/AGENTS.a5e69832.svg",
     "static/media/ARES-Text.705ab95b.svg": "/valorant/static/media/ARES-Text.705ab95b.svg",
@@ -136,7 +136,7 @@
   "entrypoints": [
     "static/js/runtime-main.5faec1f8.js",
     "static/js/2.a6df6262.chunk.js",
-    "static/css/main.5231c52c.chunk.css",
-    "static/js/main.8673f2b8.chunk.js"
+    "static/css/main.02113f43.chunk.css",
+    "static/js/main.5487128f.chunk.js"
   ]
 }
