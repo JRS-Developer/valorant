@@ -9,7 +9,7 @@ class AgentSkills extends React.Component {
                 {ListCharacters[this.props.name].skills.map((skill, index) => (
                     <React.Fragment key={index}>
                         <div id={skill.skillContainerId} className="skills">
-                            <img
+                            <a href="#video"> <img
                                 className="skills-icon"
                                 id={skill.skillImageId}
                                 src={skill.skillImageLink}
@@ -31,6 +31,7 @@ class AgentSkills extends React.Component {
                                     }
                                 }}
                             />
+                            </a>
                             <h4 className="skills-title">{skill.title}:</h4>
                             <p className="skills-text">{skill.text}</p>
                         </div>

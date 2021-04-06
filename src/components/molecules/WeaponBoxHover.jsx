@@ -1,10 +1,10 @@
-const WeaponBoxHover = ({weapon}) => (
+import SkinOpacity from "../atoms/SkinOpactity";
+const WeaponBoxHover = ({ weapon }) => (
     <div className="weapon-box--hover" id={`hover-${weapon.id}`}>
+        <SkinOpacity skin={weapon}/>
         <div className="weapon-damage-container">
             <h3 className="wd-h3">{weapon.name}</h3>
-            <p className="wd-p">
-                {weapon.infoFirst.substring(0, 230) + "..."}
-            </p>
+            <p className="wd-p">{weapon.infoFirst.substring(0, 230) + "..."}</p>
             <div className="damage-grid-container">
                 {weapon.damage.map((e) => {
                     return (
@@ -18,7 +18,12 @@ const WeaponBoxHover = ({weapon}) => (
                 })}
                 {weapon.damage.map((e, index) => {
                     return (
-                        <strong key={`${e.quantity}${index}`} className="damage--text">{e.quantity}</strong>
+                        <strong
+                            key={`${e.quantity}${index}`}
+                            className="damage--text"
+                        >
+                            {e.quantity}
+                        </strong>
                     );
                 })}
             </div>
@@ -26,4 +31,4 @@ const WeaponBoxHover = ({weapon}) => (
     </div>
 );
 
-export default WeaponBoxHover
+export default WeaponBoxHover;

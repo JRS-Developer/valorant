@@ -144,3 +144,19 @@
     color: white;
     padding-right: 1rem;
 }
+
+.skin-opacity--background {
+    background-color: var(--pink-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: grid;
+    place-content: center;
+    opacity: .4;
+}
+
+.skin-opacity--img {
+    transform: rotate(45deg);
+    width: 100%;
+}

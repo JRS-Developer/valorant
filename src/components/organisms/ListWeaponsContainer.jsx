@@ -1,5 +1,4 @@
 import WeaponBoxImg from "../atoms/WeaponBoxImg";
-import WeaponSkinContainer from "../molecules/WeaponSkinContainer";
 import WeaponBoxHover from "../molecules/WeaponBoxHover";
 import React from "react";
 import {Link} from "react-router-dom"
@@ -26,7 +25,6 @@ class ListWeaponsContainer extends React.Component {
                             <h3 className="wp-h3">{e.name}</h3>
                             <WeaponBoxHover weapon={e}/>
                             <WeaponBoxImg img={e} />
-                            <WeaponSkinContainer skin={e}/>
                         </div>
                         </Link>
                     );
