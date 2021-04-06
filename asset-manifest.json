@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/valorant/static/css/main.4a4944fb.chunk.css",
-    "main.js": "/valorant/static/js/main.492bd25c.chunk.js",
-    "main.js.map": "/valorant/static/js/main.492bd25c.chunk.js.map",
+    "main.css": "/valorant/static/css/main.5231c52c.chunk.css",
+    "main.js": "/valorant/static/js/main.8673f2b8.chunk.js",
+    "main.js.map": "/valorant/static/js/main.8673f2b8.chunk.js.map",
     "runtime-main.js": "/valorant/static/js/runtime-main.5faec1f8.js",
     "runtime-main.js.map": "/valorant/static/js/runtime-main.5faec1f8.js.map",
     "static/js/2.a6df6262.chunk.js": "/valorant/static/js/2.a6df6262.chunk.js",
@@ -10,10 +10,11 @@
     "static/js/3.07fc6217.chunk.js": "/valorant/static/js/3.07fc6217.chunk.js",
     "static/js/3.07fc6217.chunk.js.map": "/valorant/static/js/3.07fc6217.chunk.js.map",
     "index.html": "/valorant/index.html",
-    "static/css/main.4a4944fb.chunk.css.map": "/valorant/static/css/main.4a4944fb.chunk.css.map",
+    "static/css/main.5231c52c.chunk.css.map": "/valorant/static/css/main.5231c52c.chunk.css.map",
     "static/js/2.a6df6262.chunk.js.LICENSE.txt": "/valorant/static/js/2.a6df6262.chunk.js.LICENSE.txt",
     "static/media/AGENTS.a5e69832.svg": "/valorant/static/media/AGENTS.a5e69832.svg",
     "static/media/ARES-Text.705ab95b.svg": "/valorant/static/media/ARES-Text.705ab95b.svg",
+    "static/media/ARSENAL.d1dc9236.svg": "/valorant/static/media/ARSENAL.d1dc9236.svg",
     "static/media/BULLDOG-Text.ece052a4.svg": "/valorant/static/media/BULLDOG-Text.ece052a4.svg",
     "static/media/Barrier-Orb.8d897e08.svg": "/valorant/static/media/Barrier-Orb.8d897e08.svg",
     "static/media/Blaze.09911166.svg": "/valorant/static/media/Blaze.09911166.svg",
@@ -135,7 +136,7 @@
   "entrypoints": [
     "static/js/runtime-main.5faec1f8.js",
     "static/js/2.a6df6262.chunk.js",
-    "static/css/main.4a4944fb.chunk.css",
-    "static/js/main.492bd25c.chunk.js"
+    "static/css/main.5231c52c.chunk.css",
+    "static/js/main.8673f2b8.chunk.js"
   ]
 }
