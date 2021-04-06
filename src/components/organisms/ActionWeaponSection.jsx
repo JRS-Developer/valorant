@@ -1,5 +1,7 @@
 import ActionButton from "../atoms/ActionButton";
 import WeaponSet from "../../images/Weapons/HomeSet.svg"
+import {Link} from "react-router-dom"
+
 const ActionWeaponSection = () => (
     <section className="action-weapon-section">
         <div className="action-weapon-section--img">
@@ -12,7 +14,7 @@ const ActionWeaponSection = () => (
                 YOU. Go ahead and test every weapon, maybe you only want to kill
                 your rivals with a KNIFE!
             </p>
-            <ActionButton color="white" text="VIEW ALL GUNS" />
+            <Link to="/Weapons/"><ActionButton color="white" text="VIEW ALL GUNS" /></Link>
         </div>
     </section>
 );

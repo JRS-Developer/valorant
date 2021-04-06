@@ -20,7 +20,7 @@ const MenuPrincipal = () => (
             </a>
             <MenuItem name="GAME" to="/Game"/>
             <MenuItem name="AGENTS" to="/Agents/" />
-            <MenuItem name="NEWS" to="/News" />
+            <MenuItem name="WEAPONS" to="/Weapons/" />
             <MenuItem name="PATCH NOTES" to="/Patch-Notes" />
             <MenuItem name="DISCOVER" to="/Discover" />
         </ul>

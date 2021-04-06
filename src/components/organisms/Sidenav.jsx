@@ -21,7 +21,7 @@ const Sidenav = () => (
             <ul className="sidenav-list">
                 <SidenavItem to="/Game" name="GAME" />
                 <SidenavItem to="/Agents" name="AGENTS" />
-                <SidenavItem to="/News" name="NEWS" />
+                <SidenavItem to="/Weapons/" name="WEAPONS" />
                 <SidenavItem to="/Patch-Notes" name="PATCH NOTES" />
                 <SidenavItem to="/Discover" name="DISCOVER" />
             </ul>

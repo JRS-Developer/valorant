@@ -1330,6 +1330,112 @@
 .weapon--img {
   width: 100%; }
 
+.black-background {
+  background-color: var(--color); }
+
+.arsenal-img {
+  width: 400px;
+  padding-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+.category-container {
+  width: 100%;
+  padding-left: 3rem;
+  background-color: var(--pink-color); }
+
+.category--text {
+  font-size: var(--h3-font-size);
+  color: white;
+  font-family: var(--title-font); }
+
+.list-weapons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  place-items: center; }
+
+.weapon-box {
+  background-color: white;
+  width: 350px;
+  height: 320px;
+  border-radius: 20px;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden; }
+
+.weapon-box:hover > .weapon-box--hover {
+  right: 0%; }
+
+.weapon-box--img {
+  width: 100%;
+  padding-top: 5rem;
+  margin: 0 auto; }
+
+.weapon-skin--img {
+  width: 150px; }
+
+.weapon-skin-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 1rem; }
+
+.weapon-box--hover {
+  background-color: var(--pink-color);
+  position: absolute;
+  right: 100%;
+  width: 350px;
+  height: 320px;
+  border-radius: 20px;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.25);
+  z-index: var(--z-front);
+  transition: right, .3s; }
+
+.wd-h3 {
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+  font-family: var(--title-font);
+  letter-spacing: 1.25px; }
+
+.wd-h3, .wd-p {
+  padding-left: 1rem;
+  color: white;
+  padding-right: 1rem; }
+
+.damage-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  grid-gap: .5rem;
+  width: 100%;
+  gap: .5rem;
+  position: absolute;
+  bottom: 1.5rem; }
+
+.weapon-damage-container {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.damage--item {
+  width: 50px;
+  height: 50px; }
+
+.damage--text {
+  color: white; }
+
+.damage-weapon--img {
+  position: absolute;
+  width: 300px;
+  transform: rotate(45deg);
+  top: 4rem;
+  mix-blend-mode: multiply;
+  opacity: 0.15; }
+
 a,
 a:link,
 a:visited,

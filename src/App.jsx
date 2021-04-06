@@ -5,6 +5,7 @@ import CharacterInfoPage from "./components/pages/CharacterInfoPage";
 import WeaponInfoPage from "./components/pages/WeaponInfoPage";
 import CharacterListPage from "./components/pages/CharacterListPage";
 import HomePage from "./components/pages/HomePage"
+import WeaponListPage from "./components/pages/WeaponListPage"
 import React, { Component } from "react";
 
 
@@ -24,6 +25,7 @@ class App extends Component {
                 <Switch>
                     <Route path="/Agents/:name" component={CharacterInfoPage} />
                     <Route path="/Weapons/:name" component={WeaponInfoPage}/>
+                    <Route path="/Weapons/" component={WeaponListPage}/>
                     <Route path="/Agents/" exact component={CharacterListPage}/>
                     <Route component={HomePage}/>
                 </Switch>
