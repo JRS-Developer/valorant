@@ -43,7 +43,6 @@
     grid-template-columns: 1fr 1fr;
     z-index: var(--z-normal);
     margin-top: 3rem;
-
     @include from(l) {
         grid-template-columns: 1fr 1fr;
         margin-top: 0;
@@ -108,6 +107,10 @@
     height: auto;
     width: 100%;
     background-color: var(--pink-color);
+    background-image: url(/src/images/Background/elements.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
     position: relative;
     padding-bottom: 2rem;
 

@@ -4,6 +4,8 @@
     justify-content: space-between;
     @include from(l){
         flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
     }
 }
 
@@ -11,9 +13,9 @@
     width: 100%;
     background-color: white;
     margin: 1.5rem 1.5rem 0rem 1.5rem;
+    display: grid;
 
     @include from(l){
-        width: 55%;
         margin: 1.5rem 0 0 3.5rem;
     }
 }
@@ -111,20 +113,17 @@
     @include from(l) {
         margin-top: 0rem;
         position: relative;
-        margin-left: 10rem;
 
         .foto-jett {
             width: auto;
-            height: 60rem;
-            position: absolute;
-            left: -20rem;
-            top: -1rem;
+            height: 100%;
+            position: relative;
         }
         .foto-jett-text {
+            right: 0;
             position: absolute;
             height: 60rem;
             margin: auto;
-            left: 8rem;
             top: 1rem;
         }
     }
@@ -205,6 +204,10 @@
     @include from(lx) {
         display: block;
     }
+}
+
+.barra:last-of-type {
+    display: none;
 }
 
 .skills-icon {

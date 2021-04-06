@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import Arsenal from "../atoms/Arsenal";
 import CategoryContainer from "../atoms/CategoryContainer";
 import ListWeaponsContainer from "../organisms/ListWeaponsContainer";
@@ -53,38 +53,48 @@ class WeaponListPage extends React.Component {
         Categories.push(
             SideArm,
             Smgs,
-            Melle,
+            Rifles,
             Snipers,
             Shotguns,
-            Rifles,
-            Machines
+            Machines,
+            Melle
         );
         this.setState({
             categories: Categories,
-            sections: [SideArm,
+            sections: [
+                SideArm,
                 Smgs,
-                Melle,
+                Rifles,
                 Snipers,
                 Shotguns,
-                Rifles,
-                Machines],
+                Machines,
+                Melle,
+            ],
         });
     }
     render() {
         return (
             <>
-            <div className="black-background">
-                <Arsenal />
-                {this.state.categories.map((e, index) => {
-                    return (
-                        <>
-                            <CategoryContainer category={e[0].category} />
-                            <ListWeaponsContainer weapons={this.state.sections[index]}/>
-                        </>
-                    );
-                })}
-            </div>
-            <Footer />
+                <main className="main">
+                    <div className="black-background">
+                        <Arsenal />
+                        <div className="slide">
+                            {this.state.categories.map((e, index) => {
+                                return (
+                                    <Fragment key={index}>
+                                        <CategoryContainer
+                                            category={e[0].category}
+                                        />
+                                        <ListWeaponsContainer
+                                            weapons={this.state.sections[index]}
+                                        />
+                                    </Fragment>
+                                );
+                            })}
+                        </div>
+                    </div>
+                </main>
+                <Footer />
             </>
         );
     }

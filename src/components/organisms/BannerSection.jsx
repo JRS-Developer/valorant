@@ -6,7 +6,7 @@ const BannerSection = () => (
         <div className="characters-banner">
             {ListCharacters.map((e) => {
                 return (
-                    <img
+                    <img key={e.name}
                         draggable="false"
                         className="characters-banner--img"
                         src={e.agentImage}

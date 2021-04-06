@@ -2,6 +2,17 @@ import ListCharacters from "../components/atoms/ListCharacters";
 const changeColor = (character, index, changeIndex) => {
     // Cambiar los skills segun el personaje
     changeIndex(index);
+    const skillsSection = document.getElementById('skill-section')
+
+    skillsSection.animate([
+        {
+            opacity: 0
+        },{
+            opacity: 100
+        }
+    ], {
+        duration: 500,
+    })
 
     // Variables para la funcion de cambiar color
     const Container = document.getElementById(character.agentContainerId);

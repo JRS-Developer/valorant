@@ -16,9 +16,18 @@ class CharacterListPage extends React.Component {
     }
 
     changeIndex = (index) => {
-        this.setState({
-            index: index
-        })
+        if (index !== this.state.index ) {
+            this.setState({
+                index: index
+            })
+        } else if (index === this.state.index) {
+            let skillSection = document.getElementById('skill-section')
+            Promise.all(
+                skillSection.getAnimations({ subtree: true })
+                  .map(animation => animation.finished)
+              );
+        }
+        
     }
 
     render() {
@@ -32,7 +41,7 @@ class CharacterListPage extends React.Component {
                 <section className="skills-section" id="skill-section">
                     {ListCharacters[this.state.index].skills.map((e) => {
                         return (
-                            <div className="skill-description-container armas">
+                            <div className="skill-description-container armas" key={e.title}>
                                 <SkillDescription
                                     category={e.category}
                                     skill={e.title}

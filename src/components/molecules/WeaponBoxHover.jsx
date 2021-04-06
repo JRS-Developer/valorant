@@ -9,15 +9,16 @@ const WeaponBoxHover = ({weapon}) => (
                 {weapon.damage.map((e) => {
                     return (
                         <img
+                            key={e.zone}
                             src={e.zoneImg}
                             alt={e.zone}
                             className="damage--item"
                         />
                     );
                 })}
-                {weapon.damage.map((e) => {
+                {weapon.damage.map((e, index) => {
                     return (
-                        <strong className="damage--text">{e.quantity}</strong>
+                        <strong key={`${e.quantity}${index}`} className="damage--text">{e.quantity}</strong>
                     );
                 })}
             </div>
