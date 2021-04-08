@@ -315,7 +315,8 @@
     z-index: 100;
     border: 1px solid var(--pink-color); }
     .skills:hover img {
-      filter: brightness(500%); } }
+      -webkit-filter: brightness(500%);
+              filter: brightness(500%); } }
 
 .skills-title {
   font-family: var(--title-font);
@@ -394,7 +395,8 @@
   border: 1px solid black;
   width: auto;
   position: relative;
-  mask-clip: 50%; }
+  -webkit-mask-clip: 50%;
+          mask-clip: 50%; }
 
 .armas-stroke {
   width: 100%;
@@ -601,7 +603,8 @@
       height: 90%; } }
 
 .clip {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
 
 .info-weapon-grid-1 {
   display: grid;
@@ -759,8 +762,10 @@
   margin-top: 2rem;
   max-height: 1000px;
   min-height: 450px;
-  animation-name: showagents;
-  animation-duration: 1s; }
+  -webkit-animation-name: showagents;
+          animation-name: showagents;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s; }
   @media screen and (min-width: 960px) {
     .agents-grid {
       grid-template-columns: repeat(4, 1fr);
@@ -769,6 +774,12 @@
       width: auto;
       height: 50%;
       max-height: none; } }
+
+@-webkit-keyframes showagents {
+  from {
+    margin-left: 120%; }
+  to {
+    margin-left: 0; } }
 
 @keyframes showagents {
   from {
@@ -824,7 +835,8 @@
   right: 0; }
 
 .skills-white {
-  filter: brightness(500%);
+  -webkit-filter: brightness(500%);
+          filter: brightness(500%);
   width: 35px;
   height: 35px; }
 
@@ -913,8 +925,10 @@
       margin-top: 1rem;
       margin-right: 2rem;
       margin-left: 2rem;
-      animation-name: showskills;
-      animation-duration: 1s; } }
+      -webkit-animation-name: showskills;
+              animation-name: showskills;
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s; } }
   @media screen and (min-width: 1190px) {
     .skills-section {
       display: flex;
@@ -922,6 +936,12 @@
       margin-top: 1rem;
       margin-right: 2rem;
       margin-left: 2rem; } }
+
+@-webkit-keyframes showskills {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 2rem; } }
 
 @keyframes showskills {
   from {
@@ -953,7 +973,8 @@
   margin-left: 1rem;
   margin-right: 10px;
   margin-bottom: 2rem;
-  filter: brightness(0%); }
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%); }
 
 .skill-icon::before {
   content: "";
@@ -1053,12 +1074,15 @@
     width: 50px;
     height: 50px;
     margin: 0 1rem 0 1rem;
-    transition: filter, .2s; }
+    transition: .2s, -webkit-filter;
+    transition: filter, .2s;
+    transition: filter, .2s, -webkit-filter; }
     @media screen and (min-width: 960px) {
       .contact--social img {
         margin: 0; } }
   .contact--social img:hover {
-    filter: brightness(500%); }
+    -webkit-filter: brightness(500%);
+            filter: brightness(500%); }
 
 .contact-container {
   display: flex;
@@ -1176,10 +1200,14 @@
   grid-template-columns: 1fr 1fr;
   opacity: .45;
   width: auto;
-  animation-name: uptodown;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate; }
+  -webkit-animation-name: uptodown;
+          animation-name: uptodown;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate; }
   @media screen and (min-width: 960px) {
     .characters-banner {
       grid-template-columns: 1fr 1fr 1fr;
@@ -1188,6 +1216,12 @@
     .characters-banner {
       grid-template-columns: 1fr 1fr 1fr 1fr;
       width: 100%; } }
+
+@-webkit-keyframes uptodown {
+  from {
+    top: 17%; }
+  to {
+    top: 15%; } }
 
 @keyframes uptodown {
   from {
@@ -1240,7 +1274,8 @@
   position: absolute;
   right: 0;
   height: 120%;
-  clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
   background-color: var(--pink-color);
   display: none; }
   @media screen and (min-width: 960px) {
@@ -1376,8 +1411,19 @@
   font-family: var(--title-font); }
 
 .slide {
-  animation-name: showslide;
-  animation-duration: 1.2s; }
+  -webkit-animation-name: showslide;
+          animation-name: showslide;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s; }
+
+@-webkit-keyframes showslide {
+  from {
+    opacity: 0;
+    margin-top: 100%; }
+  50% {
+    margin-top: 0; }
+  to {
+    opacity: 100; } }
 
 @keyframes showslide {
   from {
