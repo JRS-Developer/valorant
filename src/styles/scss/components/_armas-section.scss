@@ -1,36 +1,29 @@
-.armas-section{
-
-
+.armas-section {
     width: auto;
     margin: auto;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
 
-    
     @include from(l) {
         width: auto;
         margin-top: 5rem;
         margin-left: 3.5rem;
         margin-bottom: -2rem;
     }
-    @include upto(lx){
-    width: auto;
-    margin: auto;
-    margin-top: 1rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    @include upto(lx) {
+        width: auto;
+        margin: auto;
+        margin-top: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
     }
-    
 }
 
 .armas-container {
-
     display: grid;
     grid-template-columns: auto;
     gap: 1rem;
-
-    
 
     @include from(l) {
         display: grid;
@@ -40,20 +33,17 @@
         margin-top: 4rem;
     }
 
-    @include upto(lx){
+    @include upto(lx) {
         display: grid;
         grid-template-columns: auto;
         gap: 1rem;
-        }
-    
-
+    }
 }
 
 .armas {
     background-color: white;
     border: 1px solid black;
     width: auto;
-    // margin: 0 1rem 0 1rem;
     position: relative;
     mask-clip: 50%;
 }
@@ -71,7 +61,7 @@
     right: 0;
     top: 0;
     z-index: var(--z-front);
-    transition: transform .3s;
+    transition: transform 0.3s;
 
     @include from(l) {
         width: auto;
@@ -111,7 +101,7 @@
     padding-left: 1rem;
     font-weight: 700;
     padding-right: 1rem;
-    padding-bottom: 5px;    
+    padding-bottom: 5px;
     // margin-bottom: 10px;
 }
 
@@ -132,7 +122,6 @@
     }
 }
 
-
 .armas-text-coin {
     color: white;
     font-family: var(--title-font);
@@ -141,7 +130,6 @@
     letter-spacing: 1.25px;
     font-weight: 700;
     padding-right: 1rem;
-
 }
 
 .armas-icon {
