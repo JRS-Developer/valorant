@@ -3,6 +3,8 @@ import UnEpic from "../../images/Logos/UnEpicKid.webp";
 import Dribbble from "../../images/Logos/dribble.svg";
 import Facebook from "../../images/Logos/facebook.svg";
 import Instagram from "../../images/Logos/Instagram.svg";
+import Linkedin from "../../images/Logos/linkedin-in.svg";
+
 const PrincipalFooter = () => (
     <footer className="principal-footer">
         <div className="disclaimer footer-container">
@@ -70,16 +72,24 @@ const PrincipalFooter = () => (
             <div className="contact-container">
                 <div className="contact--social">
                     <a
-                        href="https://www.facebook.com/joseSF8/"
+                        href="https://www.facebook.com/josejrsdev"
                         target="_blank"
-                        rel="noreferrer"
-                    >
+                        rel="noreferrer">
                         <img src={Facebook} alt="Facebook" />
                     </a>
                 </div>
                 <div className="contact--social">
                     <a
-                        href="https://www.instagram.com/jose_szz/"
+                        href="https://www.linkedin.com/in/jose-s-developer/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img src={Linkedin} alt="Linkedin" />
+                    </a>
+                </div>
+                <div className="contact--social">
+                    <a
+                        href="https://www.instagram.com/jose_jsr_dev/"
                         target="_blank"
                         rel="noreferrer"
                     >
