@@ -19,6 +19,7 @@ a:active {
 }
 
 body {
+    min-width: 100vw;
     background-color: darkgoldenrod;
     background-color: var(--pink-color);
 
@@ -55,7 +56,7 @@ ul {
 
 
 .main {
-    margin-top: 5rem;
+    margin-top: 4rem;
 
     @include from(l) {
         margin-top: 0;

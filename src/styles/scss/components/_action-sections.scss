@@ -27,6 +27,7 @@
         display: block;
     }
 }
+
 .action-character-section::after {
     content: "";
     background: url(/src/images/Background/elements.svg);
@@ -43,6 +44,7 @@
     grid-template-columns: 1fr 1fr;
     z-index: var(--z-normal);
     margin-top: 3rem;
+
     @include from(l) {
         grid-template-columns: 1fr 1fr;
         margin-top: 0;
@@ -50,10 +52,11 @@
 }
 
 .character--img {
-    width: 250px;
+    width: 100%;
+    max-width: 300px;
 
     @include from(l) {
-        width: 350px;
+        max-width: 350px;
     }
 }
 
@@ -71,17 +74,20 @@
 
 .action-character-section--text {
     margin-left: 0;
-    display: flex;
+    display: grid;
     gap: 50px;
+    place-items: center;
     flex-direction: column;
     z-index: var(--z-normal);
-    justify-content: center;
-    align-items: center;
-    width: 70%;
+    text-align: center;
+    padding: 0 2rem;
 
     @include from(l) {
+        text-align: left;
         margin-left: 2.5rem;
+        place-items: start;
         width: auto;
+        text-align: start;
         align-items: baseline;
         gap: 100px;
     }
@@ -91,6 +97,7 @@
     font-size: var(--h1-font-size);
     font-family: var(--title-font);
 }
+
 .acs-p {
     font-size: var(--big-font-size);
     text-align: center;
@@ -131,7 +138,7 @@
 
 .action-weapon-section--img {
     width: 100%;
-    max-width: 800px;
+    max-width: 500px;
     position: relative;
     margin-top: 2rem;
 
@@ -144,11 +151,12 @@
 .aws-h3 {
     color: white;
 }
+
 .aws-p {
     color: white;
 }
 
-.weapon--img  {
+.weapon--img {
     // height: 550px;
     width: 100%;
 }

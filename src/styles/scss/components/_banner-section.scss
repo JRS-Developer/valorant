@@ -1,23 +1,22 @@
 .banner-section {
     width: 100%;
-    height: 550px;
     background-color: var(--pink-color);
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-    margin-top: -1rem;
+    display: grid;
+    text-align: center;
+    grid-gap: 50px;
+    place-items: center;
+    max-height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 2rem 0;
 
     @include from(l) {
         gap: 30px;
-        margin-top: 0;
     }
 }
 
 .banner-section--h1 {
     color: white;
-    font-size: 80px;
+    font-size: 15vw;
     z-index: var(--z-normal);
 
     @include from(l) {
@@ -33,5 +32,5 @@
     @include from(l) {
         font-size: 32px;
     }
-    
+
 }

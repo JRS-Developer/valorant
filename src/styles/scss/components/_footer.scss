@@ -4,16 +4,26 @@
 }
 
 .principal-footer {
+    display: grid;
+    text-align: center;
     background-color: var(--color);
     min-height: 10rem;
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 4rem 2rem 4rem 2rem;
-    gap: 5rem;
+    padding: 4rem;
+    gap: 2rem;
+
+
+    @include from(s) {
+        text-align: start;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
 
     @include from(l) {
         grid-template-columns: 1fr 1fr 1fr;
+        gap: 5rem;
+
     }
 }
 
@@ -28,15 +38,17 @@
 }
 
 .footer-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+
+    @include from(s) {
+        grid-gap: 2rem;
+    }
 }
 
 .disclaimer--logos {
     display: flex;
     justify-content: space-between;
-    padding-right: 2rem;
 }
 
 .thank--social {
@@ -44,7 +56,6 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 2rem;
-    padding-right: 1rem;
 
     span {
         flex: 2;
@@ -78,7 +89,7 @@
 .contact--social {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    flex-gap: 1.5rem;
 
     img {
         width: 50px;
@@ -101,30 +112,11 @@
     justify-content: space-between;
     padding-right: 0;
     margin-top: 0;
+    flex-wrap: wrap;
 
     @include from(l) {
         padding-right: 5.5rem;
         margin-top: 3.2rem;
     }
 
-}
-
-
-.contact {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    @include from(l) {
-        grid-column-start: auto;
-        grid-column-end: auto;
-        align-self: auto;
-        display: flex;
-        justify-content: flex-start;
-        align-items: initial;
-
-    }
 }

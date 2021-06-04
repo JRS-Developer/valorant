@@ -9,6 +9,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         width: 100%;
     }
+
     @include from(lx) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 100%;
@@ -24,6 +25,7 @@
     from {
         top: 17%;
     }
+
     to {
         top: 15%;
     }
@@ -38,8 +40,14 @@
 }
 
 .characters-banner--img {
-    width: 25%;
-    min-width: 300px;
+    width: 100%;
+
+    @include from(s) {
+        width: 25%;
+        min-width: 300px;
+        max-height: 90vh;
+        object-fit: contain;
+    }
 }
 
 .characters-banner--img:first-child {
@@ -49,11 +57,14 @@
         display: block;
     }
 }
+
 .characters-banner--img:last-child {
     display: none;
+
     @include from(l) {
         display: none;
     }
+
     @include from(lx) {
         display: block;
     }

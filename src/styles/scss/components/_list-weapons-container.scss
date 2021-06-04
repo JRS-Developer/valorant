@@ -4,7 +4,8 @@
 }
 
 .arsenal-img {
-    width: 400px;
+    width: 70%;
+    max-width: 400px;
     padding-left: 3rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -12,7 +13,6 @@
 
 .category-container {
     width: 100%;
-    padding-left: 3rem;
     align-items: center;
     display: flex;
     height: 3rem;
@@ -20,6 +20,8 @@
 }
 
 .category--text {
+    padding-left: 3rem;
+
     font-size: var(--h3-font-size);
     color: white;
     font-family: var(--title-font);
@@ -36,9 +38,11 @@
         opacity: 0;
         margin-top: 100%;
     }
+
     50% {
         margin-top: 0;
     }
+
     to {
         opacity: 100;
     }
@@ -46,14 +50,20 @@
 
 .list-weapons-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
     place-items: center;
-    @include from(l) {
+
+    @include from(s) {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    @include from(lx) {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
