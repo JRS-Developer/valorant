@@ -1,15 +1,12 @@
 import Logo from "../atoms/Logo"
+import { Link } from "react-router-dom"
 
 const MenuDesplegable = () => (
-        <div className="toggle nav" id="toggle">
+    <div className="toggle nav" id="toggle">
             <ul className="menu">
-                <a
-                    href="https://playvalorant.com/"
-                    rel="noreferrer"
-                    target="_blank"
-                >
+            <Link to="/Game">
                     <Logo link="Valorant"/>
-                </a>
+                </Link>
             </ul>
             <ul
                 className="icon-toggle"
